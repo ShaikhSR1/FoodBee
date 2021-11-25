@@ -1,1 +1,3 @@
-# FoodBeeSF
+# FoodBee
+
+### A food delivery app
