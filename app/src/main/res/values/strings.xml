@@ -1,3 +1,26 @@
 <resources>
+
+    <!-- Text Values -->
     <string name="app_name">Foodbee</string>
+
+    <!-- Banners -->
+    <string name="food_bee">Food Bee</string>
+    <string name="tagline">The hive of good food</string>
+    <string name="banner_signup">Sign Up!</string>
+
+
+    <!-- Button Names -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+
+
+    <!-- Hint Names -->
+    <string name="hint_name">Enter Full Name</string>
+    <string name="hint_phone">Enter Phone Number</string>
+    <string name="hint_email">Enter Email Address</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_confirm_password">Re-enter Password</string>
+
+
+
 </resources>
