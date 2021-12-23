@@ -100,6 +100,10 @@
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_splash.jpg.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\logo_splash.jpg"
+    },
+    {
         "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -108,11 +112,11 @@
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\font\\tahu.ttf"
     },
     {
-        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_splash.jpg.flat",
-        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\logo_splash.jpg"
-    },
-    {
         "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_page.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_search_page.xml"
     }
 ]
