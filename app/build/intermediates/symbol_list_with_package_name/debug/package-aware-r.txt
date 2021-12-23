@@ -1936,6 +1936,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnSearchCuisine
+id btnSearchFood
+id btnSearchRestaurant
 id button
 id buttonPanel
 id cache_measures
@@ -2009,6 +2012,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2052,6 +2056,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView2
+id imageViewSearchpage
 id immediateStop
 id included
 id info
@@ -2275,6 +2280,7 @@ id textStart
 id textTop
 id textView
 id textViewLogin
+id textViewSearchPage
 id textViewSignUp
 id textViewTagLine
 id text_input_end_icon
@@ -2393,6 +2399,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_search_page
 layout activity_sign_up
 layout activity_splash_screen
 layout custom_dialog
@@ -2515,6 +2522,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string banner_search
 string banner_signup
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
@@ -2534,6 +2542,7 @@ string hint_email
 string hint_name
 string hint_password
 string hint_phone
+string hint_search_box
 string icon_content_description
 string item_view_role_description
 string login
@@ -2597,7 +2606,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string search_cuis
+string search_food
 string search_menu_title
+string search_rest
 string signup
 string status_bar_notification_info_overflow
 string tagline
