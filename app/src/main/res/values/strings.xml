@@ -7,11 +7,15 @@
     <string name="food_bee">Food Bee</string>
     <string name="tagline">The hive of good food</string>
     <string name="banner_signup">Sign Up!</string>
+    <string name="banner_search">Search Here</string>
 
 
     <!-- Button Names -->
     <string name="login">Login</string>
     <string name="signup">Sign Up</string>
+    <string name="search_food">Foods</string>
+    <string name="search_rest">Restaurants</string>
+    <string name="search_cuis">Cuisine</string>
 
 
     <!-- Hint Names -->
@@ -20,7 +24,7 @@
     <string name="hint_email">Enter Email Address</string>
     <string name="hint_password">Enter Password</string>
     <string name="hint_confirm_password">Re-enter Password</string>
-
+    <string name="hint_search_box">Search by Food, Restaurant or Cuisine</string>
 
 
 </resources>

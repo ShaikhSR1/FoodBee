@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cse27.foodbee"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Foodbee" >
+20-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:11:9-45
+21        <activity
+21-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.cse27.foodbee.SearchPage"
+22-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:13:13-39
+23            android:exported="false" />
+23-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.cse27.foodbee.Login"
+25-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:16:13-34
+26            android:exported="false" />
+26-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:18:9-28:20
+28            android:name="com.cse27.foodbee.SplashScreen"
+28-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:19:13-41
+29            android:exported="true"
+29-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:20:13-36
+30            android:screenOrientation="portrait"
+30-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:21:13-49
+31            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+31-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:22:13-72
+32            <intent-filter>
+32-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.cse27.foodbee.login"
+39-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:13-34
+40            android:exported="false" />
+40-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:9-34:40
+42            android:name="com.cse27.foodbee.SignUp"
+42-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:13-35
+43            android:exported="false" />
+43-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:13-37
+44        <activity
+44-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:35:9-37:39
+45            android:name="com.cse27.foodbee.MainActivity"
+45-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:13-41
+46            android:exported="true" />
+46-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:37:13-36
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.cse27.foodbee.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
