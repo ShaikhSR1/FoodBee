@@ -2,10 +2,12 @@ com/cse27/foodbee/BuildConfig.java
  com.cse27.foodbee.BuildConfig
 com/cse27/foodbee/MainActivity.java
  com.cse27.foodbee.MainActivity
-com/cse27/foodbee/Login.java
- com.cse27.foodbee.Login
-com/cse27/foodbee/SignUp.java
- com.cse27.foodbee.SignUp
 com/cse27/foodbee/SplashScreen.java
  com.cse27.foodbee.SplashScreen
  com.cse27.foodbee.SplashScreen$1
+com/cse27/foodbee/SignUp.java
+ com.cse27.foodbee.SignUp
+com/cse27/foodbee/Login.java
+ com.cse27.foodbee.Login
+com/cse27/foodbee/SearchPage.java
+ com.cse27.foodbee.SearchPage
