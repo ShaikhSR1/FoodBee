@@ -4,9 +4,9 @@
       <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-3/47e5272538e67774132afc2512bda737/transformed/lifecycle-runtime-2.3.1/jars/classes.jar!/" />
       <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-3/47e5272538e67774132afc2512bda737/transformed/lifecycle-runtime-2.3.1/res" />
       <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-3/47e5272538e67774132afc2512bda737/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/47e5272538e67774132afc2512bda737/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/47e5272538e67774132afc2512bda737/transformed/lifecycle-runtime-2.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/47e5272538e67774132afc2512bda737/transformed/lifecycle-runtime-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57ece2a479fc438d748a3abe71a2e921/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/57ece2a479fc438d748a3abe71a2e921/transformed/lifecycle-runtime-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57ece2a479fc438d748a3abe71a2e921/transformed/lifecycle-runtime-2.3.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

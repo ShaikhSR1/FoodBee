@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477812158686",
+    "project_id": "foodbee-27",
+    "storage_bucket": "foodbee-27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477812158686:android:5ed2f6e9a9471cdc4b924f",
+        "android_client_info": {
+          "package_name": "com.cse27.foodbee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477812158686-nd3umjdqtv3rtni4lncf467f2jnq4fm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7LNlVmuVzFvcjojZkw17V9q2CdmZ1yVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477812158686-nd3umjdqtv3rtni4lncf467f2jnq4fm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

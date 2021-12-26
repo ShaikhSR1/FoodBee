@@ -1135,6 +1135,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="material_motion_duration_long_1">300</integer>
     <integer name="material_motion_duration_long_2">350</integer>
@@ -1198,12 +1199,19 @@
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="default_web_client_id" translatable="false">477812158686-nd3umjdqtv3rtni4lncf467f2jnq4fm5.apps.googleusercontent.com</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="favourites">Favourites</string>
     <string name="food_bee">Food Bee</string>
+    <string name="gcm_defaultSenderId" translatable="false">477812158686</string>
+    <string name="google_api_key" translatable="false">AIzaSyC7LNlVmuVzFvcjojZkw17V9q2CdmZ1yVs</string>
+    <string name="google_app_id" translatable="false">1:477812158686:android:5ed2f6e9a9471cdc4b924f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC7LNlVmuVzFvcjojZkw17V9q2CdmZ1yVs</string>
+    <string name="google_storage_bucket" translatable="false">foodbee-27.appspot.com</string>
     <string name="help_center">Help Center</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hint_confirm_password">Re-enter Password</string>
@@ -1276,6 +1284,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="project_id" translatable="false">foodbee-27</string>
     <string name="search_cuis">Cuisine</string>
     <string name="search_food">Foods</string>
     <string name="search_menu_title">Search</string>
