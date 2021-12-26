@@ -2,9 +2,14 @@ com/cse27/foodbee/BuildConfig.java
  com.cse27.foodbee.BuildConfig
 com/cse27/foodbee/MainActivity.java
  com.cse27.foodbee.MainActivity
+com/cse27/foodbee/UpdateProfile.java
+ com.cse27.foodbee.UpdateProfile
 com/cse27/foodbee/SplashScreen.java
  com.cse27.foodbee.SplashScreen
  com.cse27.foodbee.SplashScreen$1
+com/cse27/foodbee/Profile.java
+ com.cse27.foodbee.Profile
+ com.cse27.foodbee.Profile$1
 com/cse27/foodbee/SignUp.java
  com.cse27.foodbee.SignUp
 com/cse27/foodbee/Login.java

@@ -8,7 +8,14 @@
     <string name="tagline">The hive of good food</string>
     <string name="banner_signup">Sign Up!</string>
     <string name="banner_search">Search Here</string>
+    <string name="update_profile">Edit Profile</string>
 
+    <!-- Profile info -->
+    <string name="user_name">Nishat Tasnim</string>
+    <string name="user_email">tasnim5349@gmail.com</string>
+    <string name="user_location">BKZH, JU, Savar, Dhaka</string>
+    <string name="user_mobile">01708378125</string>
+    <string name="user_password">nishu5349</string>
 
     <!-- Button Names -->
     <string name="login">Login</string>
@@ -16,6 +23,14 @@
     <string name="search_food">Foods</string>
     <string name="search_rest">Restaurants</string>
     <string name="search_cuis">Cuisine</string>
+    <string name="logout">Logout</string>
+    <string name="updateProfile">Update Profile Information</string>
+    <string name="viewOrderHistory">View Order History</string>
+    <string name="favourites">Favourites</string>
+    <string name="settings">Settings</string>
+    <string name="terms_conditions">Terms and conditions</string>
+    <string name="help_center">Help Center</string>
+    <string name="update">Update</string>
 
 
     <!-- Hint Names -->

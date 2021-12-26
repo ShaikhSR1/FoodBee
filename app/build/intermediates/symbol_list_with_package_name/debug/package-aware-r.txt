@@ -243,6 +243,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1089,6 +1093,7 @@ color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color app_color
+color app_color2
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1774,6 +1779,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_splash
+drawable border_shape
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1782,6 +1788,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable colorbg
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1796,6 +1803,13 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon_camera
+drawable icon_edit
+drawable icon_email
+drawable icon_location
+drawable icon_mobile
+drawable icon_name
+drawable icon_password
 drawable logo_splash
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1830,12 +1844,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile_picture
 drawable shape_button
 drawable sign_up_background
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font app_font
+font bungee
 font tahu
 id ALT
 id BOTTOM_END
@@ -1937,9 +1954,16 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnHelp
+id btnLogout
+id btnOrderHistory
 id btnSearchCuisine
 id btnSearchFood
 id btnSearchRestaurant
+id btnSettings
+id btnTermsConditions
+id btnUpdate
+id btnUpdateProfile
 id button
 id buttonPanel
 id cache_measures
@@ -2013,6 +2037,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editText
 id editTextTextPersonName
 id edit_query
 id elastic
@@ -2034,6 +2059,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frameLayout
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2051,11 +2077,20 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id icon
+id iconCamera
+id iconEdit
+id iconEmail
+id iconLocation
+id iconMobile
+id iconName
+id iconPassword
 id icon_group
 id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageProfile
+id imageProfile2
 id imageView
 id imageView2
 id imageViewSearchpage
@@ -2281,10 +2316,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textViewAppName
+id textViewAppNameUpadte
+id textViewEditProfile
 id textViewLogin
 id textViewSearchPage
 id textViewSignUp
 id textViewTagLine
+id textViewUserLocation
+id textViewUserName
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2314,6 +2354,10 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateUserEmail
+id updateUserMobileNo
+id updateUserName
+id updateUserPassword
 id useLogo
 id vertical_only
 id view_offset_helper
@@ -2401,9 +2445,11 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_profile
 layout activity_search_page
 layout activity_sign_up
 layout activity_splash_screen
+layout activity_update_profile
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2539,7 +2585,9 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string favourites
 string food_bee
+string help_center
 string hide_bottom_view_on_scroll_behavior
 string hint_confirm_password
 string hint_email
@@ -2550,6 +2598,7 @@ string hint_search_box
 string icon_content_description
 string item_view_role_description
 string login
+string logout
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2614,9 +2663,20 @@ string search_cuis
 string search_food
 string search_menu_title
 string search_rest
+string settings
 string signup
 string status_bar_notification_info_overflow
 string tagline
+string terms_conditions
+string update
+string updateProfile
+string update_profile
+string user_email
+string user_location
+string user_mobile
+string user_name
+string user_password
+string viewOrderHistory
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3370,6 +3430,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
