@@ -19,6 +19,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Foodbee" >
         <activity
+            android:name="com.cse27.foodbee.UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.cse27.foodbee.Profile"
+            android:exported="false" />
+        <activity
             android:name="com.cse27.foodbee.SearchPage"
             android:exported="false" />
         <activity
