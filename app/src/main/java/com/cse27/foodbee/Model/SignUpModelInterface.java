@@ -6,6 +6,7 @@ public interface SignUpModelInterface {
     String getEmail();
     String getPhoneNumber();
     String getPassword();
+    String getConfirmPassword();
     int isValid();
 
 }
