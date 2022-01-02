@@ -38,7 +38,7 @@
     <string name="hint_phone">Enter Phone Number</string>
     <string name="hint_email">Enter Email Address</string>
     <string name="hint_password">Enter Password</string>
-    <string name="hint_confirm_password">Re-enter Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
     <string name="hint_search_box">Search by Food, Restaurant or Cuisine</string>
 
 

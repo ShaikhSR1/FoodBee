@@ -14,14 +14,14 @@ public class LoginController implements LoginControllerInterface{
     @Override
     public void onLogin(String email, String password) {
         LoginModel loginModel= new LoginModel(email, password);
-        int logincode = loginModel.isValid();
-        if (logincode == 0){
+        int loginCode = loginModel.isValid();
+        if (loginCode == 0){
             loginView.onLoginError("Please Enter Email");
-        }else if (logincode == 1){
+        }else if (loginCode == 1){
             loginView.onLoginError("Please Enter Valid Email");
-        }else if (logincode == 2){
+        }else if (loginCode == 2){
             loginView.onLoginError("Please Enter Password");
-        }else if (logincode == 3){
+        }else if (loginCode == 3){
             loginView.onLoginError("Password Should Be More Than 6 Characters");
         }else{
             loginView.onLoginSuccess("Login Successful");
