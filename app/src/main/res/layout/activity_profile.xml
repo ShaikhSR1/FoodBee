@@ -52,7 +52,7 @@
         android:layout_height="41dp"
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
-        android:fontFamily="@font/app_font"
+        android:fontFamily="@font/bungee"
         android:gravity="center"
         android:text="@string/user_name"
         android:textAllCaps="false"
@@ -80,27 +80,28 @@
 
     <Button
         android:id="@+id/btnUpdateProfile"
-        android:layout_width="322dp"
-        android:layout_height="59dp"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
         android:layout_marginTop="75dp"
-        android:background="@drawable/border_shape"
-        android:backgroundTint="@color/white"
+
+        android:backgroundTint="@color/hint_color"
         android:backgroundTintMode="add"
         android:text="@string/updateProfile"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewUserLocation" />
 
     <Button
         android:id="@+id/btnOrderHistory"
-        android:layout_width="321dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="7dp"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/hint_color"
         android:text="@string/viewOrderHistory"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnUpdateProfile" />
@@ -112,6 +113,11 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="310dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/app_color2"
+
+
+        android:shadowColor="@color/white"
         android:text="@string/settings"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,6 +131,8 @@
         android:layout_marginStart="7dp"
         android:layout_marginEnd="210dp"
         android:text="@string/terms_conditions"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/app_color2"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,6 +146,8 @@
         android:layout_marginEnd="284dp"
         android:text="@string/help_center"
         android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/app_color2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTermsConditions" />
