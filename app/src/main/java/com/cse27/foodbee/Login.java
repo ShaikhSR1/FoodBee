@@ -2,6 +2,7 @@ package com.cse27.foodbee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,8 @@ import com.cse27.foodbee.Controller.LoginControllerInterface;
 import com.cse27.foodbee.View.LoginViewInterface;
 
 public class Login extends AppCompatActivity implements LoginViewInterface {
+
+
     EditText inputLoginEmail,inputLoginPassword;
     Button loginButton;
 
@@ -40,7 +43,9 @@ public class Login extends AppCompatActivity implements LoginViewInterface {
 
     @Override
     public void onLoginSuccess(String message) {
-        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Login.this, Profile.class);
+        startActivity(intent);
     }
 
     @Override

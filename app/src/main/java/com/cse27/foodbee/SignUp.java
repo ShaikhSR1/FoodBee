@@ -2,6 +2,7 @@ package com.cse27.foodbee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -45,7 +46,8 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
 
     @Override
     public void onSignUpSuccess(String message) {
-        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+
     }
 
     @Override

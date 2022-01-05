@@ -24,6 +24,9 @@ public class LoginController implements LoginControllerInterface{
         }else if (loginCode == 3){
             loginView.onLoginError("Password Should Be More Than 6 Characters");
         }else{
+
+
+
             loginView.onLoginSuccess("Login Successful");
         }
 
