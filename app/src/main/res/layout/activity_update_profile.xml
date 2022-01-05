@@ -156,7 +156,7 @@
         app:srcCompat="@drawable/icon_location" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/updateUserAddress"
         android:layout_width="255dp"
         android:layout_height="50dp"
         android:layout_marginStart="38dp"
@@ -214,10 +214,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/iconPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/updateUserAddress" />
 
     <Button
-        android:id="@+id/btnUpdate"
+        android:id="@+id/updateProfileButton"
         android:layout_width="109dp"
         android:layout_height="53dp"
         android:layout_marginStart="142dp"
