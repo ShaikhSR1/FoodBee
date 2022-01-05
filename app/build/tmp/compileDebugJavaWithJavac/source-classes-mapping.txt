@@ -1,5 +1,5 @@
-com/cse27/foodbee/Controller/LoginController.java
- com.cse27.foodbee.Controller.LoginController
+com/cse27/foodbee/Controller/LoginControllerInterface.java
+ com.cse27.foodbee.Controller.LoginControllerInterface
 com/cse27/foodbee/Controller/SignUpControllerInterface.java
  com.cse27.foodbee.Controller.SignUpControllerInterface
 com/cse27/foodbee/BuildConfig.java
@@ -10,9 +10,8 @@ com/cse27/foodbee/SplashScreen.java
 com/cse27/foodbee/Profile.java
  com.cse27.foodbee.Profile
  com.cse27.foodbee.Profile$1
-com/cse27/foodbee/SignUp.java
- com.cse27.foodbee.SignUp
- com.cse27.foodbee.SignUp$1
+com/cse27/foodbee/Model/SignUpModel.java
+ com.cse27.foodbee.Model.SignUpModel
 com/cse27/foodbee/View/LoginViewInterface.java
  com.cse27.foodbee.View.LoginViewInterface
 com/cse27/foodbee/SearchPage.java
@@ -29,12 +28,15 @@ com/cse27/foodbee/UpdateProfile.java
  com.cse27.foodbee.UpdateProfile
 com/cse27/foodbee/Model/LoginModel.java
  com.cse27.foodbee.Model.LoginModel
+com/cse27/foodbee/Controller/LoginController.java
+ com.cse27.foodbee.Controller.LoginController
+com/cse27/foodbee/Controller/SignUpController.java
+ com.cse27.foodbee.Controller.SignUpController
+ com.cse27.foodbee.Controller.SignUpController$1
+ com.cse27.foodbee.Controller.SignUpController$1$1
+com/cse27/foodbee/SignUp.java
+ com.cse27.foodbee.SignUp
+ com.cse27.foodbee.SignUp$1
 com/cse27/foodbee/Login.java
  com.cse27.foodbee.Login
  com.cse27.foodbee.Login$1
-com/cse27/foodbee/Controller/LoginControllerInterface.java
- com.cse27.foodbee.Controller.LoginControllerInterface
-com/cse27/foodbee/Model/SignUpModel.java
- com.cse27.foodbee.Model.SignUpModel
-com/cse27/foodbee/Controller/SignUpController.java
- com.cse27.foodbee.Controller.SignUpController
