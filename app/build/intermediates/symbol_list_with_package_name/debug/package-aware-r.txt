@@ -2002,7 +2002,6 @@ id btnSearchFood
 id btnSearchRestaurant
 id btnSettings
 id btnTermsConditions
-id btnUpdate
 id btnUpdateProfile
 id buttonPanel
 id cache_measures
@@ -2077,7 +2076,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editText
 id editTextTextPersonName
 id edit_query
 id elastic
@@ -2397,6 +2395,8 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateProfileButton
+id updateUserAddress
 id updateUserEmail
 id updateUserMobileNo
 id updateUserName

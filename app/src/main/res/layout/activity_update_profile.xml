@@ -47,7 +47,7 @@
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_marginBottom="15dp"
             android:src="@drawable/icon_camera" />
 
@@ -156,19 +156,20 @@
         app:srcCompat="@drawable/icon_location" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/updateUserAddress"
         android:layout_width="255dp"
         android:layout_height="50dp"
         android:layout_marginStart="38dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="48dp"
         android:backgroundTint="@color/app_color2"
-        android:ems="10"
         android:backgroundTintMode="add"
+        android:ems="10"
         android:hint="@string/user_location"
         android:inputType="text"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/iconLocation"
         app:layout_constraintTop_toBottomOf="@+id/updateUserMobileNo" />
 
@@ -214,10 +215,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/iconPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/updateUserAddress" />
 
     <Button
-        android:id="@+id/btnUpdate"
+        android:id="@+id/updateProfileButton"
         android:layout_width="109dp"
         android:layout_height="53dp"
         android:layout_marginStart="142dp"
