@@ -2013,7 +2013,6 @@ id btnSearchFood
 id btnSearchRestaurant
 id btnSettings
 id btnTermsConditions
-id btnUpdate
 id btnUpdateProfile
 id buttonPanel
 id cache_measures
@@ -2088,7 +2087,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editText
 id editTextTextPersonName
 id edit_query
 id elastic
@@ -2145,6 +2143,7 @@ id imageProfile
 id imageProfile2
 id imageView
 id imageView2
+id imageViewCross
 id imageViewSearchpage
 id immediateStop
 id included
@@ -2377,7 +2376,7 @@ id textViewLogin
 id textViewSearchPage
 id textViewSignUp
 id textViewTagLine
-id textViewUserLocation
+id textViewUserAddress
 id textViewUserName
 id text_input_end_icon
 id text_input_error_icon
@@ -2408,6 +2407,8 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateProfileButton
+id updateUserAddress
 id updateUserEmail
 id updateUserMobileNo
 id updateUserName

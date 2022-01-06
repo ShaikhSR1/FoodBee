@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.cse27.foodbee.Controller.SignUpController;
@@ -18,6 +19,7 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
 
     EditText updateUserName, updateUserEmail, updateUserAddress, updateUserMobileNo, updateUserPassword;
     Button updateProfileButton;
+    ImageView imageViewCross;
 
     UpdateProfileControllerInterface updateProfileController;
 
@@ -33,6 +35,7 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
         updateUserAddress = (EditText) findViewById(R.id.updateUserAddress);
         updateUserPassword = (EditText) findViewById(R.id.updateUserPassword);
         updateProfileButton = (Button) findViewById(R.id.updateProfileButton);
+        imageViewCross = (ImageView) findViewById(R.id.imageViewCross);
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

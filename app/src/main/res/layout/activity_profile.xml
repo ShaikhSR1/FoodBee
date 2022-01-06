@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOrderHistory" />
+        app:layout_constraintTop_toBottomOf="@+id/orderHistoryButton" />
 
     <TextView
         android:id="@+id/textViewAppName"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageProfile" />
 
     <TextView
-        android:id="@+id/textViewUserLocation"
+        android:id="@+id/textViewUserAddress"
         android:layout_width="241dp"
         android:layout_height="27dp"
         android:layout_marginStart="85dp"
@@ -80,7 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewUserName" />
 
     <Button
-        android:id="@+id/btnUpdateProfile"
+        android:id="@+id/updateProfileButton"
         android:layout_width="320dp"
         android:layout_height="65dp"
         android:layout_marginTop="75dp"
@@ -93,10 +93,10 @@
         android:textColor="@color/app_color2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewUserLocation" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserAddress" />
 
     <Button
-        android:id="@+id/btnOrderHistory"
+        android:id="@+id/orderHistoryButton"
         android:layout_width="320dp"
         android:layout_height="65dp"
         android:layout_marginTop="7dp"
@@ -108,10 +108,10 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUpdateProfile" />
+        app:layout_constraintTop_toBottomOf="@+id/updateProfileButton" />
 
     <Button
-        android:id="@+id/btnSettings"
+        android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
@@ -123,10 +123,10 @@
         android:textColor="@color/app_color2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOrderHistory" />
+        app:layout_constraintTop_toBottomOf="@+id/orderHistoryButton" />
 
     <Button
-        android:id="@+id/btnTermsConditions"
+        android:id="@+id/termsConditionsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
@@ -137,10 +137,10 @@
         android:textColor="@color/app_color2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSettings" />
+        app:layout_constraintTop_toBottomOf="@+id/settingsButton" />
 
     <Button
-        android:id="@+id/btnHelp"
+        android:id="@+id/helpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
@@ -151,5 +151,5 @@
         android:textColor="@color/app_color2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTermsConditions" />
+        app:layout_constraintTop_toBottomOf="@+id/termsConditionsButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

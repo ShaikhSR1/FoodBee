@@ -228,5 +228,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/updateUserPassword" />
 
+    <ImageView
+        android:id="@+id/imageViewCross"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewAppNameUpadte"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cross" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
