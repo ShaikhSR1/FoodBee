@@ -8,6 +8,7 @@ public class LoginController implements LoginControllerInterface{
     LoginViewInterface loginView;
 
     public LoginController(LoginViewInterface loginView) {
+
         this.loginView = loginView;
     }
 
