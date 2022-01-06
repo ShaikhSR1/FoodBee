@@ -47,6 +47,8 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
     @Override
     public void onSignUpSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(SignUp.this, Profile.class);
+        startActivity(intent);
 
     }
 

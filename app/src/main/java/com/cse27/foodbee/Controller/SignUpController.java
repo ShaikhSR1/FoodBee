@@ -25,7 +25,7 @@ public class SignUpController implements SignUpControllerInterface{
     FirebaseDatabase rootNode;
     DatabaseReference reference;
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
-    private FirebaseAuth mAuth;
+    private FirebaseAuth signUpAuth;
 
     public SignUpController(SignUPViewInterface signUpView) {
         this.signUpView = signUpView;
@@ -35,66 +35,67 @@ public class SignUpController implements SignUpControllerInterface{
     public void onSignUp(String fullName, String email, String phoneNumber, String password, String confirmPassword) {
         SignUpModel signUpModel = new SignUpModel(fullName, email,phoneNumber,password,confirmPassword);
 
-            int signUpCode = signUpModel.isValid();
-            if(signUpCode == 0){
-                signUpView.onSignUpError("Please Enter Full Name");
+        int signUpCode = signUpModel.isSignUpValid();
+        if(signUpCode == 0){
+            signUpView.onSignUpError("Please Enter Full Name");
 
-            }else if(signUpCode == 1){
-                signUpView.onSignUpError("Please Enter Email");
+        }else if(signUpCode == 1){
+            signUpView.onSignUpError("Please Enter Email");
 
-            }else if(signUpCode == 2){
-                signUpView.onSignUpError("Please Enter Valid Email");
+        }else if(signUpCode == 2){
+            signUpView.onSignUpError("Please Enter Valid Email");
 
-            }else if(signUpCode == 3){
-                signUpView.onSignUpError("Please Enter Phone Number");
+        }else if(signUpCode == 3){
+            signUpView.onSignUpError("Please Enter Phone Number");
 
-            }else if(signUpCode == 4){
-                signUpView.onSignUpError("Please Enter Valid Phone Number");
+        }else if(signUpCode == 4){
+            signUpView.onSignUpError("Please Enter Valid Phone Number");
 
-            }else if(signUpCode == 5){
-                signUpView.onSignUpError("Please Enter Password");
+        }else if(signUpCode == 5){
+            signUpView.onSignUpError("Please Enter Password");
 
-            }else if(signUpCode == 6){
-                signUpView.onSignUpError("Please Should Be 6 Or More Character");
+        }else if(signUpCode == 6){
+            signUpView.onSignUpError("Please Should Be 6 Or More Character");
 
-            }else if(signUpCode == 7){
-                signUpView.onSignUpError("Passwords Do Not Match");
+        }else if(signUpCode == 7){
+            signUpView.onSignUpError("Passwords Do Not Match");
 
-            }else {
+        }else {
 
 
-                rootNode = FirebaseDatabase.getInstance();
-                reference = rootNode.getReference("userProfile");
-                mAuth = FirebaseAuth.getInstance();
+            rootNode = FirebaseDatabase.getInstance();
+            reference = rootNode.getReference("userProfile");
+            signUpAuth = FirebaseAuth.getInstance();
 
-                reference.setValue("");
+            reference.setValue("");
 
-                mAuth.createUserWithEmailAndPassword(signUpModel.getEmail(),signUpModel.getPassword()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isComplete()) {
-                            String userId = mAuth.getUid();
+            signUpAuth.createUserWithEmailAndPassword(signUpModel.getEmail(),signUpModel.getPassword())
+                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if(task.isComplete()) {
+                                String userId = signUpAuth.getUid();
 
-                            if(userId!=null) {
-                                foodBee.collection("userProfile").document(String.valueOf(userId)).set(signUpModel).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<Void> task) {
-                                        if(task.isComplete()) {
-                                            signUpView.onSignUpSuccess("SignUp Successful");
+                                if(userId!=null) {
+                                    foodBee.collection("userProfile").document(String.valueOf(userId)).set(signUpModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if(task.isComplete()) {
+                                                signUpView.onSignUpSuccess("SignUp Successful");
+
+                                            }
+                                            else {
+                                                signUpView.onSignUpError("Please Try Again");
+                                            }
 
                                         }
-                                        else {
-                                            signUpView.onSignUpError("Please Try Again");
-                                        }
-
-                                    }
-                                });
+                                    });
+                                }
                             }
                         }
-                    }
-                });
+                    });
 
-            }
         }
-
     }
+
+}
