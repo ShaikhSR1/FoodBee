@@ -9,7 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.QuickContactBadge;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.cse27.foodbee.Controller.ProfileController;
+import com.cse27.foodbee.View.ProfileViewInterface;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -17,12 +20,9 @@ import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
-public class Profile extends AppCompatActivity {
+public class Profile extends AppCompatActivity implements ProfileViewInterface {
     private Button updateProfileButton;
     TextView textViewUserName, textViewUserAddress;
-    FirebaseAuth fAuth;
-    FirebaseFirestore fStore;
-    String userId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,23 +30,8 @@ public class Profile extends AppCompatActivity {
 
         textViewUserName = (TextView) findViewById(R.id.textViewUserName);
         textViewUserAddress = (TextView) findViewById(R.id.textViewUserAddress);
-
-        fAuth = FirebaseAuth.getInstance();
-        fStore = FirebaseFirestore.getInstance();
-
-         userId = fAuth.getCurrentUser().getUid();
-        //userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
-
-        DocumentReference documentReference = fStore.collection("userProfile").document(userId);
-        DocumentSnapshot documentSnapshot = null;
-        documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
-            @Override
-            public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
-               textViewUserName.setText(documentSnapshot.getString("fullName"));
-               textViewUserAddress.setText(documentSnapshot.getString("address"));
-            }
-        });
-
+        //textViewUserName.setText("nishat");
+        //textViewUserAddress.setText("ju");
 
         setContentView(R.layout.activity_profile);
 
@@ -62,5 +47,21 @@ public class Profile extends AppCompatActivity {
     public void goToUpdateProfile(){
         Intent intent= new Intent(this, UpdateProfile.class );
         startActivity(intent);
+    }
+
+    @Override
+    public void onProfileReloadSuccess(String message) {
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onUpdateReloadError(String message) {
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+    }
+
+
+    public void showProfile(String fullName, String address) {
+        textViewUserName.setText(fullName);
+        textViewUserAddress.setText(address);
     }
 }
