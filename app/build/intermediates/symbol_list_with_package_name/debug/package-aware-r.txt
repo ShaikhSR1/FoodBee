@@ -2005,15 +2005,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnHelp
 id btnLogout
-id btnOrderHistory
 id btnSearchCuisine
 id btnSearchFood
 id btnSearchRestaurant
-id btnSettings
-id btnTermsConditions
-id btnUpdateProfile
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2120,6 +2115,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id helpButton
 id hideable
 id home
 id homeAsUp
@@ -2252,6 +2248,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id orderHistoryButton
 id outline
 id outward
 id overshoot
@@ -2304,6 +2301,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settingsButton
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2357,6 +2355,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id termsConditionsButton
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
