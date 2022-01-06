@@ -5,8 +5,8 @@ com/cse27/foodbee/SplashScreen.java
  com.cse27.foodbee.SplashScreen$1
 com/cse27/foodbee/Model/SignUpModelInterface.java
  com.cse27.foodbee.Model.SignUpModelInterface
-com/cse27/foodbee/View/ProfileViewInterface.java
- com.cse27.foodbee.View.ProfileViewInterface
+com/cse27/foodbee/Model/SignUpModel.java
+ com.cse27.foodbee.Model.SignUpModel
 com/cse27/foodbee/MainActivity.java
  com.cse27.foodbee.MainActivity
 com/cse27/foodbee/Model/UpdateProfileModel.java
@@ -51,8 +51,8 @@ com/cse27/foodbee/UpdateProfile.java
  com.cse27.foodbee.UpdateProfile$1
 com/cse27/foodbee/Model/UpdateProfileModelInterface.java
  com.cse27.foodbee.Model.UpdateProfileModelInterface
-com/cse27/foodbee/Model/SignUpModel.java
- com.cse27.foodbee.Model.SignUpModel
+com/cse27/foodbee/View/ProfileViewInterface.java
+ com.cse27.foodbee.View.ProfileViewInterface
 com/cse27/foodbee/Profile.java
  com.cse27.foodbee.Profile
  com.cse27.foodbee.Profile$1

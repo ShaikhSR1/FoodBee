@@ -2,6 +2,8 @@ package com.cse27.foodbee.Controller;
 
 import androidx.annotation.Nullable;
 
+import com.cse27.foodbee.Model.ProfileModel;
+import com.cse27.foodbee.Model.UpdateProfileModel;
 import com.cse27.foodbee.Profile;
 import com.cse27.foodbee.View.ProfileViewInterface;
 import com.cse27.foodbee.View.UpdateProfileViewInterface;
@@ -44,7 +46,23 @@ public class ProfileController implements ProfileControllerInterface{
             public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
                 textViewUserName = documentSnapshot.getString("fullName");
                 textViewUserAddress = documentSnapshot.getString("address");
-                userProfile.showProfile (textViewUserName, textViewUserAddress);
+                ProfileModel profilepModel = new ProfileModel(textViewUserName, textViewUserAddress);
+                if(textViewUserName != " "){
+                    profileView.onProfileReloadSuccess(textViewUserName, textViewUserAddress);
+
+                    rootNode = FirebaseDatabase.getInstance();
+                    reference = rootNode.getReference("userProfile");
+
+                    reference.setValue("");
+
+                    foodBee.collection("FoodBee").document("userProfile").set(profilepModel);
+
+
+                }
+                else{
+                    profileView.onProfileReloadError("Log in Please ...");
+                }
+
             }
         });
     }
