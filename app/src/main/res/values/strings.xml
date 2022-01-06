@@ -31,6 +31,8 @@
     <string name="terms_conditions">Terms and conditions</string>
     <string name="help_center">Help Center</string>
     <string name="update">Update</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
 
 
     <!-- Hint Names -->

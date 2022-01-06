@@ -13,6 +13,8 @@ com/cse27/foodbee/Profile.java
 com/cse27/foodbee/SignUp.java
  com.cse27.foodbee.SignUp
  com.cse27.foodbee.SignUp$1
+com/cse27/foodbee/CartModelClass.java
+ com.cse27.foodbee.CartModelClass
 com/cse27/foodbee/View/LoginViewInterface.java
  com.cse27.foodbee.View.LoginViewInterface
 com/cse27/foodbee/SearchPage.java
@@ -38,3 +40,8 @@ com/cse27/foodbee/Model/SignUpModel.java
  com.cse27.foodbee.Model.SignUpModel
 com/cse27/foodbee/Controller/SignUpController.java
  com.cse27.foodbee.Controller.SignUpController
+com/cse27/foodbee/CartPageAdapter.java
+ com.cse27.foodbee.CartPageAdapter
+ com.cse27.foodbee.CartPageAdapter$ViewHolder
+com/cse27/foodbee/CartPage.java
+ com.cse27.foodbee.CartPage
