@@ -8,6 +8,9 @@ import java.util.regex.Pattern;
 public class LoginModel implements LoginModelInterface{
     private String email,password;
 
+    public LoginModel() {
+    }
+
     public LoginModel(String email, String password) {
         this.email = email;
         this.password = password;
@@ -24,7 +27,7 @@ public class LoginModel implements LoginModelInterface{
     }
 
     @Override
-    public int isValid() {
+    public int isLoginValid() {
         if (TextUtils.isEmpty(getEmail())){
             return 0;
         }else if (!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()) {
@@ -36,6 +39,6 @@ public class LoginModel implements LoginModelInterface{
         }else if (getPassword().length()<=6){
             return 3;
         }else
-            return -1;
+            return 9;
     }
 }

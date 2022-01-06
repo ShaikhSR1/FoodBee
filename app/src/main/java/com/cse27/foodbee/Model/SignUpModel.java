@@ -44,7 +44,7 @@ public class SignUpModel implements SignUpModelInterface {
     }
 
     @Override
-    public int isValid() {
+    public int isSignUpValid() {
         if (TextUtils.isEmpty(getFullName())){
             return 0;
         } else if (TextUtils.isEmpty(getEmail())){
@@ -62,7 +62,7 @@ public class SignUpModel implements SignUpModelInterface {
         }else if(!getPassword().equals(getConfirmPassword())){
             return 7;
         }else {
-            return -1;
+            return 9;
         }
 
     }
