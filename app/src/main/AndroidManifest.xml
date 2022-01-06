@@ -41,7 +41,7 @@
 
         <activity
             android:name=".SignUp"
-            android:exported="false">
+            android:exported="true">
 
 
         </activity>

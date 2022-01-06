@@ -96,8 +96,8 @@
 53-->C:\Users\Hp\Projects\FoodBee\app\src\main\AndroidManifest.xml:42:9-47:20
 54            android:name="com.cse27.foodbee.SignUp"
 54-->C:\Users\Hp\Projects\FoodBee\app\src\main\AndroidManifest.xml:43:13-35
-55            android:exported="false" >
-55-->C:\Users\Hp\Projects\FoodBee\app\src\main\AndroidManifest.xml:44:13-37
+55            android:exported="true" >
+55-->C:\Users\Hp\Projects\FoodBee\app\src\main\AndroidManifest.xml:44:13-36
 56        </activity>
 57        <activity
 57-->C:\Users\Hp\Projects\FoodBee\app\src\main\AndroidManifest.xml:48:9-50:39

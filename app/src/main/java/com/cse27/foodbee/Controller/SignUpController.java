@@ -25,7 +25,7 @@ public class SignUpController implements SignUpControllerInterface{
     FirebaseDatabase rootNode;
     DatabaseReference reference;
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
-    private FirebaseAuth mAuth;
+    private FirebaseAuth signUpAuth;
 
     public SignUpController(SignUPViewInterface signUpView) {
         this.signUpView = signUpView;
@@ -35,7 +35,7 @@ public class SignUpController implements SignUpControllerInterface{
     public void onSignUp(String fullName, String email, String phoneNumber, String password, String confirmPassword) {
         SignUpModel signUpModel = new SignUpModel(fullName, email,phoneNumber,password,confirmPassword);
 
-            int signUpCode = signUpModel.isValid();
+            int signUpCode = signUpModel.isSignUpValid();
             if(signUpCode == 0){
                 signUpView.onSignUpError("Please Enter Full Name");
 
@@ -65,15 +65,16 @@ public class SignUpController implements SignUpControllerInterface{
 
                 rootNode = FirebaseDatabase.getInstance();
                 reference = rootNode.getReference("userProfile");
-                mAuth = FirebaseAuth.getInstance();
+                signUpAuth = FirebaseAuth.getInstance();
 
                 reference.setValue("");
 
-                mAuth.createUserWithEmailAndPassword(signUpModel.getEmail(),signUpModel.getPassword()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                signUpAuth.createUserWithEmailAndPassword(signUpModel.getEmail(),signUpModel.getPassword())
+                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isComplete()) {
-                            String userId = mAuth.getUid();
+                            String userId = signUpAuth.getUid();
 
                             if(userId!=null) {
                                 foodBee.collection("userProfile").document(String.valueOf(userId)).set(signUpModel).addOnCompleteListener(new OnCompleteListener<Void>() {
