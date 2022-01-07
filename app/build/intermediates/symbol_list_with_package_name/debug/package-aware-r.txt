@@ -1802,6 +1802,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_splash
+drawable bbq_burger
 drawable border_shape
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2005,7 +2006,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnLogout
 id btnSearchCuisine
 id btnSearchFood
 id btnSearchRestaurant
@@ -2013,7 +2013,13 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardView
 id carryVelocity
+id cartFoodImage
+id cartFoodName
+id cartFoodPrice
+id cartFoodPriceValue
+id cartProductQuantity
 id center
 id center_horizontal
 id center_vertical
@@ -2053,6 +2059,7 @@ id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
+id decreamentButton
 id default_activity_button
 id deltaRelative
 id dependency_ordering
@@ -2139,10 +2146,10 @@ id imageProfile
 id imageProfile2
 id imageView
 id imageView2
-id imageViewCross
 id imageViewSearchpage
 id immediateStop
 id included
+id increamentButton
 id info
 id inputLoginEmail
 id inputLoginPassword
@@ -2173,6 +2180,7 @@ id linear
 id listMode
 id list_item
 id loginButton
+id logoutButton
 id masked
 id match_constraint
 id match_parent
@@ -2237,6 +2245,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nevigation
 id noScroll
 id noState
 id none
@@ -2499,6 +2508,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cart_page
 layout activity_login
 layout activity_main
 layout activity_profile
@@ -2701,6 +2711,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string minus
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2741,6 +2752,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string plus
 string project_id
 string search_cuis
 string search_food

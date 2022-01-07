@@ -28,16 +28,16 @@
         "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_sign_up_background_round.xml.flat",
-        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\sign_up_background_round.xml"
+        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_tahu.ttf.flat",
+        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\font\\tahu.ttf"
     },
     {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background_foreground.png.flat",
         "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_tahu.ttf.flat",
-        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\font\\tahu.ttf"
+        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_sign_up_background_round.xml.flat",
+        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\sign_up_background_round.xml"
     },
     {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_app_font.ttf.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart_page.xml.flat",
+        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_cart_page.xml"
     },
     {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background_round.png.flat",
@@ -170,6 +174,10 @@
     {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_bbq_burger.jpg.flat",
+        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\bbq_burger.jpg"
     },
     {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_profile.xml.flat",
