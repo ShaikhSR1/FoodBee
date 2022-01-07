@@ -44,8 +44,10 @@ dependencies {
     // Jetpack Compose Integration
     implementation "androidx.navigation:navigation-compose:2.4.0-rc01"
 
+    //Picasso library for image
 
-
+    implementation 'com.squareup.picasso:picasso:2.5.0'
+    
 
 
 

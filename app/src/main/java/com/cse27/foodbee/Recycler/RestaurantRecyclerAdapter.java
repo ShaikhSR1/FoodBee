@@ -1,5 +1,6 @@
 package com.cse27.foodbee.Recycler;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,21 +12,28 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.cse27.foodbee.Model.RestaurantModel;
 import com.cse27.foodbee.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class HomeRecyclerAdapter extends RecyclerView.Adapter<HomeRecyclerAdapter.viewHolder> {
+public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRecyclerAdapter.viewHolder> {
 
     List<RestaurantModel> allRestaurant;
+    Context context;
 
-    public HomeRecyclerAdapter(List<RestaurantModel> allRestaurant) {
+    public RestaurantRecyclerAdapter(List<RestaurantModel> allRestaurant, Context context) {
         this.allRestaurant = allRestaurant;
+        this.context = context;
     }
+
+    public RestaurantRecyclerAdapter(List<RestaurantModel> allRestaurants) {
+    }
+
 
     @NonNull
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.home_recycler,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_restaurant,parent,false);
 
         return new viewHolder(view);
     }
@@ -35,7 +43,7 @@ public class HomeRecyclerAdapter extends RecyclerView.Adapter<HomeRecyclerAdapte
         RestaurantModel current = allRestaurant.get(position);
         holder.textViewRestaurantNameCard.setText(current.getRestaurantName());
         holder.textViewRestaurantRatingCard.setText(current.getRestaurantRating());
-
+        Picasso.with(context).load(current.getRestaurantImageUrl()).into(holder.imageRestaurantCard);
     }
 
     @Override
