@@ -2,6 +2,8 @@ com/cse27/foodbee/BuildConfig.java
  com.cse27.foodbee.BuildConfig
 com/cse27/foodbee/Fragments/HomeFragment.java
  com.cse27.foodbee.Fragments.HomeFragment
+com/cse27/foodbee/Model/CartModelClass.java
+ com.cse27.foodbee.Model.CartModelClass
 com/cse27/foodbee/SplashScreen.java
  com.cse27.foodbee.SplashScreen
  com.cse27.foodbee.SplashScreen$1
@@ -9,6 +11,8 @@ com/cse27/foodbee/Model/RestaurantModel.java
  com.cse27.foodbee.Model.RestaurantModel
 com/cse27/foodbee/View/RestaurantViewInterface.java
  com.cse27.foodbee.View.RestaurantViewInterface
+com/cse27/foodbee/Model/FoodModel.java
+ com.cse27.foodbee.Model.FoodModel
 com/cse27/foodbee/Recycler/RestaurantRecyclerAdapter.java
  com.cse27.foodbee.Recycler.RestaurantRecyclerAdapter
  com.cse27.foodbee.Recycler.RestaurantRecyclerAdapter$viewHolder
@@ -38,6 +42,9 @@ com/cse27/foodbee/Model/ProfileModelInterface.java
  com.cse27.foodbee.Model.ProfileModelInterface
 com/cse27/foodbee/Controller/SignUpControllerInterface.java
  com.cse27.foodbee.Controller.SignUpControllerInterface
+com/cse27/foodbee/Recycler/CartPageAdapter.java
+ com.cse27.foodbee.Recycler.CartPageAdapter
+ com.cse27.foodbee.Recycler.CartPageAdapter$ViewHolder
 com/cse27/foodbee/View/UpdateProfileViewInterface.java
  com.cse27.foodbee.View.UpdateProfileViewInterface
 com/cse27/foodbee/Controller/ProfileControllerInterface.java
@@ -51,12 +58,15 @@ com/cse27/foodbee/Model/ProfileModel.java
 com/cse27/foodbee/SignUp.java
  com.cse27.foodbee.SignUp
  com.cse27.foodbee.SignUp$1
-com/cse27/foodbee/CartModelClass.java
- com.cse27.foodbee.CartModelClass
+com/cse27/foodbee/Model/FoodModelInterface.java
+ com.cse27.foodbee.Model.FoodModelInterface
 com/cse27/foodbee/View/LoginViewInterface.java
  com.cse27.foodbee.View.LoginViewInterface
 com/cse27/foodbee/SearchPage.java
  com.cse27.foodbee.SearchPage
+com/cse27/foodbee/Recycler/FoodRecyclerAdapter.java
+ com.cse27.foodbee.Recycler.FoodRecyclerAdapter
+ com.cse27.foodbee.Recycler.FoodRecyclerAdapter$viewHolder
 com/cse27/foodbee/Controller/RestaurantControllerInterface.java
  com.cse27.foodbee.Controller.RestaurantControllerInterface
 com/cse27/foodbee/Model/LoginModelInterface.java
@@ -66,6 +76,7 @@ com/cse27/foodbee/Controller/ProfileController.java
  com.cse27.foodbee.Controller.ProfileController$1
 com/cse27/foodbee/Fragments/FoodFragment.java
  com.cse27.foodbee.Fragments.FoodFragment
+ com.cse27.foodbee.Fragments.FoodFragment$1
 com/cse27/foodbee/Controller/UpdateProfileController.java
  com.cse27.foodbee.Controller.UpdateProfileController
  com.cse27.foodbee.Controller.UpdateProfileController$1
@@ -89,8 +100,5 @@ com/cse27/foodbee/Model/RestaurantModelInterface.java
  com.cse27.foodbee.Model.RestaurantModelInterface
 com/cse27/foodbee/Controller/UpdateProfileControllerInterface.java
  com.cse27.foodbee.Controller.UpdateProfileControllerInterface
-com/cse27/foodbee/CartPageAdapter.java
- com.cse27.foodbee.CartPageAdapter
- com.cse27.foodbee.CartPageAdapter$ViewHolder
 com/cse27/foodbee/CartPage.java
  com.cse27.foodbee.CartPage

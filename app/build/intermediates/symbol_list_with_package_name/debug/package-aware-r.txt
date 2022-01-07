@@ -2049,6 +2049,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAddToCart
 id btnSearchCuisine
 id btnSearchFood
 id btnSearchRestaurant
@@ -2154,6 +2155,7 @@ id fixed
 id flip
 id floating
 id foodFragment
+id foodRecylerView
 id forever
 id fragment_container_view_tag
 id frameLayout
@@ -2174,7 +2176,6 @@ id hideable
 id home
 id homeAsUp
 id homeFragment
-id homeRecyclerView
 id honorRequest
 id horizontal_only
 id icon
@@ -2191,6 +2192,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageFoodCard
 id imageProfile
 id imageProfile2
 id imageRestaurantCard
@@ -2338,8 +2340,8 @@ id progress_title
 id radio
 id ratio
 id rectangles
-id recyclerView
 id restaurantFragment
+id restaurantRecyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2440,6 +2442,9 @@ id textView
 id textViewAppName
 id textViewAppNameUpadte
 id textViewEditProfile
+id textViewFoodNameCard
+id textViewFoodPriceCard
+id textViewFoodRatingCard
 id textViewLogin
 id textViewRestaurantNameCard
 id textViewRestaurantRatingCard
@@ -2651,6 +2656,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_food
 layout recycler_restaurant
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

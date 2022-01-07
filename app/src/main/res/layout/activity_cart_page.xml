@@ -23,11 +23,10 @@
 
 
             <ImageView
+                android:id="@+id/cartFoodImage"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/cartFoodImage">
-            </ImageView>
+                android:scaleType="centerCrop"></ImageView>
 
         </androidx.cardview.widget.CardView>
 
@@ -79,9 +78,9 @@
 
         <Button
             android:id="@+id/increamentButton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="25dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="30dp"
             android:layout_toRightOf="@id/cartFoodName"
             android:background="@color/black"
@@ -108,8 +107,8 @@
 
         <Button
             android:id="@+id/decreamentButton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginTop="30dp"
             android:layout_toRightOf="@id/cartProductQuantity"
@@ -117,8 +116,7 @@
             android:text="@string/plus"
             android:textColor="@color/white"
             android:textSize="10sp"
-            android:textStyle="bold"
-            >
+            android:textStyle="bold">
 
         </Button>
 
