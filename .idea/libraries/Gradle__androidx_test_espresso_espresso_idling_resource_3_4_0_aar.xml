@@ -12,11 +12,9 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/androidx.test.espresso/espresso-idling-resource/3.4.0/69a300fcf8de2c433672d07a6c436a19dfb9b8f9/espresso-idling-resource-3.4.0-javadoc.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.espresso/espresso-idling-resource/3.4.0/69a300fcf8de2c433672d07a6c436a19dfb9b8f9/espresso-idling-resource-3.4.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/androidx.test.espresso/espresso-idling-resource/3.4.0/80fd2aa3695bf9e0383d53f2f39016960a0156a6/espresso-idling-resource-3.4.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.espresso/espresso-idling-resource/3.4.0/80fd2aa3695bf9e0383d53f2f39016960a0156a6/espresso-idling-resource-3.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
