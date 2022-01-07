@@ -1,274 +1,282 @@
 [
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_camera.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_camera.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background_round.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background_round.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile_picture.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\profile_picture.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_sign_up_background.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\sign_up_background.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_bbq_burger.jpg.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\bbq_burger.jpg"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_restaurant.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\ic_restaurant.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\navigation_bottom_nav_graph.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\navigation\\bottom_nav_graph.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_restaurant.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\recycler_restaurant.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_sign_up_background.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_sign_up_background.jpg.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\sign_up_background.jpg"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_location.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_location.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_edit.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_edit.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_app_font.ttf.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\font\\app_font.ttf"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_food.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\ic_food.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background_foreground.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background_foreground.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_sign_up_background_foreground.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background_foreground.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_food.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\recycler_food.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_profile.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_sign_up_background.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\sign_up_background.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_restaurant.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\fragment_restaurant.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background_round.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background_round.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_button.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\shape_button.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background_foreground.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background_foreground.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_bungee.ttf.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\font\\bungee.ttf"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_food.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\fragment_food.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_shape.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\border_shape.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_restaurant.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\recycler_restaurant.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_colorbg.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\colorbg.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_sign_up_background.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\sign_up_background.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_restaurant.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\ic_restaurant.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_splash.jpg.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\background_splash.jpg"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background_foreground.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background_foreground.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_splash.jpg.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\background_splash.jpg"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_sign_up_background_round.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background_round.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_page.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_search_page.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background_foreground.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background_foreground.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_mobile.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_mobile.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_sign_up_background_foreground.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\sign_up_background_foreground.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_name.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_name.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background_round.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background_round.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_sign_up_background.jpg.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\sign_up_background.jpg"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_splash.jpg.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\logo_splash.jpg"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\navigation_bottom_nav_graph.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\navigation\\bottom_nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background_foreground.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background_foreground.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_sign_up_background_round.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background_round.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_food.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\fragment_food.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background_round.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background_round.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_name.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_name.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart_page.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_cart_page.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background_round.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background_round.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_location.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_location.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_splash.jpg.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\logo_splash.jpg"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart_page.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_cart_page.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_tahu.ttf.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\font\\tahu.ttf"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_sign_up_background.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_tahu.ttf.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\font\\tahu.ttf"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_food.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\ic_food.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_sign_up_background_round.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\sign_up_background_round.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_edit.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_edit.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_button.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\shape_button.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_mobile.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_mobile.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icon_cart.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable-v24\\icon_cart.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_email.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_email.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_sign_up_background_foreground.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background_foreground.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_camera.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_camera.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_app_font.ttf.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\font\\app_font.ttf"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\font_bungee.ttf.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\font\\bungee.ttf"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cross.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\ic_cross.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_food.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\recycler_food.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_result.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_search_result.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_password.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_password.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_email.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\icon_email.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_sign_up_background_round.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\sign_up_background_round.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\ic_home.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_sign_up_background_foreground.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\sign_up_background_foreground.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_sign_up_background_round.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\sign_up_background_round.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile_picture.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\profile_picture.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_password.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_password.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_colorbg.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\colorbg.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background_round.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background_round.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_sign_up_background.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-anydpi-v26\\sign_up_background.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_restaurant.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\fragment_restaurant.xml"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cross.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\ic_cross.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_sign_up_background_round.png.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\sign_up_background_round.png"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background_foreground.png.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background_foreground.png"
     },
     {
-        "merged": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_bbq_burger.jpg.flat",
-        "source": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\src\\main\\res\\drawable\\bbq_burger.jpg"
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_page.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_search_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_shape.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\border_shape.xml"
     }
 ]
