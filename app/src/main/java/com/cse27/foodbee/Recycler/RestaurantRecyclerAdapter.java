@@ -43,7 +43,7 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
         RestaurantModel current = allRestaurant.get(position);
         holder.textViewRestaurantNameCard.setText(current.getRestaurantName());
         holder.textViewRestaurantRatingCard.setText(current.getRestaurantRating());
-        Picasso.with(context).load(current.getRestaurantImageUrl()).into(holder.imageRestaurantCard);
+        Picasso.with(context).load(current.getRestaurantImageUrl()).fit().into(holder.imageRestaurantCard);
     }
 
     @Override
