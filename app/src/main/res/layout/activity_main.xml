@@ -12,6 +12,9 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="0dp"
+        app:itemTextColor="@color/app_color"
+        app:itemRippleColor="@color/white"
+        android:background="@color/app_color2"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,8 +29,10 @@
         app:defaultNavHost="true"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/bottom_nav_graph" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
