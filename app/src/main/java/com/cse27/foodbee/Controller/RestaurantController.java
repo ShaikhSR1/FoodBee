@@ -22,4 +22,8 @@ public class RestaurantController implements RestaurantControllerInterface{
     public void restaurantList(String restaurantName, String restaurantRating, String restaurantImageUrl) {
         RestaurantModel restaurantModel = new RestaurantModel(restaurantName, restaurantRating, restaurantImageUrl);
     }
+
+
+
+
 }
