@@ -44,9 +44,9 @@ public class RestaurantFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragmet
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        View root = inflater.inflate(R.layout.fragment_restaurant, container, false);
 
-        recyclerView = root.findViewById(R.id.homeRecyclerView);
+        recyclerView = root.findViewById(R.id.restaurantRecyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         restaurantRecyclerAdapter = new RestaurantRecyclerAdapter(allRestaurants);
