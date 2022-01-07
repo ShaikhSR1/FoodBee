@@ -2049,7 +2049,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnLogout
 id btnSearchCuisine
 id btnSearchFood
 id btnSearchRestaurant
@@ -2197,7 +2196,6 @@ id imageProfile2
 id imageRestaurantCard
 id imageView
 id imageView2
-id imageViewCross
 id imageViewSearchpage
 id immediateStop
 id included
@@ -2234,6 +2232,7 @@ id linear
 id listMode
 id list_item
 id loginButton
+id logoutButton
 id masked
 id match_constraint
 id match_parent
@@ -2603,7 +2602,6 @@ layout dynamic_feature_install_fragment
 layout fragment_food
 layout fragment_home
 layout fragment_restaurant
-layout home_recycler
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2653,6 +2651,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_restaurant
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

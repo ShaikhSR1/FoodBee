@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/profile_picture" />
 
     <Button
-        android:id="@+id/btnLogout"
+        android:id="@+id/logoutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="301dp"
@@ -54,7 +54,7 @@
         android:layout_marginEnd="64dp"
         android:fontFamily="@font/bungee"
         android:gravity="center"
-        android:text="@string/user_name"
+        android:text=" "
         android:textAllCaps="false"
         android:textColor="@color/app_color2"
         android:textSize="20dp"
@@ -72,7 +72,7 @@
         android:fontFamily="@font/app_font"
         android:textStyle="bold"
         android:gravity="center"
-        android:text="@string/user_location"
+        android:text=" "
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
