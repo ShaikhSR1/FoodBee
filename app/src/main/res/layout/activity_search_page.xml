@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextSearch"
         android:layout_width="326dp"
         android:layout_height="81dp"
         android:layout_marginTop="108dp"
@@ -74,7 +74,7 @@
         android:layout_marginEnd="32dp"
         android:text="@string/search_cuis"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextSearch" />
 
     <ImageView
         android:id="@+id/imageView"
