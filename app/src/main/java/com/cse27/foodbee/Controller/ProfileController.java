@@ -1,5 +1,6 @@
 package com.cse27.foodbee.Controller;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.cse27.foodbee.Model.ProfileModel;
@@ -20,10 +21,9 @@ import java.util.concurrent.Executor;
 
 public class ProfileController implements ProfileControllerInterface{
     ProfileViewInterface profileView;
-    Profile userProfile;
     FirebaseDatabase rootNode;
     DatabaseReference reference;
-    FirebaseAuth fAuth;
+    FirebaseAuth updateProfileAuth;
     String userId;
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
 
@@ -36,34 +36,33 @@ public class ProfileController implements ProfileControllerInterface{
 
     @Override
     public void onProfileReload() {
-        fAuth = FirebaseAuth.getInstance();
-        //userId = fAuth.getCurrentUser().getUid();
-        userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
+        rootNode = FirebaseDatabase.getInstance();
+        updateProfileAuth = FirebaseAuth.getInstance();
+        //userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
+        userId = updateProfileAuth.getCurrentUser().getUid();
+        reference = rootNode.getReference("userProfile");
+
         DocumentReference documentReference = foodBee.collection("userProfile").document(userId);
-        DocumentSnapshot documentSnapshot = null;
         documentReference.addSnapshotListener((Executor) this, new EventListener<DocumentSnapshot>() {
             @Override
-            public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
                 textViewUserName = documentSnapshot.getString("fullName");
                 textViewUserAddress = documentSnapshot.getString("address");
+
                 ProfileModel profilepModel = new ProfileModel(textViewUserName, textViewUserAddress);
+                //Profile profile = new Profile(textViewUserName, textViewUserAddress);
+
+
                 if(textViewUserName != " "){
                     profileView.onProfileReloadSuccess(textViewUserName, textViewUserAddress);
-
-                    rootNode = FirebaseDatabase.getInstance();
-                    reference = rootNode.getReference("userProfile");
-
-                    reference.setValue("");
-
-                    foodBee.collection("FoodBee").document("userProfile").set(profilepModel);
-
 
                 }
                 else{
                     profileView.onProfileReloadError("Log in Please ...");
                 }
-
             }
         });
+
+
     }
 }

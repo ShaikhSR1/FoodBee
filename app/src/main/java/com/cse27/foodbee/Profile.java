@@ -23,12 +23,10 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class Profile extends AppCompatActivity implements ProfileViewInterface {
-    private Button updateProfileButton;
+    private Button updateProfileButton, logoutButton;
     TextView textViewUserName, textViewUserAddress;
-
+    private String fullName, address;
     ProfileControllerInterface profileController;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,9 +40,10 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
         //textViewUserName.setText("nishat");
         //textViewUserAddress.setText("ju");
 
-        profileController.onProfileReload();
+        //profileController.onProfileReload();
 
         updateProfileButton = findViewById(R.id.updateProfileButton);
+        logoutButton = findViewById(R.id.logoutButton);
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +52,19 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
 
         });
 
+        logoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToLoginPage();
+            }
+        });
+
     }
+    public void goToLoginPage(){
+        Intent intent= new Intent(this, Login.class );
+        startActivity(intent);
+    }
+
     public void goToUpdateProfile(){
         Intent intent= new Intent(this, UpdateProfile.class );
         startActivity(intent);

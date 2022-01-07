@@ -1,9 +1,15 @@
 package com.cse27.foodbee.Controller;
 
+import androidx.annotation.NonNull;
+
 import com.cse27.foodbee.Model.SignUpModel;
 import com.cse27.foodbee.Model.UpdateProfileModel;
 import com.cse27.foodbee.View.SignUPViewInterface;
 import com.cse27.foodbee.View.UpdateProfileViewInterface;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -14,6 +20,9 @@ public class UpdateProfileController implements UpdateProfileControllerInterface
     FirebaseDatabase rootNode;
     DatabaseReference reference;
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
+    private FirebaseAuth updateProfileAuth;
+    private String userId;
+
 
     public UpdateProfileController(UpdateProfileViewInterface updateProfileView) {
         this.updateProfileView = updateProfileView;
@@ -50,14 +59,38 @@ public class UpdateProfileController implements UpdateProfileControllerInterface
             updateProfileView.onUpdateProfileError("Please Enter valid Address");
 
         }else {
-            updateProfileView.onUpdateProfileSuccess("Update Profile Successful");
-
             rootNode = FirebaseDatabase.getInstance();
-            reference = rootNode.getReference("userProfile");
-
+            //userId = fAuth.getCurrentUser().getUid();
+            userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
+            reference = rootNode.getReference("userProfile").child(userId);
+            updateProfileAuth = FirebaseAuth.getInstance();
             reference.setValue("");
 
-            foodBee.collection("FoodBee").document("userProfile").set(updateProfilepModel);
+            updateProfileAuth.createUserWithEmailAndPassword(updateProfilepModel.getEmail(),updateProfilepModel.getPassword())
+                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if(task.isComplete()) {
+                                //String userId = updateProfileAuth.getUid();
+                                userId = updateProfileAuth.getCurrentUser().getUid();
+                                if(userId!=null) {
+                                    foodBee.collection("userProfile").document(String.valueOf(userId)).set(updateProfilepModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if(task.isComplete()) {
+                                                updateProfileView.onUpdateProfileSuccess("Update Successful");
+
+                                            }
+                                            else {
+                                                updateProfileView.onUpdateProfileError("Please Try Again");
+                                            }
+
+                                        }
+                                    });
+                                }
+                            }
+                        }
+                    });
 
 
         }

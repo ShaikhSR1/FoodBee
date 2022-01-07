@@ -1,7 +1,10 @@
 package com.cse27.foodbee;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,12 +17,30 @@ import com.cse27.foodbee.Controller.SignUpControllerInterface;
 import com.cse27.foodbee.Controller.UpdateProfileController;
 import com.cse27.foodbee.Controller.UpdateProfileControllerInterface;
 import com.cse27.foodbee.View.UpdateProfileViewInterface;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class UpdateProfile extends AppCompatActivity implements UpdateProfileViewInterface {
 
-    EditText updateUserName, updateUserEmail, updateUserAddress, updateUserMobileNo, updateUserPassword;
+    EditText updateUserName, updateUserEmail, updateUserAddress, updateUserPhoneNumber, updateUserPassword;
     Button updateProfileButton;
     ImageView imageViewCross;
+    private String fullName, email, phoneNo, address, password;
+    private String userId;
+    FirebaseDatabase rootNode;
+    DatabaseReference reference;
+    FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
+    private FirebaseAuth profileAuth;
+
 
     UpdateProfileControllerInterface updateProfileController;
 
@@ -28,18 +49,40 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_profile);
 
+
         updateProfileController = new UpdateProfileController(this);
         updateUserName = (EditText) findViewById(R.id.updateUserName);
         updateUserEmail = (EditText) findViewById(R.id.updateUserEmail);
-        updateUserMobileNo = (EditText) findViewById(R.id.updateUserMobileNo);
+        updateUserPhoneNumber = (EditText) findViewById(R.id.updateUserMobileNo);
         updateUserAddress = (EditText) findViewById(R.id.updateUserAddress);
         updateUserPassword = (EditText) findViewById(R.id.updateUserPassword);
         updateProfileButton = (Button) findViewById(R.id.updateProfileButton);
-        imageViewCross = (ImageView) findViewById(R.id.imageViewCross);
+
+        rootNode = FirebaseDatabase.getInstance();
+        profileAuth = FirebaseAuth.getInstance();
+
+        //userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
+        userId = profileAuth.getCurrentUser().getUid();
+        reference = rootNode.getReference("userProfile");
+
+        DocumentReference documentReference = foodBee.collection("userProfile").document(userId);
+        documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
+                updateUserName.setText(documentSnapshot.getString("fullName"));
+                updateUserEmail.setText(documentSnapshot.getString("email"));
+                updateUserPhoneNumber.setText(documentSnapshot.getString("phoneNumber"));
+                updateUserAddress.setText(documentSnapshot.getString("address"));
+                updateUserPassword.setText(documentSnapshot.getString("password"));
+            }
+        });
+
+
+
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                updateProfileController.onUpdateProfile(updateUserName.getText().toString().trim(),updateUserEmail.getText().toString().trim(),updateUserMobileNo.getText().toString().trim(),updateUserAddress.getText().toString().trim(),updateUserPassword.getText().toString().trim());
+                updateProfileController.onUpdateProfile(updateUserName.getText().toString().trim(),updateUserEmail.getText().toString().trim(),updateUserPhoneNumber.getText().toString().trim(),updateUserAddress.getText().toString().trim(),updateUserPassword.getText().toString().trim());
             }
         });
     }
@@ -47,6 +90,8 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
     @Override
     public void onUpdateProfileSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+        Intent intent= new Intent(this, Profile.class );
+        startActivity(intent);
     }
 
     @Override

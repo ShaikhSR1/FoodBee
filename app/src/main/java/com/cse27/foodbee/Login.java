@@ -44,7 +44,7 @@ public class Login extends AppCompatActivity implements LoginViewInterface {
     @Override
     public void onLoginSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(Login.this, UpdateProfile.class);
+        Intent intent = new Intent(Login.this, Profile.class);
         startActivity(intent);
     }
 
