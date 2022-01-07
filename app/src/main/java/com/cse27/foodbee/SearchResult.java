@@ -36,7 +36,7 @@ public class SearchResult extends AppCompatActivity {
         textViewFoodNameCard = findViewById(R.id.textViewFoodNameCard);
         textViewFoodRatingCard = findViewById(R.id.textViewFoodRatingCard);
         textViewFoodPriceCard = findViewById(R.id.textViewFoodPriceCard);
-        
+
 
 
     }

@@ -3,6 +3,7 @@ package com.cse27.foodbee;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -41,6 +42,8 @@ public class SearchPage extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                        Intent intent = new Intent(SearchPage.this, SearchResult.class);
+                        startActivity(intent);
                         for (QueryDocumentSnapshot documents : queryDocumentSnapshots) {
                             if(documents.getString("type")==editTextSearch.toString()) {
                                 searchResult.showResults(documents.getString("imageurl"), documents.getString("name"), documents.getString("rating"), documents.getString("price"));
