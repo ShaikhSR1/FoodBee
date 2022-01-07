@@ -1,4 +1,4 @@
-package com.cse27.foodbee;
+package com.cse27.foodbee.Model;
 
 public class CartModelClass {
 
@@ -8,7 +8,7 @@ public class CartModelClass {
     private String cartFoodPriceValue;
     private String cartProductQuantity;
 
-    CartModelClass(int cartFoodImage, String cartFoodName,String cartFoodPrice,String cartFoodPriceValue, String cartProductQuantity){
+    public CartModelClass(int cartFoodImage, String cartFoodName, String cartFoodPrice, String cartFoodPriceValue, String cartProductQuantity){
 
         this.cartFoodImage = cartFoodImage;
         this.cartFoodName = cartFoodName;

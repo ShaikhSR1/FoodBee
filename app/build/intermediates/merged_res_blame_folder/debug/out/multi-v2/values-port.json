@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\shaik\\ProjRahat\\FoodBee\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nishat\\.gradle\\caches\\transforms-3\\8f8dfbea7461eb4b096b7a7771e0ff80\\transformed\\appcompat-1.4.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\jre\\caches\\transforms-3\\8f8dfbea7461eb4b096b7a7771e0ff80\\transformed\\appcompat-1.4.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
