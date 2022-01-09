@@ -9,6 +9,7 @@ import android.os.Bundle;
 import com.cse27.foodbee.Controller.CartPageShowController;
 import com.cse27.foodbee.Controller.CartPageShowControllerInterface;
 import com.cse27.foodbee.Model.CartPageModel;
+import com.cse27.foodbee.Recycler.CartPageAdapter;
 import com.cse27.foodbee.View.CartPageViewInterface;
 
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class CartPage extends AppCompatActivity implements CartPageViewInterface
     LinearLayoutManager linearLayoutManager;
     List<CartPageModel> cartProductList;
     //cartList = new ArrayList<>();
-    com.cse27.foodbee.CartPageAdapter adapter;
+    com.cse27.foodbee.Recycler.CartPageAdapter adapter;
     CartPageShowControllerInterface cartPageShow = new CartPageShowController(this);
 
     @Override
@@ -35,11 +36,11 @@ public class CartPage extends AppCompatActivity implements CartPageViewInterface
 
 
     private void initRecylerView() {
-        //recyclerView = findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.cartRecyclerView);
         linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
-        adapter = new com.cse27.foodbee.CartPageAdapter(cartProductList);
+        adapter = new CartPageAdapter(cartProductList);
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
 
