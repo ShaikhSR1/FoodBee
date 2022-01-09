@@ -5,6 +5,14 @@ public class CartPageModel implements CartPageModelInterface {
     double cartFoodPriceValue, cartProductQuantity;
     private int cartFoodImage;
 
+
+    /**
+     * this is a setter function
+     * @param cartFoodName
+     * @param cartFoodPriceValue
+     * @param cartProductQuantity
+     */
+
     public CartPageModel(String cartFoodName, double cartFoodPriceValue, double cartProductQuantity) {
         this.cartFoodName = cartFoodName;
         this.cartFoodPriceValue = cartFoodPriceValue;
