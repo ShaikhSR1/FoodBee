@@ -22,6 +22,11 @@ import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
+/**
+ * A Profile activity screen that show the User name with some options
+ * like update profile and view order History
+ */
+
 public class Profile extends AppCompatActivity implements ProfileViewInterface {
     private Button updateProfileButton;
     TextView textViewUserName, textViewUserAddress;
@@ -41,8 +46,11 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
         textViewUserAddress = (TextView) findViewById(R.id.textViewUserAddress);
         //textViewUserName.setText("nishat");
         //textViewUserAddress.setText("ju");
-
-        profileController.onProfileReload();
+        
+         /**
+         * This called function will will fetch the user name and his address from userProfile (firebase).
+         */
+        //profileController.onProfileReload();
 
         updateProfileButton = findViewById(R.id.updateProfileButton);
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
@@ -54,10 +62,18 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
         });
 
     }
+    
+     /**
+     * This method will navigate from Profile page to login page.
+     */
     public void goToUpdateProfile(){
         Intent intent= new Intent(this, UpdateProfile.class );
         startActivity(intent);
     }
+    
+    /**
+     * This function will navigate from Profile page to update profile page.
+     */
 
     @Override
     public void onProfileReloadSuccess(String fullName, String address) {
