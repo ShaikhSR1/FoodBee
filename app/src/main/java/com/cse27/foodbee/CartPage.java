@@ -4,41 +4,39 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 
-import com.cse27.foodbee.Model.CartModel;
+import com.cse27.foodbee.Controller.CartPageShowController;
+import com.cse27.foodbee.Controller.CartPageShowControllerInterface;
+import com.cse27.foodbee.Model.CartPageModel;
 import com.cse27.foodbee.Recycler.CartPageAdapter;
+import com.cse27.foodbee.View.CartPageViewInterface;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CartPage extends AppCompatActivity {
+public class CartPage extends AppCompatActivity implements CartPageViewInterface {
 
     RecyclerView recyclerView;
     LinearLayoutManager linearLayoutManager;
-    List<CartModel> cartProductList;
-    CartPageAdapter adapter;
+    List<CartPageModel> cartProductList;
+    //cartList = new ArrayList<>();
+    com.cse27.foodbee.Recycler.CartPageAdapter adapter;
+    CartPageShowControllerInterface cartPageShow = new CartPageShowController(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart_page);
-
-        initData();
+        cartPageShow.onCartPageShow();
+        //cartPageShow.initData();
         initRecylerView();
     }
 
-    private void initData() {
 
-        cartProductList = new ArrayList<>();
 
-        cartProductList.add(new CartModel(R.drawable.bbq_burger,"BBQ Burger","Unit Price","250","1"));
-    }
-
-    @SuppressLint("NotifyDataSetChanged")
     private void initRecylerView() {
-        //recyclerView = findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.cartRecyclerView);
         linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -49,4 +47,14 @@ public class CartPage extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onSeeCartSuccess(String foodName, double foodQuantity, double foodPrice) {
+
+
+    }
+
+    @Override
+    public void onSeeCartError() {
+
+    }
 }

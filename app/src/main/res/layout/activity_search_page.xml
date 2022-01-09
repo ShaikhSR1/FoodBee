@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/background_splash" />
 
     <TextView
@@ -29,7 +29,7 @@
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReturn" />
 
     <EditText
         android:id="@+id/editTextSearch"
@@ -50,7 +50,7 @@
         android:id="@+id/btnSearchFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="88dp"
         android:text="@string/search_food"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnSearchRestaurant"
         app:layout_constraintStart_toStartOf="parent" />
@@ -59,30 +59,22 @@
         android:id="@+id/btnSearchRestaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/search_rest"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btnSearchCuisine"
-        app:layout_constraintEnd_toStartOf="@+id/btnSearchCuisine"
-        app:layout_constraintStart_toEndOf="@+id/btnSearchFood" />
-
-    <Button
-        android:id="@+id/btnSearchCuisine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="112dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/search_cuis"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/search_rest"
+        app:layout_constraintStart_toEndOf="@+id/btnSearchFood"
         app:layout_constraintTop_toBottomOf="@+id/editTextSearch" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
+        android:id="@+id/imageViewReturn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_cross" />
+        app:srcCompat="@drawable/ic_cross"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
