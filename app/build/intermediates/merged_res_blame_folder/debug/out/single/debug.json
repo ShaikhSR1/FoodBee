@@ -248,6 +248,10 @@
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_search.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\icon_search.xml"
+    },
+    {
         "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_sign_up_background_round.png.flat",
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_background_round.png"
     },
@@ -270,6 +274,10 @@
     {
         "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_cart.xml.flat",
+        "source": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\recycler_cart.xml"
     },
     {
         "merged": "C:\\Users\\shaik\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_page.xml.flat",

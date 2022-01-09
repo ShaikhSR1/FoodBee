@@ -7,6 +7,10 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 public class FoodController implements FoodControllerInterface{
 
+    /**
+     * Connection to firebase
+     */
+
     FirebaseDatabase rootNode;
     DatabaseReference reference;
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();

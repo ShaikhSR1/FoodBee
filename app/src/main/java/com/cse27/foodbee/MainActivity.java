@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        /**
+         * MainActivity file handles navigation and menus
+         * Search button icon for searching page
+         * Clicking on the button redirects to search page
+         */
+
         btnSearch = (Button) findViewById(R.id.btnSearch);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);

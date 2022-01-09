@@ -35,6 +35,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Shows search result using recycler view
+ * This page uses FoodRecyclerAdapter class for showing results of searched food
+ */
+
 public class SearchResult extends AppCompatActivity {
 
     Context context;
@@ -78,6 +83,11 @@ public class SearchResult extends AppCompatActivity {
     }*/
 
 
+    /**
+     * Fetches data from firestore collection "foods" according to queryFood from SearchPage
+     * @param queryFood
+     */
+
     public void firebaseFoodSearch(String queryFood) {
 
         firestoreSearch.collection("foods")
@@ -88,9 +98,9 @@ public class SearchResult extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                         if (task.isSuccessful()) {
-                            for (QueryDocumentSnapshot queryDocumentSnapshot: task.getResult()) {
+                            for (QueryDocumentSnapshot queryDocumentSnapshot : task.getResult()) {
                                 String typeFood = queryDocumentSnapshot.getString("type");
-                                if(typeFood.equals(queryFood)) {
+                                if (typeFood.equals(queryFood)) {
                                     FoodModel foods = queryDocumentSnapshot.toObject(FoodModel.class);
                                     allFoods.add(foods);
                                 }
@@ -100,7 +110,7 @@ public class SearchResult extends AppCompatActivity {
                         }
                     }
                 });
-
+    }
 
  /*       firestoreSearch.collection("foods")
                 .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
@@ -131,8 +141,8 @@ public class SearchResult extends AppCompatActivity {
                             showResults(documents.getString("imageurl"), documents.getString("name"), documents.getString("rating"), documents.getString("price"));
                         }
                     }
-                });*/
-    }
+                });
+    }*/
 
 
 

@@ -1896,6 +1896,7 @@ drawable icon_location
 drawable icon_mobile
 drawable icon_name
 drawable icon_password
+drawable icon_search
 drawable logo_splash
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2051,7 +2052,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddToCart
-id btnSearchCuisine
+id btnSearch
 id btnSearchFood
 id btnSearchRestaurant
 id buttonPanel
@@ -2065,6 +2066,7 @@ id cartFoodName
 id cartFoodPrice
 id cartFoodPriceValue
 id cartProductQuantity
+id cartRecyclerView
 id center
 id center_horizontal
 id center_vertical
@@ -2197,10 +2199,10 @@ id imageFoodCard
 id imageProfile
 id imageProfile2
 id imageRestaurantCard
-id imageView
 id imageView2
 id imageViewCart
 id imageViewProfile
+id imageViewReturn
 id imageViewSearchpage
 id immediateStop
 id included
@@ -2662,6 +2664,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_cart
 layout recycler_food
 layout recycler_restaurant
 layout select_dialog_item_material

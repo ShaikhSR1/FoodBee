@@ -16,6 +16,11 @@ import com.cse27.foodbee.R;
 
 import java.util.Objects;
 
+
+/**
+ * Home page of the app
+ */
+
 public class HomeFragment extends Fragment {
 
     ImageView imageViewCart, imageViewProfile;
