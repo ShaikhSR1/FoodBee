@@ -33,7 +33,11 @@ public class ProfileController implements ProfileControllerInterface{
         this.profileView = profileView;
     }
 
-
+    /**
+     * this function will fetch user name and address after searching with user id
+     * <p>
+     * then it will onProfileReloadSuccess and pass these values to show these on profile page
+     */
     @Override
     public void onProfileReload() {
         fAuth = FirebaseAuth.getInstance();
