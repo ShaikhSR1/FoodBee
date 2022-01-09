@@ -9,6 +9,19 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/**
+ * Application
+ * @author :
+ * <br>
+ * Asraf Ullah Rahat <br>
+ * Nishat Tasnim <br>
+ * Abdullah Al Shaik <br>
+ * Jubair Al Faisal <br>
+ * Jannatul Ferdaus Amrin <br>
+ * @version 1.0
+ * @since 02 january, 2021
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

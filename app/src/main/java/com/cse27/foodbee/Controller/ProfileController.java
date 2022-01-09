@@ -33,7 +33,11 @@ public class ProfileController implements ProfileControllerInterface{
         this.profileView = profileView;
     }
 
-
+    /**
+     * this function will fetch user name and address after searching with user id
+     * <p>
+     * then it will onProfileReloadSuccess and pass these values to show these on profile page
+     */
     @Override
     public void onProfileReload() {
         rootNode = FirebaseDatabase.getInstance();
@@ -41,7 +45,6 @@ public class ProfileController implements ProfileControllerInterface{
         //userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
         userId = updateProfileAuth.getCurrentUser().getUid();
         reference = rootNode.getReference("userProfile");
-
         DocumentReference documentReference = foodBee.collection("userProfile").document(userId);
         documentReference.addSnapshotListener((Executor) this, new EventListener<DocumentSnapshot>() {
             @Override
