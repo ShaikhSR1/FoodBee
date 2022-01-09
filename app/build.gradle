@@ -30,6 +30,9 @@ android {
 
 dependencies {
 
+    //GooglePlayServiceUtil error solution
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+
     //navigation dependencies
     def nav_version = "2.3.5"
     // Java language implementation

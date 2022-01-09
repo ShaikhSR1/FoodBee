@@ -29,12 +29,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Foodbee" >
         <activity
+            android:name="com.cse27.foodbee.SearchResult"
+            android:exported="false" />
+        <activity
             android:name="com.cse27.foodbee.UpdateProfile"
             android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.Profile"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.SearchPage"
             android:exported="false" />
@@ -43,12 +45,10 @@
             android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.SplashScreen"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.SignUp"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.MainActivity"
             android:exported="true"

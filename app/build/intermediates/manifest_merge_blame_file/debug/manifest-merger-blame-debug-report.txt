@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml
+8-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml
+9-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -33,81 +33,84 @@
 19-->[com.google.android.play:core:1.9.1] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\6e73f27bead4f112316fcc79fa0dc0da\transformed\jetified-core-1.9.1\AndroidManifest.xml:8:20-72
 20
 21    <application
-21-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:5:5-56:19
+21-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:5:5-45:19
 22        android:allowBackup="true"
-22-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:6:9-35
+22-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:6:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.7.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\919b1e91a07ddbf34272a620f8cba519\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 24        android:debuggable="true"
 25        android:icon="@mipmap/ic_launcher"
-25-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:7:9-43
+25-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:7:9-43
 26        android:label="@string/app_name"
-26-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:8:9-41
+26-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:8:9-41
 27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:9:9-54
+27-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:9:9-54
 28        android:supportsRtl="true"
-28-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:10:9-35
+28-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:10:9-35
 29        android:testOnly="true"
 30        android:theme="@style/Theme.Foodbee" >
-30-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:11:9-45
+30-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:11:9-45
 31        <activity
-31-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:12:9-14:40
-32            android:name="com.cse27.foodbee.UpdateProfile"
-32-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:13:13-42
+31-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:12:9-14:40
+32            android:name="com.cse27.foodbee.SearchResult"
+32-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:13:13-41
 33            android:exported="false" />
-33-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:14:13-37
+33-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:14:13-37
 34        <activity
-34-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:15:9-19:20
-35            android:name="com.cse27.foodbee.Profile"
-35-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:16:13-36
-36            android:exported="false" >
-36-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:17:13-37
-37        </activity>
-38        <activity
-38-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:21:9-23:40
-39            android:name="com.cse27.foodbee.SearchPage"
-39-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:22:13-39
-40            android:exported="false" />
-40-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:23:13-37
-41        <activity
-41-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:24:9-26:39
-42            android:name="com.cse27.foodbee.Login"
-42-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:25:13-34
-43            android:exported="false" />
-43-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:26:13-37
-44        <activity
-44-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:30:9-35:20
-45            android:name="com.cse27.foodbee.SplashScreen"
-45-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:31:13-41
-46            android:exported="false" >
-46-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:32:13-37
-47        </activity>
-48        <activity
-48-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:37:9-42:20
-49            android:name="com.cse27.foodbee.SignUp"
-49-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:38:13-35
-50            android:exported="false" >
-50-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:39:13-37
-51        </activity>
+34-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:15:9-17:40
+35            android:name="com.cse27.foodbee.UpdateProfile"
+35-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:16:13-42
+36            android:exported="false" />
+36-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:17:13-37
+37        <activity
+37-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:18:9-20:49
+38            android:name="com.cse27.foodbee.Profile"
+38-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:19:13-36
+39            android:exported="false" />
+39-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:20:13-37
+40        <activity
+40-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:21:9-23:49
+41            android:name="com.cse27.foodbee.SearchPage"
+41-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:22:13-39
+42            android:exported="false" />
+42-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:13-37
+43        <activity
+43-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:25:9-27:40
+44            android:name="com.cse27.foodbee.Login"
+44-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:13-34
+45            android:exported="false" />
+45-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:13-37
+46        <activity
+46-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:28:9-30:49
+47            android:name="com.cse27.foodbee.SplashScreen"
+47-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:13-41
+48            android:exported="false" />
+48-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:13-37
+49        <activity
+49-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:9-33:49
+50            android:name="com.cse27.foodbee.SignUp"
+50-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:13-35
+51            android:exported="false" />
+51-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:13-37
 52        <activity
-52-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:43:9-55:40
+52-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:9-44:20
 53            android:name="com.cse27.foodbee.MainActivity"
-53-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:44:13-41
+53-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:35:13-41
 54            android:exported="true"
-54-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:45:13-36
+54-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:13-36
 55            android:screenOrientation="portrait"
-55-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:47:13-49
+55-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:37:13-49
 56            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-56-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:46:13-72
+56-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:38:13-72
 57            <intent-filter>
-57-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:50:13-55:29
+57-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:39:13-43:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:52:17-69
-58-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:52:25-66
+58-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:40:17-69
+58-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:40:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:54:17-77
-60-->C:\Users\shaik\ProjRahat\FoodBee\app\src\main\AndroidManifest.xml:54:27-74
+60-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:42:17-77
+60-->C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:42:27-74
 61            </intent-filter>
 62        </activity>
 63
@@ -256,13 +259,13 @@
 138-->[com.google.firebase:firebase-common:20.0.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 139
 140        <activity
-140-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+140-->[com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\43a61542070d926941f931fa65baa73e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-141-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+141-->[com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\43a61542070d926941f931fa65baa73e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 142            android:exported="false"
-142-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+142-->[com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\43a61542070d926941f931fa65baa73e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-143-->[com.google.android.gms:play-services-base:17.1.0] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+143-->[com.google.android.gms:play-services-base:18.0.1] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\43a61542070d926941f931fa65baa73e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 144
 145        <receiver
 145-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Program Files\Android\Android Studio\jre\caches\transforms-3\86ed75e4d64576f274f5cc1758dcfb6a\transformed\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:29:9-33:20

@@ -29,6 +29,8 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
     public RestaurantRecyclerAdapter(List<RestaurantModel> allRestaurants) {
     }
 
+    public RestaurantRecyclerAdapter() {
+    }
 
     @NonNull
     @Override

@@ -1889,6 +1889,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_restaurant
 drawable icon_camera
+drawable icon_cart
 drawable icon_edit
 drawable icon_email
 drawable icon_location
@@ -2135,7 +2136,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName
+id editTextSearch
 id edit_query
 id elastic
 id end
@@ -2198,6 +2199,8 @@ id imageProfile2
 id imageRestaurantCard
 id imageView
 id imageView2
+id imageViewCart
+id imageViewProfile
 id imageViewSearchpage
 id immediateStop
 id included
@@ -2359,6 +2362,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchFoodRecylerView
 id search_badge
 id search_bar
 id search_button
@@ -2445,6 +2449,7 @@ id textViewEditProfile
 id textViewFoodNameCard
 id textViewFoodPriceCard
 id textViewFoodRatingCard
+id textViewHome
 id textViewLogin
 id textViewRestaurantNameCard
 id textViewRestaurantRatingCard
@@ -2582,6 +2587,7 @@ layout activity_login
 layout activity_main
 layout activity_profile
 layout activity_search_page
+layout activity_search_result
 layout activity_sign_up
 layout activity_splash_screen
 layout activity_update_profile
