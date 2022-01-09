@@ -42,6 +42,11 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
     public String getPassword() {
         return passowrd;
     }
+    
+    /**
+     * this Method will check validity of given information
+     * @return an integer value
+     */
 
     public int isValid() {
         if (TextUtils.isEmpty(getFullName())){
