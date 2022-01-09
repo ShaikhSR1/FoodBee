@@ -15,6 +15,10 @@ import com.cse27.foodbee.Controller.UpdateProfileController;
 import com.cse27.foodbee.Controller.UpdateProfileControllerInterface;
 import com.cse27.foodbee.View.UpdateProfileViewInterface;
 
+/**
+ * this Update Profile Screen will show a page with Profile Info which are editable
+ */
+
 public class UpdateProfile extends AppCompatActivity implements UpdateProfileViewInterface {
 
     EditText updateUserName, updateUserEmail, updateUserAddress, updateUserMobileNo, updateUserPassword;
@@ -22,7 +26,10 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
     ImageView imageViewCross;
 
     UpdateProfileControllerInterface updateProfileController;
-
+    
+     /**
+     * After clicking the button, data will be updated in the userProfile table in firebase.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
