@@ -64,7 +64,7 @@ public class SearchResult extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(foodRecyclerAdapter);
 
-        firebaseFoodSearch();
+
 
     }
 
@@ -78,10 +78,10 @@ public class SearchResult extends AppCompatActivity {
     }*/
 
 
-    public void firebaseFoodSearch() {
+    public void firebaseFoodSearch(String queryFood) {
 
         firestoreSearch.collection("foods")
-                .whereEqualTo("type", "burger")
+                .whereEqualTo("type", true)
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @SuppressLint("NotifyDataSetChanged")
@@ -89,8 +89,11 @@ public class SearchResult extends AppCompatActivity {
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot queryDocumentSnapshot: task.getResult()) {
-                                FoodModel foods = queryDocumentSnapshot.toObject(FoodModel.class);
-                                allFoods.add(foods);
+                                String typeFood = queryDocumentSnapshot.getString("type");
+                                if(typeFood.equals(queryFood)) {
+                                    FoodModel foods = queryDocumentSnapshot.toObject(FoodModel.class);
+                                    allFoods.add(foods);
+                                }
                             }
                             foodRecyclerAdapter.notifyDataSetChanged();
 
