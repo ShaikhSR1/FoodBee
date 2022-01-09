@@ -18,7 +18,10 @@ public class UpdateProfileController implements UpdateProfileControllerInterface
     public UpdateProfileController(UpdateProfileViewInterface updateProfileView) {
         this.updateProfileView = updateProfileView;
     }
-
+        /**
+         * @param updateProfileCode
+         *
+         */
 
     @Override
     public void onUpdateProfile(String fullName, String email, String phoneNumber, String address, String password) {
