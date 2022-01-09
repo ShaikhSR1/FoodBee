@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.cse27.foodbee.Model.ProfileModel;
+import com.cse27.foodbee.Model.ProfileModelInterface;
 import com.cse27.foodbee.Model.UpdateProfileModel;
 import com.cse27.foodbee.Profile;
 import com.cse27.foodbee.View.ProfileViewInterface;
@@ -27,12 +28,12 @@ public class ProfileController implements ProfileControllerInterface{
     String userId;
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
 
-    String textViewUserName, textViewUserAddress;
+    public String textViewUserName, textViewUserAddress;
 
-    public ProfileController(ProfileViewInterface profileView) {
+    public ProfileController (ProfileViewInterface profileView) {
         this.profileView = profileView;
     }
-
+    ProfileModelInterface profileModel;
 
     @Override
     public void onProfileReload() {
@@ -49,8 +50,8 @@ public class ProfileController implements ProfileControllerInterface{
                 textViewUserName = documentSnapshot.getString("fullName");
                 textViewUserAddress = documentSnapshot.getString("address");
 
-                ProfileModel profilepModel = new ProfileModel(textViewUserName, textViewUserAddress);
-                //Profile profile = new Profile(textViewUserName, textViewUserAddress);
+                //profileModel = new ProfileModel(textViewUserName, textViewUserAddress);
+
 
 
                 if(textViewUserName != " "){
@@ -65,4 +66,16 @@ public class ProfileController implements ProfileControllerInterface{
 
 
     }
+
+    @Override
+    public String getTextViewUserName ()
+    {
+        return textViewUserName;
+    }
+    @Override
+    public String getTextViewUserAddress ()
+    {
+        return textViewUserAddress;
+    }
+
 }

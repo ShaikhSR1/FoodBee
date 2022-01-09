@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\border_shape.xml"
     },
     {
+        "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_food.xml.flat",
+        "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\recycler_food.xml"
+    },
+    {
         "merged": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_sign_up_background.jpg.flat",
         "source": "C:\\Users\\Nishat\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\sign_up_background.jpg"
     },

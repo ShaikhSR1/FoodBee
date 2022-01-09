@@ -23,27 +23,40 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class Profile extends AppCompatActivity implements ProfileViewInterface {
-    private Button updateProfileButton, logoutButton;
-    TextView textViewUserName, textViewUserAddress;
-    private String fullName, address;
-    ProfileControllerInterface profileController;
+    Button updateProfileButton, logoutButton;
+    TextView profileUserName, profileUserAddress;
+    private String fullName, address ;
+    ProfileControllerInterface profileController ;
+
+
+    public Profile(String fullName, String address) {
+        this.fullName = fullName;
+        this.address = address;
+    }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        profileController = new ProfileController(this);
 
-        textViewUserName = (TextView) findViewById(R.id.textViewUserName);
-        textViewUserAddress = (TextView) findViewById(R.id.textViewUserAddress);
+        profileUserName = (TextView) findViewById(R.id.textViewUserName);
+        profileUserAddress = (TextView) findViewById(R.id.textViewUserAddress);
+
         //textViewUserName.setText("nishat");
         //textViewUserAddress.setText("ju");
+        //fullName = profileController.getTextViewUserName();
+        //address = profileController.getTextViewUserAddress();
+        //textViewUserName.setText(fullName);
+        //textViewUserAddress.setText(address);
 
         //profileController.onProfileReload();
 
         updateProfileButton = findViewById(R.id.updateProfileButton);
         logoutButton = findViewById(R.id.logoutButton);
+
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,9 +85,10 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
 
     @Override
     public void onProfileReloadSuccess(String fullName, String address) {
-        textViewUserName.setText(fullName);
-        textViewUserAddress.setText(address);
+
         Toast.makeText(this,"Hello !",Toast.LENGTH_LONG).show();
+        profileUserName.setText(fullName);
+        profileUserAddress.setText(address);
     }
 
     @Override

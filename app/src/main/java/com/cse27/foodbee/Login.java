@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import com.cse27.foodbee.Controller.LoginController;
 import com.cse27.foodbee.Controller.LoginControllerInterface;
+import com.cse27.foodbee.Controller.ProfileController;
+import com.cse27.foodbee.Controller.ProfileControllerInterface;
 import com.cse27.foodbee.View.LoginViewInterface;
 
 public class Login extends AppCompatActivity implements LoginViewInterface {

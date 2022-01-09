@@ -70,46 +70,46 @@
 40            android:exported="false" />
 40-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:13-37
 41        <activity
-41-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:24:9-26:39
+41-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:24:9-35:40
 42            android:name="com.cse27.foodbee.Login"
 42-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:25:13-34
-43            android:exported="false" />
-43-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:13-37
-44        <activity
-44-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:9-35:20
-45            android:name="com.cse27.foodbee.SplashScreen"
-45-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:13-41
-46            android:exported="false" >
-46-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:13-37
-47        </activity>
-48        <activity
-48-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:37:9-42:20
-49            android:name="com.cse27.foodbee.SignUp"
-49-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:38:13-35
-50            android:exported="false" >
-50-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:39:13-37
+43            android:exported="true"
+43-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:13-36
+44            android:screenOrientation="portrait"
+44-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:13-49
+45            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+45-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:37-96
+46            <intent-filter>
+46-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:13-35:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:17-69
+47-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:17-77
+49-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:27-74
+50            </intent-filter>
 51        </activity>
 52        <activity
-52-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:43:9-55:40
-53            android:name="com.cse27.foodbee.MainActivity"
-53-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:44:13-41
-54            android:exported="true"
-54-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:45:13-36
-55            android:screenOrientation="portrait"
-55-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:47:13-49
-56            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-56-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:46:13-72
-57            <intent-filter>
-57-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:50:13-55:29
-58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:52:17-69
-58-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:52:25-66
-59
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:54:17-77
-60-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:54:27-74
-61            </intent-filter>
-62        </activity>
+52-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:39:9-44:20
+53            android:name="com.cse27.foodbee.SplashScreen"
+53-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:40:13-41
+54            android:exported="false" >
+54-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:41:13-37
+55        </activity>
+56        <activity
+56-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:46:9-51:20
+57            android:name="com.cse27.foodbee.SignUp"
+57-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:47:13-35
+58            android:exported="false" >
+58-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:48:13-37
+59        </activity>
+60        <activity
+60-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:52:9-54:39
+61            android:name="com.cse27.foodbee.MainActivity"
+61-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:53:13-41
+62            android:exported="false" />
+62-->C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:54:13-37
 63
 64        <service
 64-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Nishat\.gradle\caches\transforms-3\18cfd55cf106be79d89b3c538ab5de5a\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
