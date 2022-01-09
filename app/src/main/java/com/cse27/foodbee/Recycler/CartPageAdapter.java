@@ -1,4 +1,4 @@
-package com.cse27.foodbee.Recycler;
+package com.cse27.foodbee;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,17 +9,16 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.cse27.foodbee.Model.CartModelClass;
-import com.cse27.foodbee.R;
+import com.cse27.foodbee.Model.CartPageModel;
 
 import java.util.List;
 
 public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHolder> {
 
 
-    private List<CartModelClass> cartProductList;
+    private List<CartPageModel> cartProductList;
 
-    public CartPageAdapter(List<CartModelClass> cartProductList){
+    public CartPageAdapter(List<CartPageModel> cartProductList){
         this.cartProductList = cartProductList;
     }
 
@@ -34,13 +33,12 @@ public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull CartPageAdapter.ViewHolder holder, int position) {
 
-        int cartImage = cartProductList.get(position).getCartFoodImage();
+        //int cartImage = cartProductList.get(position).getCartFoodImage();
         String foodName = cartProductList.get(position).getCartFoodName();
-        String foodUnit = cartProductList.get(position).getCartFoodPrice();
-        String foodUnitValue = cartProductList.get(position).getCartFoodPriceValue();
-        String foodQuantity = cartProductList.get(position).getCartProductQuantity();
+        double foodUnitValue = cartProductList.get(position).getCartFoodPriceValue();
+        double foodQuantity = cartProductList.get(position).getCartProductQuantity();
 
-        holder.setData(cartImage,foodName,foodUnit,foodUnitValue,foodQuantity);
+        holder.setData(foodName,foodUnitValue,foodQuantity);
 
     }
 
@@ -51,9 +49,8 @@ public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHo
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        private ImageView cartFoodImage;
+        //private ImageView cartFoodImage;
         private TextView cartFoodName;
-        private TextView cartFoodPrice;
         private TextView cartFoodPriceValue;
         private TextView cartFoodQuantity;
 
@@ -61,20 +58,18 @@ public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHo
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            cartFoodImage = itemView.findViewById(R.id.cartFoodImage);
+            //cartFoodImage = itemView.findViewById(R.id.cartFoodImage);
             cartFoodName = itemView.findViewById(R.id.cartFoodName);
-            cartFoodPrice = itemView.findViewById(R.id.cartFoodPrice);
             cartFoodPriceValue = itemView.findViewById(R.id.cartFoodPriceValue);
             cartFoodQuantity = itemView.findViewById(R.id.cartProductQuantity);
         }
 
-        public void setData(int cartImage, String foodName, String foodUnit, String foodUnitValue, String foodQuantity) {
+        public void setData( String foodName, double foodUnitValue,double foodQuantity) {
 
-            cartFoodImage.setImageResource(cartImage);
+            //cartFoodImage.setImageResource(cartImage);
             cartFoodName.setText(foodName);
-            cartFoodPrice.setText(foodUnit);
-            cartFoodPriceValue.setText(foodUnitValue);
-            cartFoodQuantity.setText(foodQuantity);
+            cartFoodPriceValue.setText((int) foodUnitValue);
+            cartFoodQuantity.setText((int) foodQuantity);
 
         }
     }
