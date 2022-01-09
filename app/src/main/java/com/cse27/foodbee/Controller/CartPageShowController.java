@@ -3,10 +3,11 @@ package com.cse27.foodbee.Controller;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.cse27.foodbee.CartPageAdapter;
+import com.cse27.foodbee.Recycler.CartPageAdapter;
 import com.cse27.foodbee.Model.CartPageModel;
 import com.cse27.foodbee.Model.CartPageModelInterface;
 
+import com.cse27.foodbee.Recycler.CartPageAdapter;
 import com.cse27.foodbee.View.CartPageViewInterface;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;

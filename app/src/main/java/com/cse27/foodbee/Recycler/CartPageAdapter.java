@@ -1,4 +1,4 @@
-package com.cse27.foodbee;
+package com.cse27.foodbee.Recycler;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.cse27.foodbee.Model.CartPageModel;
-
+import com.cse27.foodbee.R;
 import java.util.List;
 
 public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHolder> {
