@@ -22,6 +22,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Executor;
 
+/**
+ * this function is for fetching data from firebase and
+ * for displaying the ordered foods in a recycle view
+ */
+
 public class CartPageShowController implements CartPageShowControllerInterface{
     CartPageViewInterface cartPageView;
     LinearLayoutManager linearLayoutManager;
@@ -40,6 +45,11 @@ public class CartPageShowController implements CartPageShowControllerInterface{
     }
 
     CartPageModelInterface cartPageModel;
+
+    /**
+     * this function will add a food item in cart
+     */
+
     void initData() {
 
         cartProductList = new ArrayList<>();

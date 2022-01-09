@@ -13,6 +13,11 @@ import com.cse27.foodbee.Model.CartPageModel;
 import com.cse27.foodbee.R;
 import java.util.List;
 
+/**
+ * shows ordered foods using recycle view
+ */
+
+
 public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHolder> {
 
 
@@ -41,6 +46,11 @@ public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHo
         holder.setData(foodName,foodUnitValue,foodQuantity);
 
     }
+
+    /**
+     * this function count the number of foods that is ordered and
+     * @return an integer value
+     */
 
     @Override
     public int getItemCount() {
