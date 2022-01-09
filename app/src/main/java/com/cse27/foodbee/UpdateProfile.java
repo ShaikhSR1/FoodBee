@@ -29,6 +29,10 @@ import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
+/**
+ * this Update Profile Screen will show a page with Profile Info which are editable
+ */
+
 public class UpdateProfile extends AppCompatActivity implements UpdateProfileViewInterface {
 
     EditText updateUserName, updateUserEmail, updateUserAddress, updateUserPhoneNumber, updateUserPassword;

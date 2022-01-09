@@ -18,16 +18,16 @@ com/cse27/foodbee/Model/SignUpModelInterface.java
  com.cse27.foodbee.Model.SignUpModelInterface
 com/cse27/foodbee/View/ProfileViewInterface.java
  com.cse27.foodbee.View.ProfileViewInterface
-com/cse27/foodbee/Controller/ProfileController.java
- com.cse27.foodbee.Controller.ProfileController
- com.cse27.foodbee.Controller.ProfileController$1
+com/cse27/foodbee/SignUp.java
+ com.cse27.foodbee.SignUp
+ com.cse27.foodbee.SignUp$1
 com/cse27/foodbee/Fragments/RestaurantFragment.java
  com.cse27.foodbee.Fragments.RestaurantFragment
  com.cse27.foodbee.Fragments.RestaurantFragment$1
-com/cse27/foodbee/Profile.java
- com.cse27.foodbee.Profile
- com.cse27.foodbee.Profile$1
- com.cse27.foodbee.Profile$2
+com/cse27/foodbee/Fragments/HomeFragment.java
+ com.cse27.foodbee.Fragments.HomeFragment
+ com.cse27.foodbee.Fragments.HomeFragment$1
+ com.cse27.foodbee.Fragments.HomeFragment$2
 com/cse27/foodbee/Model/LoginModel.java
  com.cse27.foodbee.Model.LoginModel
 com/cse27/foodbee/Controller/SignUpController.java
@@ -85,25 +85,25 @@ com/cse27/foodbee/View/SignUPViewInterface.java
  com.cse27.foodbee.View.SignUPViewInterface
 com/cse27/foodbee/Model/RestaurantModelInterface.java
  com.cse27.foodbee.Model.RestaurantModelInterface
-com/cse27/foodbee/SignUp.java
- com.cse27.foodbee.SignUp
- com.cse27.foodbee.SignUp$1
-com/cse27/foodbee/Fragments/HomeFragment.java
- com.cse27.foodbee.Fragments.HomeFragment
- com.cse27.foodbee.Fragments.HomeFragment$1
- com.cse27.foodbee.Fragments.HomeFragment$2
-com/cse27/foodbee/UpdateProfile.java
- com.cse27.foodbee.UpdateProfile
- com.cse27.foodbee.UpdateProfile$1
- com.cse27.foodbee.UpdateProfile$2
 com/cse27/foodbee/Controller/UpdateProfileController.java
  com.cse27.foodbee.Controller.UpdateProfileController
  com.cse27.foodbee.Controller.UpdateProfileController$1
  com.cse27.foodbee.Controller.UpdateProfileController$1$1
 com/cse27/foodbee/MainActivity.java
  com.cse27.foodbee.MainActivity
+com/cse27/foodbee/UpdateProfile.java
+ com.cse27.foodbee.UpdateProfile
+ com.cse27.foodbee.UpdateProfile$1
+ com.cse27.foodbee.UpdateProfile$2
 com/cse27/foodbee/SplashScreen.java
  com.cse27.foodbee.SplashScreen
  com.cse27.foodbee.SplashScreen$1
 com/cse27/foodbee/Model/UpdateProfileModel.java
  com.cse27.foodbee.Model.UpdateProfileModel
+com/cse27/foodbee/Profile.java
+ com.cse27.foodbee.Profile
+ com.cse27.foodbee.Profile$1
+ com.cse27.foodbee.Profile$2
+com/cse27/foodbee/Controller/ProfileController.java
+ com.cse27.foodbee.Controller.ProfileController
+ com.cse27.foodbee.Controller.ProfileController$1

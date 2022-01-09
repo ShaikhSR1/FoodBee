@@ -19,6 +19,9 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 
 import java.util.concurrent.Executor;
 
+/**
+ * this class will connect firebase and fetch data
+ */
 public class ProfileController implements ProfileControllerInterface{
     ProfileViewInterface profileView;
     FirebaseDatabase rootNode;

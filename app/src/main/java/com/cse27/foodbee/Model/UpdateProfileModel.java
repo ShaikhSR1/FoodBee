@@ -44,7 +44,7 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
     }
 
     /**
-     * this Method will check validity of given information
+     * this Method will check validity of given information by user
      * @return an integer value
      */
 

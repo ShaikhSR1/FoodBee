@@ -14,6 +14,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+/**
+ * <p>this class will update the user info into firebase.</p>
+ * Here key is the user id
+ */
+
 public class UpdateProfileController implements UpdateProfileControllerInterface{
 
     UpdateProfileViewInterface updateProfileView;

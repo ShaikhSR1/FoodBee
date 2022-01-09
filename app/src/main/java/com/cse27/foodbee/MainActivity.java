@@ -10,7 +10,7 @@ import android.os.Bundle;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /**
- * Application
+ * A food delivery service Application
  * @author :
  * <br>
  * Asraf Ullah Rahat <br>
