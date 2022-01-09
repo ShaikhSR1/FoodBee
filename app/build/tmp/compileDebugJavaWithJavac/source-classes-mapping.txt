@@ -85,6 +85,9 @@ com/cse27/foodbee/Model/RestaurantModelInterface.java
  com.cse27.foodbee.Model.RestaurantModelInterface
 com/cse27/foodbee/Controller/ProfileControllerInterface.java
  com.cse27.foodbee.Controller.ProfileControllerInterface
+com/cse27/foodbee/Controller/ProfileController.java
+ com.cse27.foodbee.Controller.ProfileController
+ com.cse27.foodbee.Controller.ProfileController$1
 com/cse27/foodbee/UpdateProfile.java
  com.cse27.foodbee.UpdateProfile
  com.cse27.foodbee.UpdateProfile$1
@@ -99,6 +102,3 @@ com/cse27/foodbee/SignUp.java
 com/cse27/foodbee/Login.java
  com.cse27.foodbee.Login
  com.cse27.foodbee.Login$1
-com/cse27/foodbee/Controller/ProfileController.java
- com.cse27.foodbee.Controller.ProfileController
- com.cse27.foodbee.Controller.ProfileController$1
