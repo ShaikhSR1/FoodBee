@@ -4,6 +4,9 @@ public class FoodModel implements FoodModelInterface{
 
     private String foodName, foodRating, foodPrice, foodImageUrl;
 
+    public FoodModel() {
+    }
+
     public FoodModel(String foodName, String foodRating, String foodPrice, String foodImageUrl) {
         this.foodName = foodName;
         this.foodRating = foodRating;

@@ -2,6 +2,8 @@ com/cse27/foodbee/BuildConfig.java
  com.cse27.foodbee.BuildConfig
 com/cse27/foodbee/Fragments/HomeFragment.java
  com.cse27.foodbee.Fragments.HomeFragment
+ com.cse27.foodbee.Fragments.HomeFragment$1
+ com.cse27.foodbee.Fragments.HomeFragment$2
 com/cse27/foodbee/Model/CartModelClass.java
  com.cse27.foodbee.Model.CartModelClass
 com/cse27/foodbee/SplashScreen.java
@@ -77,6 +79,9 @@ com/cse27/foodbee/Controller/ProfileController.java
 com/cse27/foodbee/Fragments/FoodFragment.java
  com.cse27.foodbee.Fragments.FoodFragment
  com.cse27.foodbee.Fragments.FoodFragment$1
+com/cse27/foodbee/SearchResult.java
+ com.cse27.foodbee.SearchResult
+ com.cse27.foodbee.SearchResult$1
 com/cse27/foodbee/Controller/UpdateProfileController.java
  com.cse27.foodbee.Controller.UpdateProfileController
  com.cse27.foodbee.Controller.UpdateProfileController$1

@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.cse27.foodbee.Model.CartModelClass;
+import com.cse27.foodbee.Model.CartModel;
 import com.cse27.foodbee.R;
 
 import java.util.List;
@@ -17,12 +17,14 @@ import java.util.List;
 public class CartPageAdapter extends RecyclerView.Adapter<CartPageAdapter.ViewHolder> {
 
 
-    private List<CartModelClass> cartProductList;
+    private List<CartModel> cartProductList;
 
-    public CartPageAdapter(List<CartModelClass> cartProductList){
+    public CartPageAdapter(List<CartModel> cartProductList){
         this.cartProductList = cartProductList;
     }
 
+    public CartPageAdapter() {
+    }
 
     @NonNull
     @Override

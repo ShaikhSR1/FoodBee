@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 
-import com.cse27.foodbee.Model.CartModelClass;
+import com.cse27.foodbee.Model.CartModel;
 import com.cse27.foodbee.Recycler.CartPageAdapter;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class CartPage extends AppCompatActivity {
 
     RecyclerView recyclerView;
     LinearLayoutManager linearLayoutManager;
-    List<CartModelClass> cartProductList;
+    List<CartModel> cartProductList;
     CartPageAdapter adapter;
 
     @Override
@@ -33,7 +33,7 @@ public class CartPage extends AppCompatActivity {
 
         cartProductList = new ArrayList<>();
 
-        cartProductList.add(new CartModelClass(R.drawable.bbq_burger,"BBQ Burger","Unit Price","250","1"));
+        cartProductList.add(new CartModel(R.drawable.bbq_burger,"BBQ Burger","Unit Price","250","1"));
     }
 
     @SuppressLint("NotifyDataSetChanged")

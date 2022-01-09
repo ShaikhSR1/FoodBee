@@ -17,7 +17,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class SearchPage extends AppCompatActivity {
 
     SearchResult searchResult;
-    FirebaseFirestore firestoreSearch = FirebaseFirestore.getInstance();
+
     Button btnSearchFood;
     EditText editTextSearch;
     @Override
@@ -28,30 +28,15 @@ public class SearchPage extends AppCompatActivity {
         btnSearchFood = findViewById(R.id.btnSearchFood);
         editTextSearch = findViewById(R.id.editTextSearch);
 
-        btnSearchFood.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                firebaseUserSearch();
-            }
+        btnSearchFood.setOnClickListener(v -> {
+
+            Intent intent = new Intent(SearchPage.this, SearchResult.class);
+            startActivity(intent);
+            //searchResult.firebaseFoodSearch(/*editTextSearch.toString()*/);
         });
     }
 
-    private void firebaseUserSearch() {
-        firestoreSearch.collection("foods")
-                .get()
-                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-                    @Override
-                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                        Intent intent = new Intent(SearchPage.this, SearchResult.class);
-                        startActivity(intent);
-                        for (QueryDocumentSnapshot documents : queryDocumentSnapshots) {
-                            if(documents.getString("type")==editTextSearch.toString()) {
-                                searchResult.showResults(documents.getString("imageurl"), documents.getString("name"), documents.getString("rating"), documents.getString("price"));
-                            }
-                        }
-                    }
-                });
-    }
+
 
     /*public class SearchResultFromDB extends RecyclerView.ViewHolder {
         View view;

@@ -27,6 +27,10 @@ public class FoodRecyclerAdapter extends RecyclerView.Adapter<FoodRecyclerAdapte
         this.context = context;
     }
 
+    public FoodRecyclerAdapter() {
+
+    }
+
     @NonNull
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
