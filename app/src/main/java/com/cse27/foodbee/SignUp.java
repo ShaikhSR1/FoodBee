@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cse27.foodbee.Controller.SignUpController;
@@ -18,6 +19,7 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
 
     EditText inputSignUpFullName,inputSignUpEmail,inputSignUpPhone,inputSignUpPassword,inputSignUpConfirmPassword;
     Button signUpButton;
+    TextView toLogin;
 
     SignUpControllerInterface signUpController;
 
@@ -28,6 +30,7 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+        toLogin = (TextView) findViewById(R.id.toLogin);
         signUpController = new SignUpController(this);
         inputSignUpFullName = (EditText) findViewById(R.id.inputSignUpFullName);
         inputSignUpEmail = (EditText) findViewById(R.id.inputSignUpEmail);
@@ -39,6 +42,14 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
             @Override
             public void onClick(View view) {
                 signUpController.onSignUp(inputSignUpFullName.getText().toString().trim(),inputSignUpEmail.getText().toString().trim(),inputSignUpPhone.getText().toString().trim(),inputSignUpPassword.getText().toString().trim(),inputSignUpConfirmPassword.getText().toString().trim());
+            }
+        });
+
+        toLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignUp.this, Login.class);
+                startActivity(intent);
             }
         });
 
