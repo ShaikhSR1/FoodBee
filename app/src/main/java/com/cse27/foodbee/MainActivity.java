@@ -25,6 +25,15 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
  * @since 02 january, 2021
  */
 
+
+
+/**
+ * MainActivity file handles navigation and menus
+ * Search button icon for searching page
+ * Clicking on the button redirects to search page
+ */
+
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnSearch;
