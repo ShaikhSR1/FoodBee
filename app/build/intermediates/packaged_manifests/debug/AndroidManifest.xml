@@ -39,12 +39,6 @@
             android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.SearchPage"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.Login"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.SplashScreen"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
@@ -54,6 +48,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.cse27.foodbee.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.cse27.foodbee.SplashScreen"
+            android:exported="true" />
         <activity
             android:name="com.cse27.foodbee.SignUp"
             android:exported="false" />

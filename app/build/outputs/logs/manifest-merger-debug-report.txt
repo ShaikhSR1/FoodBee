@@ -227,37 +227,37 @@ ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:18:9
 	android:name
 		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:19:13-36
 activity#com.cse27.foodbee.SearchPage
-ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:21:9-23:39
+ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:21:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:24:13-49
 	android:exported
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:13-36
+	android:theme
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:25:13-72
 	android:name
 		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:22:13-39
-activity#com.cse27.foodbee.Login
-ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:13-34
-activity#com.cse27.foodbee.SplashScreen
-ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:28:9-38:20
-	android:screenOrientation
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:13-49
-	android:exported
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:13-36
-	android:theme
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:13-72
-	android:name
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:9-37:25
+ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:13-65
+ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:21-62
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:13-73
+ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:23-70
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.cse27.foodbee.Login
+ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:13-34
+activity#com.cse27.foodbee.SplashScreen
+ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:9-38:38
+	android:exported
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:37:13-41
 activity#com.cse27.foodbee.SignUp
 ADDED from C:\Users\shaik\Projects\FoodBee\app\src\main\AndroidManifest.xml:40:9-42:39
 	android:exported
