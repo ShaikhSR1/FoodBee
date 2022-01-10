@@ -23,6 +23,9 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Recycler view used to show foods from database
+ */
 
 public class FoodFragment extends Fragment {
 
@@ -53,6 +56,11 @@ public class FoodFragment extends Fragment {
 
         return root;
     }
+
+    /**
+     * Connection to firestore and fetching data
+     */
+
 
     private void getDataFromFireStore() {
         FirebaseFirestore firestoreData = FirebaseFirestore.getInstance();

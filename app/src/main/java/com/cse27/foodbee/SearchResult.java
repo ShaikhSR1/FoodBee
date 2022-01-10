@@ -35,6 +35,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Shows search result using recycler view
+ * This page uses FoodRecyclerAdapter class for showing results of searched food
+ */
+
 public class SearchResult extends AppCompatActivity {
 
     Context context;
@@ -76,6 +81,12 @@ public class SearchResult extends AppCompatActivity {
         textViewFoodRatingCard.setText(rating);
         textViewFoodPriceCard.setText(price);
     }*/
+
+
+    /**
+     * Fetches data from firestore collection "foods" according to queryFood from SearchPage
+     * @param queryFood
+     */
 
 
     public void firebaseFoodSearch(String queryFood) {

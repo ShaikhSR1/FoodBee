@@ -15,6 +15,11 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
+/**
+ * Search system
+ * Searching food and restaurants
+ */
+
 public class SearchPage extends AppCompatActivity {
 
     SearchResult searchResult;
@@ -30,6 +35,15 @@ public class SearchPage extends AppCompatActivity {
         btnSearchRestaurant = (Button) findViewById(R.id.btnSearchRestaurant);
         btnSearchFood = (Button) findViewById(R.id.btnSearchFood);
         editTextSearch = (EditText) findViewById(R.id.editTextSearch);
+
+
+        /**
+         * Redirects to search resut
+         * Search food or restaurant by tapping food or restaurant button
+         * Calls firebaseFoodSearch method from SearchResult class
+         * passes parameter queryFood
+         */
+
 
         btnSearchFood.setOnClickListener(v -> {
 
