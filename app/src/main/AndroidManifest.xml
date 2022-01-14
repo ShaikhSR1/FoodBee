@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodbee">
         <activity
-            android:name=".ViewOrderList"
-            android:exported="false"/>
+            android:name=".Payment"
+            android:exported="false" />
         <activity
             android:name=".SearchResult"
             android:exported="false" />
@@ -29,6 +29,15 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
+            android:exported="false"/>
+
+
+
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -38,13 +47,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".SignUp"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
     </application>
 
 </manifest>
