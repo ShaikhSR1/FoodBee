@@ -23,13 +23,20 @@ import java.util.Objects;
 /**
  * Home page of the app
  */
-
-
 public class HomeFragment extends Fragment {
 
-    ImageView imageViewCart, imageViewProfile;
+    /**
+     * The Image view cart.
+     */
+    ImageView imageViewCart, /**
+     * The Image view profile.
+     */
+    imageViewProfile;
 
 
+    /**
+     * Instantiates a new Home fragment.
+     */
     public HomeFragment() {
         // Required empty public constructor
     }
