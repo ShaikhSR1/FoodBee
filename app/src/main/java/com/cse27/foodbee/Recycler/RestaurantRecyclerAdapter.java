@@ -16,19 +16,42 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+/**
+ * The type Restaurant recycler adapter.
+ */
 public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRecyclerAdapter.viewHolder> {
 
+    /**
+     * The All restaurant.
+     */
     List<RestaurantModel> allRestaurant;
+    /**
+     * The Context.
+     */
     Context context;
 
+    /**
+     * Instantiates a new Restaurant recycler adapter.
+     *
+     * @param allRestaurant the all restaurant
+     * @param context       the context
+     */
     public RestaurantRecyclerAdapter(List<RestaurantModel> allRestaurant, Context context) {
         this.allRestaurant = allRestaurant;
         this.context = context;
     }
 
+    /**
+     * Instantiates a new Restaurant recycler adapter.
+     *
+     * @param allRestaurants the all restaurants
+     */
     public RestaurantRecyclerAdapter(List<RestaurantModel> allRestaurants) {
     }
 
+    /**
+     * Instantiates a new Restaurant recycler adapter.
+     */
     public RestaurantRecyclerAdapter() {
     }
 
@@ -58,11 +81,28 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
         }
     }
 
+    /**
+     * The type View holder.
+     */
     public class viewHolder extends RecyclerView.ViewHolder {
 
+        /**
+         * The Image restaurant card.
+         */
         ImageView imageRestaurantCard;
-        TextView textViewRestaurantNameCard, textViewRestaurantRatingCard;
+        /**
+         * The Text view restaurant name card.
+         */
+        TextView textViewRestaurantNameCard, /**
+         * The Text view restaurant rating card.
+         */
+        textViewRestaurantRatingCard;
 
+        /**
+         * Instantiates a new View holder.
+         *
+         * @param itemView the item view
+         */
         public viewHolder(@NonNull View itemView) {
             super(itemView);
 
