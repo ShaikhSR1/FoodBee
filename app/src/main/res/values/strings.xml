@@ -3,19 +3,27 @@
     <!-- Text Values -->
     <string name="app_name">Foodbee</string>
 
+    <!-- Payment -->
+    <string name="payment">Select Payment Method</string>
+    <string name="totalPayment">Total</string>
+    <string name="subTotal">Sub Total</string>
+    <string name="shippingPayment">Shipping</string>
+    <string name="discount">Discount</string>
+    <string name="ruler">------------------------------------------------------------------------------------------------</string>
+    
+    <!-- Order List -->
+    <string name="text_order_date">Order Date</string>
+    <string name="text_status">Status</string>
+    <string name="text_payment_method">Payment Method</string>
+    <string name="text_total">Total : </string>
+    <string name="text_order_id">Order ID</string>
+
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>
     <string name="tagline">The hive of good food</string>
     <string name="banner_signup">Sign Up!</string>
     <string name="banner_search">Search Here</string>
     <string name="update_profile">Edit Profile</string>
-    <string name="text_order_id">Order ID</string>
-
-    <!-- Order List -->
-    <string name="text_order_date">Order Date</string>
-    <string name="text_status">Status</string>
-    <string name="text_payment_method">Payment Method</string>
-    <string name="text_total">Total : </string>
 
     <!-- Profile info -->
     <string name="user_name">Nishat Tasnim</string>
@@ -40,7 +48,11 @@
     <string name="update">Update</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
-    <string name="home">Home</string>
+    <string name="cod">COD</string>
+    <string name="mobileBanking">Bkash</string>
+    <string name="bank">Bank</string>
+    <string name="confirmPayment">Confirm</string>
+
 
     <!-- Hint Names -->
     <string name="hint_name">Enter Full Name</string>
