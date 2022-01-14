@@ -1896,6 +1896,7 @@ drawable icon_location
 drawable icon_mobile
 drawable icon_name
 drawable icon_password
+drawable icon_search
 drawable logo_splash
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2051,9 +2052,10 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddToCart
-id btnSearchCuisine
+id btnSearch
 id btnSearchFood
 id btnSearchRestaurant
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2065,6 +2067,7 @@ id cartFoodName
 id cartFoodPrice
 id cartFoodPriceValue
 id cartProductQuantity
+id cartRecyclerView
 id center
 id center_horizontal
 id center_vertical
@@ -2137,6 +2140,7 @@ id easeInOut
 id easeOut
 id east
 id editTextSearch
+id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2197,10 +2201,10 @@ id imageFoodCard
 id imageProfile
 id imageProfile2
 id imageRestaurantCard
-id imageView
 id imageView2
 id imageViewCart
 id imageViewProfile
+id imageViewReturn
 id imageViewSearchpage
 id immediateStop
 id included
@@ -2341,6 +2345,11 @@ id progress_horizontal
 id progress_icon
 id progress_title
 id radio
+id radioButton5
+id radioButton6
+id radioButton7
+id radioButton8
+id radioGroup
 id ratio
 id rectangles
 id restaurantFragment
@@ -2443,8 +2452,12 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView3
+id textView4
+id textView5
 id textViewAppName
 id textViewAppNameUpadte
+id textViewCancelOrder
 id textViewEditProfile
 id textViewFoodNameCard
 id textViewFoodPriceCard
@@ -2471,6 +2484,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toLogin
+id toSignUp
 id toggle
 id top
 id topPanel
@@ -2582,6 +2597,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cancel_order
 layout activity_cart_page
 layout activity_login
 layout activity_main
@@ -2662,6 +2678,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_cart
 layout recycler_food
 layout recycler_restaurant
 layout select_dialog_item_material
@@ -2727,6 +2744,13 @@ string banner_search
 string banner_signup
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string cancel_option1
+string cancel_option2
+string cancel_option3
+string cancel_option4
+string cancel_order
+string cancel_question_title
+string cancel_review
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2752,6 +2776,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string confirm_cancel_order
 string default_error_message
 string default_web_client_id
 string error_icon_content_description
@@ -2846,6 +2871,7 @@ string not_selected
 string off
 string ok
 string on
+string order_id
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2867,6 +2893,8 @@ string tab
 string tagline
 string template_percent
 string terms_conditions
+string to_login
+string to_signup
 string update
 string updateProfile
 string update_profile

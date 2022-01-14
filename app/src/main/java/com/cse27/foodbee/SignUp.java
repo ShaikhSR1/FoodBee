@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cse27.foodbee.Controller.SignUpController;
@@ -18,8 +19,15 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
 
     EditText inputSignUpFullName,inputSignUpEmail,inputSignUpPhone,inputSignUpPassword,inputSignUpConfirmPassword;
     Button signUpButton;
+    TextView toLogin;
 
     SignUpControllerInterface signUpController;
+
+    /**
+     * takes values fron user
+     * sends the values to controlller
+     * @param savedInstanceState
+     */
 
 
 
@@ -28,6 +36,7 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+        toLogin = (TextView) findViewById(R.id.toLogin);
         signUpController = new SignUpController(this);
         inputSignUpFullName = (EditText) findViewById(R.id.inputSignUpFullName);
         inputSignUpEmail = (EditText) findViewById(R.id.inputSignUpEmail);
@@ -42,7 +51,20 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
             }
         });
 
+        toLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignUp.this, Login.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
+    /**
+     * success messsage
+     * @param message
+     */
 
     @Override
     public void onSignUpSuccess(String message) {
@@ -51,6 +73,11 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
         startActivity(intent);
 
     }
+
+    /**
+     * failed massage
+     * @param message
+     */
 
     @Override
     public void onSignUpError(String message) {

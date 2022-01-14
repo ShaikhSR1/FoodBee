@@ -2,6 +2,8 @@
 
     <!-- Text Values -->
     <string name="app_name">Foodbee</string>
+    <string name="to_signup">Already have an account? LOGIN</string>
+    <string name="to_login">Don\'t have an account? SIGN UP</string>
 
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>
@@ -9,6 +11,7 @@
     <string name="banner_signup">Sign Up!</string>
     <string name="banner_search">Search Here</string>
     <string name="update_profile">Edit Profile</string>
+    <string name="cancel_order">Cancel Order!</string>
 
     <!-- Profile info -->
     <string name="user_name">Nishat Tasnim</string>
@@ -33,6 +36,7 @@
     <string name="update">Update</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
+    <string name="confirm_cancel_order">Confirm Cancel Order</string>
 
 
     <!-- Hint Names -->
@@ -44,6 +48,16 @@
     <string name="hint_search_box">Search by Food, Restaurant or Cuisine</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Cancel Order -->
+    <string name="order_id">Order ID: </string>
+    <string name="cancel_question_title">Why do you want to cancel order?</string>
+    <string name="cancel_option1">Late Delivery </string>
+    <string name="cancel_option2">Bad Rider </string>
+    <string name="cancel_option3">Bad Restaurant </string>
+    <string name="cancel_option4">Others </string>
+    <string name="cancel_review">Please Provide a Review</string>
 
 
 </resources>
