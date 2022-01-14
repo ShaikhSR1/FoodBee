@@ -32,20 +32,52 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 /**
  * this Update Profile Screen will show a page with Profile Info which are editable
  */
-
 public class UpdateProfile extends AppCompatActivity implements UpdateProfileViewInterface {
 
-    EditText updateUserName, updateUserEmail, updateUserAddress, updateUserPhoneNumber, updateUserPassword;
+    /**
+     * The Update user name.
+     */
+    EditText updateUserName, /**
+     * The Update user email.
+     */
+    updateUserEmail, /**
+     * The Update user address.
+     */
+    updateUserAddress, /**
+     * The Update user phone number.
+     */
+    updateUserPhoneNumber, /**
+     * The Update user password.
+     */
+    updateUserPassword;
+    /**
+     * The Update profile button.
+     */
     Button updateProfileButton;
+    /**
+     * The Image view cross.
+     */
     ImageView imageViewCross;
     private String fullName, email, phoneNo, address, password;
     private String userId;
+    /**
+     * The Root node.
+     */
     FirebaseDatabase rootNode;
+    /**
+     * The Reference.
+     */
     DatabaseReference reference;
+    /**
+     * The Food bee.
+     */
     FirebaseFirestore foodBee = FirebaseFirestore.getInstance();
     private FirebaseAuth profileAuth;
 
 
+    /**
+     * The Update profile controller.
+     */
     UpdateProfileControllerInterface updateProfileController;
 
     @Override

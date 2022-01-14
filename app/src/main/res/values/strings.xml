@@ -9,7 +9,13 @@
     <string name="banner_signup">Sign Up!</string>
     <string name="banner_search">Search Here</string>
     <string name="update_profile">Edit Profile</string>
+    <string name="text_order_id">Order ID</string>
 
+    <!-- Order List -->
+    <string name="text_order_date">Order Date</string>
+    <string name="text_status">Status</string>
+    <string name="text_payment_method">Payment Method</string>
+    <string name="text_total">Total : </string>
     <!-- Profile info -->
     <string name="user_name">Nishat Tasnim</string>
     <string name="user_email">tasnim5349@gmail.com</string>
@@ -33,7 +39,7 @@
     <string name="update">Update</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
-
+    <string name="home">Home</string>
 
     <!-- Hint Names -->
     <string name="hint_name">Enter Full Name</string>

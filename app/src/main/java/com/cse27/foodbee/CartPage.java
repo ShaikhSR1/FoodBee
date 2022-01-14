@@ -24,7 +24,7 @@ public class CartPage extends AppCompatActivity implements CartPageViewInterface
     RecyclerView recyclerView;
     LinearLayoutManager linearLayoutManager;
     List<CartPageModel> cartProductList;
-    //cartList = new ArrayList<>();
+    ArrayList cartList = new ArrayList<>();
     com.cse27.foodbee.Recycler.CartPageAdapter adapter;
     CartPageShowControllerInterface cartPageShow = new CartPageShowController(this);
 

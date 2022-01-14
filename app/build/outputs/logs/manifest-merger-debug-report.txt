@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [com.google.android.gms:play-services-location:19.0.1] C:\Users\Nishat\.gradle\caches\transforms-3\fd1739ae89b7264b685b83dceb1712e9\transformed\jetified-play-services-location-19.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.5] C:\Users\Nishat\.gradle\caches\transforms-3\3a3e7a18fc917632ca37601286e61ec3\transformed\jetified-navigation-dynamic-features-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Nishat\.gradle\caches\transforms-3\9a0453b3721f7ab068170565f2e6bd5f\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -111,25 +111,25 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nishat\
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Nishat\.gradle\caches\transforms-3\97c9b5d86fced5e6f7a4cbd2f94853b9\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Nishat\.gradle\caches\transforms-3\0d32d35274e9316f6cb3cc28abf26edd\transformed\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.play:core:1.9.1] C:\Users\Nishat\.gradle\caches\transforms-3\da08fb2a6158b528ecc0cf3fea441c38\transformed\jetified-core-1.9.1\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:5:5-46:19
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:5:5-48:19
 MERGED from [com.google.android.gms:play-services-location:19.0.1] C:\Users\Nishat\.gradle\caches\transforms-3\fd1739ae89b7264b685b83dceb1712e9\transformed\jetified-play-services-location-19.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:19.0.1] C:\Users\Nishat\.gradle\caches\transforms-3\fd1739ae89b7264b685b83dceb1712e9\transformed\jetified-play-services-location-19.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Nishat\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
@@ -208,68 +208,74 @@ MERGED from [com.google.android.play:core:1.9.1] C:\Users\Nishat\.gradle\caches\
 		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:11:9-45
-activity#com.cse27.foodbee.SearchResult
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:12:9-14:40
-	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:14:13-37
-	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:13:13-41
-activity#com.cse27.foodbee.UpdateProfile
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:15:9-17:40
-	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:17:13-37
-	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:16:13-42
-activity#com.cse27.foodbee.Profile
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:18:9-20:49
-	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:19:13-36
-activity#com.cse27.foodbee.SearchPage
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:21:9-23:49
-	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:13-37
-	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:22:13-39
-activity#com.cse27.foodbee.Login
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:25:9-35:20
+activity#com.cse27.foodbee.ViewOrderList
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:12:9-22:20
 	android:screenOrientation
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:28:13-49
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:15:13-49
 	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:14:13-36
 	android:theme
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:13-72
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:16:13-72
 	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:13-34
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:13:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.cse27.foodbee.SearchResult
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:24:13-41
+activity#com.cse27.foodbee.UpdateProfile
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:27:13-42
+activity#com.cse27.foodbee.Profile
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:30:13-36
+activity#com.cse27.foodbee.SearchPage
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:33:13-39
+activity#com.cse27.foodbee.Login
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:13-34
 activity#com.cse27.foodbee.SplashScreen
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:36:9-38:49
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:38:9-40:39
 	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:39:13-41
 activity#com.cse27.foodbee.SignUp
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:39:9-41:49
-	android:exported
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:41:13-37
-	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:40:13-35
-activity#com.cse27.foodbee.MainActivity
-ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:42:9-44:39
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:exported
 		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:43:13-41
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:43:13-35
+activity#com.cse27.foodbee.MainActivity
+ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml:46:13-41
 uses-sdk
 INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Nishat\Projects\FoodBee\app\src\main\AndroidManifest.xml

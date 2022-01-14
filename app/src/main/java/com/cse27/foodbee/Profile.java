@@ -26,11 +26,20 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
  * A Profile activity screen that show the User name with some options
  * like update profile and view order History
  */
-
 public class Profile extends AppCompatActivity implements ProfileViewInterface {
-    private Button updateProfileButton, logoutButton;
-    TextView textViewUserName, textViewUserAddress;
+    private Button updateProfileButton, logoutButton, viewOrderListButton;
+    /**
+     * The Text view user name.
+     */
+    TextView textViewUserName,
+    /**
+     * The Text view user address.
+     */
+    textViewUserAddress;
     private String fullName, address;
+    /**
+     * The Profile controller.
+     */
     ProfileControllerInterface profileController;
 
     @Override
@@ -51,11 +60,20 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
         //profileController.onProfileReload();
 
         updateProfileButton = findViewById(R.id.updateProfileButton);
+        viewOrderListButton = findViewById(R.id.orderHistoryButton);
         logoutButton = findViewById(R.id.logoutButton);
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 goToUpdateProfile();
+            }
+
+        });
+
+        viewOrderListButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToOrderHistory();
             }
 
         });
@@ -74,6 +92,14 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
      */
     public void goToLoginPage(){
         Intent intent= new Intent(this, Login.class );
+        startActivity(intent);
+    }
+
+    /**
+     * Go to order history.
+     */
+    public void goToOrderHistory(){
+        Intent intent= new Intent(this, ViewOrderList.class );
         startActivity(intent);
     }
 

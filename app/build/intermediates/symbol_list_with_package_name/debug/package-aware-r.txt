@@ -1896,6 +1896,7 @@ drawable icon_location
 drawable icon_mobile
 drawable icon_name
 drawable icon_password
+drawable icon_search
 drawable logo_splash
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2051,7 +2052,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddToCart
-id btnSearchCuisine
+id btnSearch
 id btnSearchFood
 id btnSearchRestaurant
 id buttonPanel
@@ -2065,6 +2066,7 @@ id cartFoodName
 id cartFoodPrice
 id cartFoodPriceValue
 id cartProductQuantity
+id cartRecyclerView
 id center
 id center_horizontal
 id center_vertical
@@ -2176,6 +2178,7 @@ id hide_in_inspector_tag
 id hideable
 id home
 id homeAsUp
+id homeButton
 id homeFragment
 id honorRequest
 id horizontal_only
@@ -2197,10 +2200,10 @@ id imageFoodCard
 id imageProfile
 id imageProfile2
 id imageRestaurantCard
-id imageView
 id imageView2
 id imageViewCart
 id imageViewProfile
+id imageViewReturn
 id imageViewSearchpage
 id immediateStop
 id included
@@ -2317,7 +2320,10 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id orderDate
 id orderHistoryButton
+id orderId
+id orderListRecyclerView
 id outline
 id outward
 id overshoot
@@ -2330,6 +2336,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id paymentMethod
 id peekHeight
 id percent
 id pin
@@ -2411,6 +2418,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status
 id stop
 id stretch
 id submenuarrow
@@ -2438,11 +2446,17 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textOrderDate
+id textOrderId
+id textPaymentMethod
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textStatus
 id textTop
+id textTotalCost
 id textView
+id textView2
 id textViewAppName
 id textViewAppNameUpadte
 id textViewEditProfile
@@ -2474,6 +2488,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalCost
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2591,6 +2606,7 @@ layout activity_search_result
 layout activity_sign_up
 layout activity_splash_screen
 layout activity_update_profile
+layout activity_view_order_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -2662,7 +2678,9 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_cart
 layout recycler_food
+layout recycler_order_list
 layout recycler_restaurant
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -2774,6 +2792,7 @@ string hint_name
 string hint_password
 string hint_phone
 string hint_search_box
+string home
 string icon_content_description
 string in_progress
 string indeterminate
@@ -2867,6 +2886,11 @@ string tab
 string tagline
 string template_percent
 string terms_conditions
+string text_order_date
+string text_order_id
+string text_payment_method
+string text_status
+string text_total
 string update
 string updateProfile
 string update_profile

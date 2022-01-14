@@ -29,6 +29,17 @@
         android:testOnly="true"
         android:theme="@style/Theme.Foodbee" >
         <activity
+            android:name="com.cse27.foodbee.ViewOrderList"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.cse27.foodbee.SearchResult"
             android:exported="false" />
         <activity
@@ -42,15 +53,7 @@
             android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.Login"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.cse27.foodbee.SplashScreen"
             android:exported="false" />
