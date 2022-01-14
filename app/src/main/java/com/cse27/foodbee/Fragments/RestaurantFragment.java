@@ -23,12 +23,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * The type Restaurant fragment.
+ */
 public class RestaurantFragment extends Fragment {
 
+    /**
+     * The Recycler view.
+     */
     RecyclerView recyclerView;
+    /**
+     * The Restaurant recycler adapter.
+     */
     RestaurantRecyclerAdapter restaurantRecyclerAdapter;
+    /**
+     * The All restaurants.
+     */
     List<RestaurantModel> allRestaurants = new ArrayList<>();
 
+    /**
+     * Instantiates a new Restaurant fragment.
+     */
     public RestaurantFragment() {
         // Required empty public constructor
     }

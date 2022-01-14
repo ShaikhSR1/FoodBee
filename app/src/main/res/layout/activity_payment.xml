@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewPaymentMethod" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/paymentRadioGroup"
         android:layout_width="267dp"
         android:layout_height="154dp"
         android:layout_marginStart="24dp"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewPaymentMethod">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/paymentRadioBtn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cod"
@@ -89,7 +89,7 @@
             android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/paymentRadioBtn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mobileBanking"
@@ -97,7 +97,7 @@
             android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/paymentRadioBtn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bank"
@@ -117,7 +117,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/paymentRadioGroup" />
 
     <TextView
         android:id="@+id/textViewShipping"
@@ -166,7 +166,7 @@
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/paymentRadioGroup" />
 
     <TextView
         android:id="@+id/tvShippingValue"

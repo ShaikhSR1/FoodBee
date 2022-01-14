@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+/**
+ * The type Splash screen.
+ */
 public class SplashScreen extends AppCompatActivity {
 
     // Splash Screen Timer
