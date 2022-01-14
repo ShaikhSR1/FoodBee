@@ -31,6 +31,17 @@ public class SignUpController implements SignUpControllerInterface{
         this.signUpView = signUpView;
     }
 
+    /**
+     * passes the data to model
+     * connects firebase
+     * checks validity
+     * @param fullName
+     * @param email
+     * @param phoneNumber
+     * @param password
+     * @param confirmPassword
+     */
+
     @Override
     public void onSignUp(String fullName, String email, String phoneNumber, String password, String confirmPassword) {
         SignUpModel signUpModel = new SignUpModel(fullName, email,phoneNumber,password,confirmPassword);

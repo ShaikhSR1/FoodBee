@@ -9,35 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodbee">
-        <activity
-            android:name=".Payment"
-            android:exported="false" />
-        <activity
-            android:name=".SearchResult"
-            android:exported="false" />
-        <activity
-            android:name=".UpdateProfile"
-            android:exported="false" />
-        <activity
-            android:name=".Profile"
-            android:exported="false" />
-        <activity
-            android:name=".SearchPage"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
-            android:exported="false"/>
+
 
 
 
         <activity
-            android:name=".SignUp"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".CancelOrder"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -46,7 +23,69 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+
+
+
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".SearchResult"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Profile"
+
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".SearchPage"
+            android:exported="false">
+
+        </activity>
+            android:exported="false" />
+        <activity
+            android:name=".SearchPage"
+            android:exported="false" />
+
+        <activity
+            android:name=".Login"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+
+            android:exported="true">
+
+            android:exported="false"/>
+
+
+
+
+        </activity>
+
+
+        <activity
+            android:name=".SignUp"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+
     </application>
 
 </manifest>
