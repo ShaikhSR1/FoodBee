@@ -5,6 +5,14 @@
     <string name="to_login">Already have an account? LOGIN</string>
     <string name="to_signup">Don\'t have an account? SIGN UP</string>
 
+    <!-- Payment -->
+    <string name="payment">Select Payment Method</string>
+    <string name="totalPayment">Total</string>
+    <string name="subTotal">Sub Total</string>
+    <string name="shippingPayment">Shipping</string>
+    <string name="discount">Discount</string>
+    <string name="ruler">------------------------------------------------------------------------------------------------</string>
+
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>
     <string name="tagline">The hive of good food</string>
@@ -37,6 +45,11 @@
     <string name="minus">-</string>
     <string name="plus">+</string>
     <string name="confirm_cancel_order">Confirm Cancel Order</string>
+    <string name="cod">COD</string>
+    <string name="mobileBanking">Bkash</string>
+    <string name="bank">Bank</string>
+    <string name="confirmPayment">Confirm</string>
+
 
 
     <!-- Hint Names -->

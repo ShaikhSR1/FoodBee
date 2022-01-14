@@ -19,12 +19,26 @@ import com.google.firebase.firestore.QuerySnapshot;
  * Search system
  * Searching food and restaurants
  */
-
 public class SearchPage extends AppCompatActivity {
 
+    /**
+     * The Search result.
+     */
     SearchResult searchResult;
+    /**
+     * The Image view return.
+     */
     ImageView imageViewReturn;
-    Button btnSearchFood, btnSearchRestaurant;
+    /**
+     * The Btn search food.
+     */
+    Button btnSearchFood, /**
+     * The Btn search restaurant.
+     */
+    btnSearchRestaurant;
+    /**
+     * The Edit text search.
+     */
     EditText editTextSearch;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

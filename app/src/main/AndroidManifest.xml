@@ -30,6 +30,9 @@
 
 
         <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
             android:name=".SearchResult"
             android:exported="false">
 
@@ -41,6 +44,7 @@
         </activity>
         <activity
             android:name=".Profile"
+
             android:exported="false">
 
         </activity>
@@ -49,6 +53,11 @@
             android:exported="false">
 
         </activity>
+            android:exported="false" />
+        <activity
+            android:name=".SearchPage"
+            android:exported="false" />
+
         <activity
             android:name=".Login"
             android:exported="false">
@@ -56,9 +65,16 @@
         </activity>
         <activity
             android:name=".SplashScreen"
+
             android:exported="true">
 
+            android:exported="false"/>
+
+
+
+
         </activity>
+
 
         <activity
             android:name=".SignUp"
@@ -68,6 +84,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+
     </application>
 
 </manifest>
