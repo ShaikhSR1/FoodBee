@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -72,6 +76,10 @@
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxhdpi\\sign_up_background_round.png"
     },
     {
+        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_restaurant.xml.flat",
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\fragment_restaurant.xml"
     },
@@ -82,6 +90,10 @@
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_content_cancel_order.xml.flat",
+        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\content_cancel_order.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_search_page.xml.flat",
@@ -116,12 +128,12 @@
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\navigation_bottom_nav_graph.xml.flat",
-        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\navigation\\bottom_nav_graph.xml"
-    },
-    {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_sign_up_background_round.png.flat",
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-xhdpi\\sign_up_background_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\navigation_bottom_nav_graph.xml.flat",
+        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\navigation\\bottom_nav_graph.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cancel_order.xml.flat",
@@ -162,6 +174,10 @@
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cross.png.flat",
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\drawable\\ic_cross.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
@@ -262,6 +278,10 @@
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_sign_up_background.png.flat",
         "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\mipmap-hdpi\\sign_up_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cancel_order2.xml.flat",
+        "source": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\src\\main\\res\\layout\\activity_cancel_order2.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\Projects\\FoodBee\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

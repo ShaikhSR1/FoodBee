@@ -2,8 +2,8 @@
 
     <!-- Text Values -->
     <string name="app_name">Foodbee</string>
-    <string name="to_signup">Already have an account? LOGIN</string>
-    <string name="to_login">Don\'t have an account? SIGN UP</string>
+    <string name="to_login">Already have an account? LOGIN</string>
+    <string name="to_signup">Don\'t have an account? SIGN UP</string>
 
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>
@@ -58,6 +58,17 @@
     <string name="cancel_option3">Bad Restaurant </string>
     <string name="cancel_option4">Others </string>
     <string name="cancel_review">Please Provide a Review</string>
+    <string name="title_activity_cancel_order">CancelOrder</string>
+    <string name="order_number">000003</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
 
 </resources>

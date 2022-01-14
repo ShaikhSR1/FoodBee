@@ -29,22 +29,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Foodbee" >
         <activity
-            android:name="com.cse27.foodbee.SearchResult"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.UpdateProfile"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.Profile"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.SearchPage"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.Login"
-            android:exported="false" />
-        <activity
-            android:name="com.cse27.foodbee.SplashScreen"
+            android:name="com.cse27.foodbee.CancelOrder"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
@@ -55,8 +40,33 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.cse27.foodbee.SearchResult"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.cse27.foodbee.UpdateProfile"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.cse27.foodbee.Profile"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.cse27.foodbee.SearchPage"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.cse27.foodbee.Login"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.cse27.foodbee.SplashScreen"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.cse27.foodbee.SignUp"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.cse27.foodbee.MainActivity"
             android:exported="false" />

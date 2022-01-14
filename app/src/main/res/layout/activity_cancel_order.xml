@@ -8,49 +8,48 @@
 
     <TextView
         android:id="@+id/textViewCancelOrder"
-        android:layout_width="370dp"
-        android:layout_height="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:fontFamily="@font/tahu"
         android:gravity="center"
         android:text="@string/cancel_order"
         android:textColor="@color/app_color"
         android:textSize="70sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOrderID"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewOrderID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="63dp"
+        android:layout_marginStart="140dp"
         android:layout_marginBottom="41dp"
         android:text="@string/order_id"
         android:textColor="@color/app_color"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toTopOf="@+id/textViewQuestionTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewCancelOrder"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewOrderNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="149dp"
-        android:text="TextView"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="156dp"
+        android:text="@string/order_number"
         android:textColor="@color/app_color"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewCancelOrder" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewQuestionTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cancel_question_title"
@@ -58,40 +57,42 @@
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewOrderID" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="333dp"
         android:layout_height="194dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextFeedback"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestionTitle">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/buttonFeedback1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cancel_option1"
             android:textColor="@color/app_color" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/buttonFeedback2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cancel_option2"
             android:textColor="@color/app_color" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/buttonFeedback3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cancel_option3"
             android:textColor="@color/app_color" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/buttonFeedback4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cancel_option4"
@@ -100,30 +101,30 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextFeedback"
         android:layout_width="369dp"
         android:layout_height="50dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="24dp"
         android:layout_marginBottom="104dp"
         android:ems="10"
         android:inputType="text"
         android:text="@string/cancel_review"
         android:textColor="@color/app_color"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConfirmCancel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonConfirmCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="40dp"
         android:text="@string/confirm_cancel_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextFeedback" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

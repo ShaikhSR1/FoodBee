@@ -1,3 +1,8 @@
+com/cse27/foodbee/databinding/ActivityProfileBinding.java
+ com.cse27.foodbee.databinding.ActivityProfileBinding
+com/cse27/foodbee/FirstFragment.java
+ com.cse27.foodbee.FirstFragment
+ com.cse27.foodbee.FirstFragment$1
 com/cse27/foodbee/BuildConfig.java
  com.cse27.foodbee.BuildConfig
 com/cse27/foodbee/View/RestaurantViewInterface.java
@@ -7,6 +12,14 @@ com/cse27/foodbee/Model/FoodModel.java
 com/cse27/foodbee/Recycler/RestaurantRecyclerAdapter.java
  com.cse27.foodbee.Recycler.RestaurantRecyclerAdapter
  com.cse27.foodbee.Recycler.RestaurantRecyclerAdapter$viewHolder
+com/cse27/foodbee/databinding/ActivitySplashScreenBinding.java
+ com.cse27.foodbee.databinding.ActivitySplashScreenBinding
+com/cse27/foodbee/databinding/ActivityLoginBinding.java
+ com.cse27.foodbee.databinding.ActivityLoginBinding
+com/cse27/foodbee/databinding/FragmentSecondBinding.java
+ com.cse27.foodbee.databinding.FragmentSecondBinding
+com/cse27/foodbee/databinding/RecyclerFoodBinding.java
+ com.cse27.foodbee.databinding.RecyclerFoodBinding
 com/cse27/foodbee/Controller/CartPageShowController.java
  com.cse27.foodbee.Controller.CartPageShowController
  com.cse27.foodbee.Controller.CartPageShowController$1
@@ -15,14 +28,21 @@ com/cse27/foodbee/MainActivity.java
  com.cse27.foodbee.MainActivity$1
 com/cse27/foodbee/Model/UpdateProfileModel.java
  com.cse27.foodbee.Model.UpdateProfileModel
+com/cse27/foodbee/databinding/ActivityCartPageBinding.java
+ com.cse27.foodbee.databinding.ActivityCartPageBinding
+com/cse27/foodbee/databinding/ActivitySearchResultBinding.java
+ com.cse27.foodbee.databinding.ActivitySearchResultBinding
+com/cse27/foodbee/SecondFragment.java
+ com.cse27.foodbee.SecondFragment
+ com.cse27.foodbee.SecondFragment$1
 com/cse27/foodbee/Controller/SignUpController.java
  com.cse27.foodbee.Controller.SignUpController
  com.cse27.foodbee.Controller.SignUpController$1
  com.cse27.foodbee.Controller.SignUpController$1$1
-com/cse27/foodbee/View/CancelOrderViewInterface.java
- com.cse27.foodbee.View.CancelOrderViewInterface
 com/cse27/foodbee/Controller/RestaurantController.java
  com.cse27.foodbee.Controller.RestaurantController
+com/cse27/foodbee/View/CancelOrderViewInterface.java
+ com.cse27.foodbee.View.CancelOrderViewInterface
 com/cse27/foodbee/Controller/LoginController.java
  com.cse27.foodbee.Controller.LoginController
  com.cse27.foodbee.Controller.LoginController$1
@@ -33,6 +53,8 @@ com/cse27/foodbee/Controller/SignUpControllerInterface.java
 com/cse27/foodbee/Recycler/CartPageAdapter.java
  com.cse27.foodbee.Recycler.CartPageAdapter
  com.cse27.foodbee.Recycler.CartPageAdapter$ViewHolder
+com/cse27/foodbee/databinding/ActivityCancelOrderBinding.java
+ com.cse27.foodbee.databinding.ActivityCancelOrderBinding
 com/cse27/foodbee/Controller/CancelOrderController.java
  com.cse27.foodbee.Controller.CancelOrderController
 com/cse27/foodbee/Model/ProfileModel.java
@@ -62,10 +84,20 @@ com/cse27/foodbee/View/CartPageViewInterface.java
  com.cse27.foodbee.View.CartPageViewInterface
 com/cse27/foodbee/Model/UpdateProfileModelInterface.java
  com.cse27.foodbee.Model.UpdateProfileModelInterface
+com/cse27/foodbee/databinding/ActivityUpdateProfileBinding.java
+ com.cse27.foodbee.databinding.ActivityUpdateProfileBinding
+com/cse27/foodbee/databinding/FragmentFoodBinding.java
+ com.cse27.foodbee.databinding.FragmentFoodBinding
 com/cse27/foodbee/Model/CartPageModelInterface.java
  com.cse27.foodbee.Model.CartPageModelInterface
+com/cse27/foodbee/databinding/ActivitySearchPageBinding.java
+ com.cse27.foodbee.databinding.ActivitySearchPageBinding
+com/cse27/foodbee/databinding/RecyclerCartBinding.java
+ com.cse27.foodbee.databinding.RecyclerCartBinding
 com/cse27/foodbee/CartPage.java
  com.cse27.foodbee.CartPage
+com/cse27/foodbee/databinding/FragmentRestaurantBinding.java
+ com.cse27.foodbee.databinding.FragmentRestaurantBinding
 com/cse27/foodbee/Fragments/HomeFragment.java
  com.cse27.foodbee.Fragments.HomeFragment
  com.cse27.foodbee.Fragments.HomeFragment$1
@@ -77,15 +109,27 @@ com/cse27/foodbee/Model/RestaurantModel.java
  com.cse27.foodbee.Model.RestaurantModel
 com/cse27/foodbee/Model/CartPageModel.java
  com.cse27.foodbee.Model.CartPageModel
+com/cse27/foodbee/databinding/FragmentFirstBinding.java
+ com.cse27.foodbee.databinding.FragmentFirstBinding
+com/cse27/foodbee/databinding/FragmentHomeBinding.java
+ com.cse27.foodbee.databinding.FragmentHomeBinding
 com/cse27/foodbee/Model/SignUpModelInterface.java
  com.cse27.foodbee.Model.SignUpModelInterface
 com/cse27/foodbee/View/ProfileViewInterface.java
  com.cse27.foodbee.View.ProfileViewInterface
+com/cse27/foodbee/databinding/RecyclerRestaurantBinding.java
+ com.cse27.foodbee.databinding.RecyclerRestaurantBinding
 com/cse27/foodbee/Fragments/RestaurantFragment.java
  com.cse27.foodbee.Fragments.RestaurantFragment
  com.cse27.foodbee.Fragments.RestaurantFragment$1
+com/cse27/foodbee/databinding/ContentCancelOrderBinding.java
+ com.cse27.foodbee.databinding.ContentCancelOrderBinding
+com/cse27/foodbee/databinding/ActivityCancelOrder2Binding.java
+ com.cse27.foodbee.databinding.ActivityCancelOrder2Binding
 com/cse27/foodbee/Model/LoginModel.java
  com.cse27.foodbee.Model.LoginModel
+com/cse27/foodbee/databinding/ActivitySignUpBinding.java
+ com.cse27.foodbee.databinding.ActivitySignUpBinding
 com/cse27/foodbee/Model/CancelOrderModelInterface.java
  com.cse27.foodbee.Model.CancelOrderModelInterface
 com/cse27/foodbee/Controller/FoodControllerInterface.java
@@ -94,6 +138,8 @@ com/cse27/foodbee/Controller/CartPageShowControllerInterface.java
  com.cse27.foodbee.Controller.CartPageShowControllerInterface
 com/cse27/foodbee/View/UpdateProfileViewInterface.java
  com.cse27.foodbee.View.UpdateProfileViewInterface
+com/cse27/foodbee/databinding/ActivityMainBinding.java
+ com.cse27.foodbee.databinding.ActivityMainBinding
 com/cse27/foodbee/Controller/ProfileControllerInterface.java
  com.cse27.foodbee.Controller.ProfileControllerInterface
 com/cse27/foodbee/Profile.java
@@ -124,6 +170,7 @@ com/cse27/foodbee/Login.java
  com.cse27.foodbee.Login$2
 com/cse27/foodbee/CancelOrder.java
  com.cse27.foodbee.CancelOrder
+ com.cse27.foodbee.CancelOrder$1
 com/cse27/foodbee/Controller/LoginControllerInterface.java
  com.cse27.foodbee.Controller.LoginControllerInterface
 com/cse27/foodbee/Model/CancelOrderModel.java
