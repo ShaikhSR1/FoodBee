@@ -16,6 +16,7 @@
     <string name="text_status">Status</string>
     <string name="text_payment_method">Payment Method</string>
     <string name="text_total">Total : </string>
+
     <!-- Profile info -->
     <string name="user_name">Nishat Tasnim</string>
     <string name="user_email">tasnim5349@gmail.com</string>
