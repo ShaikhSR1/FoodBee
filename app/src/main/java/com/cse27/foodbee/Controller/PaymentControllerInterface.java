@@ -10,9 +10,9 @@ public interface PaymentControllerInterface {
      * On confirm.
      *
      * @param userId    the user id
-     * @param subTotal  the sub total
+     * @param totalPayment  the sub total
      * @param orderDate the order date
      * @param orderID   the order id
      */
-    void onConfirm(String userId, Double subTotal, Timestamp orderDate, String orderID);
+    void onConfirm(String userId, Double totalPayment, Timestamp orderDate, String orderID);
 }

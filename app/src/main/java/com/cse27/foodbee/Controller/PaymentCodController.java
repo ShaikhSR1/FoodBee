@@ -56,9 +56,9 @@ public class PaymentCodController implements PaymentControllerInterface{
     }
 
     @Override
-    public void onConfirm(String userId, Double subTotal, Timestamp orderDate, String orderID) {
+    public void onConfirm(String userId, Double totalPayment, Timestamp orderDate, String orderID) {
 
-        PaymentModel paymentModel = new PaymentModel(orderDate.toString(), orderID, "COD", "Delivered", subTotal.toString());
+        PaymentModel paymentModel = new PaymentModel(orderDate.toString(), orderID, "COD", "Delivered", totalPayment.toString());
 
         rootNode = FirebaseDatabase.getInstance();
         reference = rootNode.getReference("orderInfo");

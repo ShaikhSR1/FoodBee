@@ -12,14 +12,25 @@ public class PaymentModel implements PaymentModelInterface{
 
     /**
      * Instantiates a new Payment model.
-     *
-     * @param toString  the to string
-     * @param orderID   the order id
-     * @param cod       the cod
-     * @param delivered the delivered
-     * @param toString1 the to string 1
      */
-    public PaymentModel(String toString, String orderID, String cod, String delivered, String toString1) {
+    public PaymentModel() {
+    }
+
+    /**
+     * Instantiates a new Payment model.
+     *
+     * @param orderDate     the order date
+     * @param orderId       the order id
+     * @param paymentMethod the payment method
+     * @param status        the status
+     * @param totalCost     the total cost
+     */
+    public PaymentModel(String orderDate, String orderId, String paymentMethod, String status, String totalCost) {
+        this.orderDate = orderDate;
+        this.orderId = orderId;
+        this.paymentMethod = paymentMethod;
+        this.status = status;
+        this.totalCost = totalCost;
     }
 
 
