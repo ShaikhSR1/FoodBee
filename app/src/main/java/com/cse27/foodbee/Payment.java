@@ -13,12 +13,25 @@ import com.cse27.foodbee.Controller.PaymentBankController;
 import com.cse27.foodbee.Controller.PaymentCodController;
 import com.cse27.foodbee.Controller.PaymentControllerInterface;
 import com.cse27.foodbee.Controller.PaymentMobileController;
+import com.cse27.foodbee.Controller.ShippingInfoController;
 import com.cse27.foodbee.View.PaymentViewInterface;
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.sql.Timestamp;
 
 /**
  * The type Payment.
  */
 public class Payment extends AppCompatActivity implements PaymentViewInterface {
+
+    ShippingInfoController shippingInfo;
+
+    String userId;
+    FirebaseAuth currentUser;
+    String orderID = shippingInfo.getOrderID();
+
+
+    Double subTotoal = 447.50;
     /**
      * The Payment radio group.
      */
@@ -41,25 +54,32 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
+        userId = currentUser.getCurrentUser().getUid() ;
+
         paymentRadioGroup = (RadioGroup) findViewById(R.id.paymentRadioGroup);
         int radioButtonID = paymentRadioGroup.getCheckedRadioButtonId();
         paymentRadioBtn = (RadioButton) paymentRadioGroup.findViewById(radioButtonID);
         String selectedText = (String) paymentRadioBtn.getText();
 
         btnConfirmPayment.setOnClickListener(new View.OnClickListener() {
+            Long datetime = System.currentTimeMillis();
+            Timestamp orderDate = new Timestamp(datetime);
             @Override
             public void onClick(View v) {
                 if (selectedText.equals("COD")) {
+
                     paymentController = new PaymentCodController();
-                    paymentController.onConfirm();
+                    paymentController.onConfirm(userId ,subTotoal, orderDate, orderID);
                 }
                 else if (selectedText.equals("Bkash")) {
+
                     paymentController = new PaymentMobileController();
-                    paymentController.onConfirm();
+                    paymentController.onConfirm(userId, subTotoal, orderDate, orderID);
                 }
                 else if (selectedText.equals("Bank")) {
+
                     paymentController = new PaymentBankController();
-                    paymentController.onConfirm();
+                    paymentController.onConfirm(userId, subTotoal, orderDate, orderID);
                 }
                 else {
                     onPaymentError("Please Select and option");
@@ -72,11 +92,11 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
 
     @Override
     public void onPaymentSuccess(String message) {
-
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onPaymentError(String message) {
-        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
     }
 }
