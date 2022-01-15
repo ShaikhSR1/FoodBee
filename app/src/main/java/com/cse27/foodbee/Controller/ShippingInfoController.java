@@ -20,6 +20,13 @@ import com.google.firebase.firestore.FirebaseFirestore;
  * The type Shipping info controller.
  */
 public class ShippingInfoController implements ShippingInfoControllerInterface{
+
+    String orderID;
+
+    public String getOrderID() {
+        return orderID;
+    }
+
     /**
      * Instantiates a new Shipping info controller.
      */
@@ -92,7 +99,7 @@ public class ShippingInfoController implements ShippingInfoControllerInterface{
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isComplete()) {
                                 String orderId = shippingInfoAuth.getUid();
-
+                                orderID = orderId;
                                 if(orderId!=null) {
                                     foodBee.collection("shippingInfo").document(String.valueOf(orderId)).set(shippingInfoModel).addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
