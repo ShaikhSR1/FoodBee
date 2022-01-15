@@ -7,6 +7,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="app_color">#FFFF3333</color>
     <color name="app_color2">#FFFF3E3E</color>
+    <color name="cyan">#52ffff</color>
 
 
 </resources>

@@ -5,6 +5,7 @@
 
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>
+    <string name="shipping_info">Shipping Info</string>
     <string name="tagline">The hive of good food</string>
     <string name="banner_signup">Sign Up!</string>
     <string name="banner_search">Search Here</string>
@@ -33,14 +34,17 @@
     <string name="update">Update</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
+    <string name="submit">Next</string>
 
 
     <!-- Hint Names -->
     <string name="hint_name">Enter Full Name</string>
     <string name="hint_phone">Enter Phone Number</string>
     <string name="hint_email">Enter Email Address</string>
+    <string name="hint_address">Enter Your Address</string>
     <string name="hint_password">Enter Password</string>
     <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_note">Optional Note</string>
     <string name="hint_search_box">Search by Food, Restaurant or Cuisine</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
