@@ -35,6 +35,11 @@
     <string name="minus">-</string>
     <string name="plus">+</string>
     <string name="submit">Next</string>
+<string name="confirm_cancel_order">Confirm Cancel Order</string>	
+    <string name="cod">COD</string>	
+    <string name="mobileBanking">Bkash</string>	
+    <string name="bank">Bank</string>	
+    <string name="confirmPayment">Confirm</string>
 
 
     <!-- Hint Names -->
