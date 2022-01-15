@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorbg"
+    tools:context=".UpdateProfile">
+
+
+    <TextView
+        android:id="@+id/textViewShippingInfo"
+        android:layout_width="411dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/tahu"
+        android:gravity="center"
+        android:text="@string/shipping_info"
+        android:textColor="@color/app_color"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconName"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/icon_name"
+        app:layout_constraintEnd_toStartOf="@+id/userName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewShippingInfo" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/app_color2"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewShippingInfo" />
+
+    <ImageView
+        android:id="@+id/iconEmail"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/userEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconName"
+        app:srcCompat="@drawable/icon_email" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/app_color2"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <ImageView
+        android:id="@+id/iconMobile"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/userMobileNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconEmail"
+        app:srcCompat="@drawable/icon_mobile" />
+
+    <EditText
+        android:id="@+id/userMobileNo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/app_color2"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="@string/hint_phone"
+        android:inputType="text"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userEmail" />
+
+    <ImageView
+        android:id="@+id/iconLocation"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/updateUserAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconMobile"
+        app:srcCompat="@drawable/icon_location" />
+
+    <EditText
+        android:id="@+id/userAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/app_color2"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="@string/hint_address"
+        android:inputType="text"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userMobileNo" />
+
+    <EditText
+        android:id="@+id/optionalNote"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="@color/app_color2"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="@string/hint_note"
+        android:inputType="text"
+        android:textColorHint="@color/hint_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAddress" />
+
+    <Button
+        android:id="@+id/submitShippingInfoButton"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/optionalNote" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/optionalNote"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconLocation"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
