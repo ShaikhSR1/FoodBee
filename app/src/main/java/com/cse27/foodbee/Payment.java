@@ -2,11 +2,13 @@ package com.cse27.foodbee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cse27.foodbee.Controller.PaymentBankController;
@@ -24,14 +26,32 @@ import java.sql.Timestamp;
  */
 public class Payment extends AppCompatActivity implements PaymentViewInterface {
 
+    /**
+     * The Shipping info.
+     */
     ShippingInfoController shippingInfo;
 
+    /**
+     * The User id.
+     */
     String userId;
+    /**
+     * The Current user.
+     */
     FirebaseAuth currentUser;
+    /**
+     * The Order id.
+     */
     String orderID = shippingInfo.getOrderID();
 
 
+    Double total = 0.0;
     Double subTotoal = 447.50;
+    Double shipping = 35.00;
+    Double discount = 12.50;
+
+
+
     /**
      * The Payment radio group.
      */
@@ -48,18 +68,31 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
      * The Btn confirm payment.
      */
     Button btnConfirmPayment;
+    TextView tvSubTotalValue, tvShippingValue, tvDiscountValue, tvTotalValue;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
+        total = subTotoal + shipping - discount;
         userId = currentUser.getCurrentUser().getUid() ;
 
         paymentRadioGroup = (RadioGroup) findViewById(R.id.paymentRadioGroup);
         int radioButtonID = paymentRadioGroup.getCheckedRadioButtonId();
         paymentRadioBtn = (RadioButton) paymentRadioGroup.findViewById(radioButtonID);
         String selectedText = (String) paymentRadioBtn.getText();
+
+        tvSubTotalValue = findViewById(R.id.tvSubTotalValue);
+        tvShippingValue = findViewById(R.id.tvShippingValue);
+        tvDiscountValue = findViewById(R.id.tvDiscountValue);
+        tvTotalValue = findViewById(R.id.tvTotalValue);
+
+        tvSubTotalValue.setText(subTotoal.toString());
+        tvShippingValue.setText(shipping.toString());
+        tvDiscountValue.setText(discount.toString());
+        tvTotalValue.setText(total.toString());
 
         btnConfirmPayment.setOnClickListener(new View.OnClickListener() {
             Long datetime = System.currentTimeMillis();
@@ -69,17 +102,17 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
                 if (selectedText.equals("COD")) {
 
                     paymentController = new PaymentCodController();
-                    paymentController.onConfirm(userId ,subTotoal, orderDate, orderID);
+                    paymentController.onConfirm(userId ,total, orderDate, orderID);
                 }
                 else if (selectedText.equals("Bkash")) {
 
                     paymentController = new PaymentMobileController();
-                    paymentController.onConfirm(userId, subTotoal, orderDate, orderID);
+                    paymentController.onConfirm(userId, total, orderDate, orderID);
                 }
                 else if (selectedText.equals("Bank")) {
 
                     paymentController = new PaymentBankController();
-                    paymentController.onConfirm(userId, subTotoal, orderDate, orderID);
+                    paymentController.onConfirm(userId, total, orderDate, orderID);
                 }
                 else {
                     onPaymentError("Please Select and option");

@@ -13,7 +13,7 @@ public class PaymentBankController implements PaymentControllerInterface{
     }
 
     @Override
-    public void onConfirm(String userId, Double subTotal, Timestamp orderDate, String orderID) {
+    public void onConfirm(String userId, Double totalPayment, Timestamp orderDate, String orderID) {
 
     }
 }
