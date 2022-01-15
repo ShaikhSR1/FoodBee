@@ -26,7 +26,7 @@
                 android:gravity="left"
                 android:layout_height="match_parent"
                 android:layout_width="wrap_content"
-                android:text="Order Id"
+                android:text="@string/order_id"
                 android:textColor="@color/app_color"
                 android:textSize="20dp"
                 android:textStyle="bold" />
