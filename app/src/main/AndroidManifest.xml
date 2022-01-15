@@ -15,18 +15,12 @@
 
         <activity
             android:name=".CancelOrder"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"/>
+            
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
-
-
+        <activity
+            android:name=".ShippingInfo"
+            android:exported="false"/>
 
 
         <activity
@@ -53,10 +47,8 @@
             android:exported="false">
 
         </activity>
-            android:exported="false" />
-        <activity
-            android:name=".SearchPage"
-            android:exported="false" />
+        
+        
 
         <activity
             android:name=".Login"
@@ -66,15 +58,16 @@
         <activity
             android:name=".SplashScreen"
 
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            android:exported="false"/>
-
-
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
-
 
         <activity
             android:name=".SignUp"
