@@ -3,6 +3,9 @@ package com.cse27.foodbee.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+/**
+ * Model Class of SignUp
+ */
 public class SignUpModel implements SignUpModelInterface {
 
     private String fullName,email, phoneNumber, passowrd, confirmPassword;
