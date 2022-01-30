@@ -42,7 +42,8 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
     /**
      * The Order id.
      */
-    String orderID = shippingInfo.getOrderID();
+    String orderID = "pEBsWzh8NORvASzAskxRiyusl5Z2";
+            //shippingInfo.getOrderID();
 
 
     Double total = 0.0;
@@ -77,12 +78,13 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
         setContentView(R.layout.activity_payment);
 
         total = subTotoal + shipping - discount;
-        userId = currentUser.getCurrentUser().getUid() ;
+        userId = "pEBsWzh8NORvASzAskxRiyusl5Z2";
+                //currentUser.getCurrentUser().getUid() ;
 
         paymentRadioGroup = (RadioGroup) findViewById(R.id.paymentRadioGroup);
         int radioButtonID = paymentRadioGroup.getCheckedRadioButtonId();
         paymentRadioBtn = (RadioButton) paymentRadioGroup.findViewById(radioButtonID);
-        String selectedText = (String) paymentRadioBtn.getText();
+        String selectedText = "COD"; //(String) paymentRadioBtn.getText();
 
         tvSubTotalValue = findViewById(R.id.tvSubTotalValue);
         tvShippingValue = findViewById(R.id.tvShippingValue);
@@ -93,6 +95,8 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
         tvShippingValue.setText(shipping.toString());
         tvDiscountValue.setText(discount.toString());
         tvTotalValue.setText(total.toString());
+
+        btnConfirmPayment = findViewById(R.id.btnConfirmPayment);
 
         btnConfirmPayment.setOnClickListener(new View.OnClickListener() {
             Long datetime = System.currentTimeMillis();

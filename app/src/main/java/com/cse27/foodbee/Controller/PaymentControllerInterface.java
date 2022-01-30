@@ -8,8 +8,7 @@ import java.sql.Timestamp;
 public interface PaymentControllerInterface {
     /**
      * On confirm.
-     *
-     * @param userId    the user id
+     *  @param userId    the user id
      * @param totalPayment  the sub total
      * @param orderDate the order date
      * @param orderID   the order id
