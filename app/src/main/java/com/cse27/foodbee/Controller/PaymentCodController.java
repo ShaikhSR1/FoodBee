@@ -3,7 +3,6 @@ package com.cse27.foodbee.Controller;
 import androidx.annotation.NonNull;
 
 import com.cse27.foodbee.Model.PaymentModel;
-import com.cse27.foodbee.Model.SignUpModel;
 import com.cse27.foodbee.View.PaymentViewInterface;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -13,8 +12,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.sql.Timestamp;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * The type Payment cod controller.
@@ -67,7 +64,7 @@ public class PaymentCodController implements PaymentControllerInterface{
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isComplete()) {
-                    paymentView.onPaymentSuccess("Order Confirmed");
+                    paymentView.onPaymentSuccess("Successful");
                 }
                 else {
                     paymentView.onPaymentError("Try Again");
