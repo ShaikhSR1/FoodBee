@@ -7,6 +7,7 @@
 
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>
+    <string name="shipping_info">Shipping Info</string>
     <string name="tagline">The hive of good food</string>
     <string name="banner_signup">Sign Up!</string>
     <string name="banner_search">Search Here</string>
@@ -35,17 +36,48 @@
     <string name="update">Update</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
+    <string name="submit">Next</string>
+    <string name="confirm_cancel_order">Confirm Cancel Order</string>	
+    <string name="cod">COD</string>	
+    <string name="mobileBanking">Bkash</string>	
+    <string name="bank">Bank</string>	
+    <string name="confirmPayment">Confirm</string>
 
 
     <!-- Hint Names -->
     <string name="hint_name">Enter Full Name</string>
     <string name="hint_phone">Enter Phone Number</string>
     <string name="hint_email">Enter Email Address</string>
+    <string name="hint_address">Enter Your Address</string>
     <string name="hint_password">Enter Password</string>
     <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_note">Optional Note</string>
     <string name="hint_search_box">Search by Food, Restaurant or Cuisine</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="to_login">Already have an account? LOGIN</string>
+    <string name="to_signup">Don\'t have an account? SIGN UP</string>
+    <string name="cancel_order">Cancel Order!</string>
+    <!-- Cancel Order -->
+    <string name="order_id">Order ID: </string>
+    <string name="cancel_question_title">Why do you want to cancel order?</string>
+    <string name="cancel_option1">Late Delivery </string>
+    <string name="cancel_option2">Bad Rider </string>
+    <string name="cancel_option3">Bad Restaurant </string>
+    <string name="cancel_option4">Others </string>
+    <string name="cancel_review">Please Provide a Review</string>
+    <string name="title_activity_cancel_order">CancelOrder</string>
+    <string name="order_number">000003</string>
+
+
+    <string name="payment">Choose Payment Method</string>
+    <string name="ruler">-------------------------------------------------------------------------------------------------</string>
+    <string name="subTotal">Sub Total</string>
+    <string name="shippingPayment">Shipping</string>
+    <string name="discount">Discount</string>
+    <string name="totalPayment">Total</string>
 
 
 </resources>

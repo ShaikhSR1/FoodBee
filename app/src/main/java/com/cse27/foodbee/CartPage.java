@@ -15,6 +15,10 @@ import com.cse27.foodbee.View.CartPageViewInterface;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * this cart page screen will show products in cart that will be ordered
+ */
+
 public class CartPage extends AppCompatActivity implements CartPageViewInterface {
 
     RecyclerView recyclerView;
@@ -34,7 +38,9 @@ public class CartPage extends AppCompatActivity implements CartPageViewInterface
     }
 
 
-
+    /**
+     * here is the function to display cart products in recycle view
+     */
     private void initRecylerView() {
         recyclerView = findViewById(R.id.cartRecyclerView);
         linearLayoutManager = new LinearLayoutManager(this);
@@ -46,6 +52,12 @@ public class CartPage extends AppCompatActivity implements CartPageViewInterface
 
     }
 
+    /**
+     * this function is for showing that the operation is successful
+     * @param foodName
+     * @param foodQuantity
+     * @param foodPrice
+     */
 
     @Override
     public void onSeeCartSuccess(String foodName, double foodQuantity, double foodPrice) {

@@ -23,6 +23,11 @@ public class Login extends AppCompatActivity implements LoginViewInterface {
 
     LoginControllerInterface loginController;
 
+    /**
+     * takes values from user and send then to controller
+     * @param savedInstanceState
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,12 +57,22 @@ public class Login extends AppCompatActivity implements LoginViewInterface {
 
     }
 
+    /**
+     * shows login success message
+     * @param message
+     */
+
     @Override
     public void onLoginSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_LONG).show();
         Intent intent = new Intent(Login.this, Profile.class);
         startActivity(intent);
     }
+
+    /**
+     * shows login fail message
+     * @param message
+     */
 
     @Override
     public void onLoginError(String message) {

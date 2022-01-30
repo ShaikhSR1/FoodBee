@@ -23,6 +23,12 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
 
     SignUpControllerInterface signUpController;
 
+    /**
+     * takes values fron user
+     * sends the values to controlller
+     * @param savedInstanceState
+     */
+
 
 
     @Override
@@ -55,6 +61,11 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
 
     }
 
+    /**
+     * success messsage
+     * @param message
+     */
+
     @Override
     public void onSignUpSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
@@ -62,6 +73,11 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
         startActivity(intent);
 
     }
+
+    /**
+     * failed massage
+     * @param message
+     */
 
     @Override
     public void onSignUpError(String message) {

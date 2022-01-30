@@ -23,14 +23,28 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Recycler view used to show foods from database
+ */
 public class FoodFragment extends Fragment {
 
+    /**
+     * The Recycler view.
+     */
     RecyclerView recyclerView;
+    /**
+     * The Food recycler adapter.
+     */
     FoodRecyclerAdapter foodRecyclerAdapter;
+    /**
+     * The All foods.
+     */
     List<FoodModel> allFoods = new ArrayList<>();
 
 
+    /**
+     * Instantiates a new Food fragment.
+     */
     public FoodFragment() {
         // Required empty public constructor
     }
@@ -53,6 +67,11 @@ public class FoodFragment extends Fragment {
 
         return root;
     }
+
+    /**
+     * Connection to firestore and fetching data
+     */
+
 
     private void getDataFromFireStore() {
         FirebaseFirestore firestoreData = FirebaseFirestore.getInstance();

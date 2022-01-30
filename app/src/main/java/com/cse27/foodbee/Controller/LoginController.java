@@ -20,6 +20,13 @@ public class LoginController implements LoginControllerInterface{
         this.loginView = loginView;
     }
 
+    /**
+     * if valid success login
+     * if fails retry login
+     * @param email
+     * @param password
+     */
+
     @Override
     public void onLogin(String email, String password) {
         LoginModel loginModel= new LoginModel(email, password);

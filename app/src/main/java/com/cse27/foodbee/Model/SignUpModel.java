@@ -14,6 +14,16 @@ public class SignUpModel implements SignUpModelInterface {
 
     }
 
+
+    /**
+     * Constructor
+     * @param fullName
+     * @param email
+     * @param phoneNumber
+     * @param password
+     * @param confirmPassword
+     */
+
     public SignUpModel(String fullName, String email, String phoneNumber, String password, String confirmPassword) {
         this.fullName = fullName;
         this.email = email;
@@ -22,29 +32,59 @@ public class SignUpModel implements SignUpModelInterface {
         this.confirmPassword = confirmPassword ;
     }
 
+    /**
+     *
+     * @return
+     */
+
     @Override
     public String getFullName() {
         return fullName;
     }
+
+    /**
+     *
+     * @return
+     */
 
     @Override
     public String getEmail() {
         return email;
     }
 
+    /**
+     *
+     * @return
+     */
+
     @Override
     public String getPhoneNumber() {
         return phoneNumber;
     }
 
+    /**
+     *
+     * @return
+     */
+
     @Override
     public String getPassword() {
         return passowrd;
     }
+
+    /**
+     *
+     * @return
+     */
     @Override
     public String getConfirmPassword() {
         return confirmPassword;
     }
+
+    /**
+     * checks validity
+     * @return
+     */
 
     @Override
     public int isSignUpValid() {

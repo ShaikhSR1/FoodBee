@@ -18,15 +18,33 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+/**
+ * The type Food recycler adapter.
+ */
 public class FoodRecyclerAdapter extends RecyclerView.Adapter<FoodRecyclerAdapter.viewHolder> {
+    /**
+     * The All food.
+     */
     List<FoodModel> allFood;
+    /**
+     * The Context.
+     */
     Context context;
 
+    /**
+     * Instantiates a new Food recycler adapter.
+     *
+     * @param allFood the all food
+     * @param context the context
+     */
     public FoodRecyclerAdapter(List<FoodModel> allFood, Context context) {
         this.allFood = allFood;
         this.context = context;
     }
 
+    /**
+     * Instantiates a new Food recycler adapter.
+     */
     public FoodRecyclerAdapter() {
 
     }
@@ -59,12 +77,35 @@ public class FoodRecyclerAdapter extends RecyclerView.Adapter<FoodRecyclerAdapte
         }
     }
 
+    /**
+     * The type View holder.
+     */
     public class viewHolder extends RecyclerView.ViewHolder {
 
+        /**
+         * The Image food card.
+         */
         ImageView imageFoodCard;
-        TextView textViewFoodNameCard, textViewFoodRatingCard, textViewFoodPriceCard;
+        /**
+         * The Text view food name card.
+         */
+        TextView textViewFoodNameCard, /**
+         * The Text view food rating card.
+         */
+        textViewFoodRatingCard, /**
+         * The Text view food price card.
+         */
+        textViewFoodPriceCard;
+        /**
+         * The Btn add to cart.
+         */
         Button btnAddToCart;
 
+        /**
+         * Instantiates a new View holder.
+         *
+         * @param itemView the item view
+         */
         public viewHolder(@NonNull View itemView) {
             super(itemView);
 

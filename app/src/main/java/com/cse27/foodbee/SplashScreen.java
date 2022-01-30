@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+/**
+ * The type Splash screen.
+ */
 public class SplashScreen extends AppCompatActivity {
 
     // Splash Screen Timer
@@ -28,7 +31,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent intent = new Intent(SplashScreen.this, Login.class);
                 startActivity(intent);
 
                 // close this activity
