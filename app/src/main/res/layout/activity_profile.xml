@@ -166,4 +166,14 @@
         android:text="Shipping"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helpButton" />
+
+    <Button
+        android:id="@+id/paymentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="49dp"
+        android:text="Payment"
+        app:layout_constraintStart_toEndOf="@+id/shippingButton"
+        app:layout_constraintTop_toBottomOf="@+id/termsConditionsButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
