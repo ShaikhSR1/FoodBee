@@ -54,9 +54,9 @@ public class ShippingInfoController implements ShippingInfoControllerInterface{
     /**
      * Instantiates a new Shipping info controller.
      *
-     * @param signUpView the sign up view
+     * @param shippingInfoView the sign up view
      */
-    public ShippingInfoController(ShippingInfoViewInterface signUpView) {
+    public ShippingInfoController(ShippingInfoViewInterface shippingInfoView) {
         this.shippingInfoView = shippingInfoView;
     }
 
@@ -92,16 +92,17 @@ public class ShippingInfoController implements ShippingInfoControllerInterface{
             shippingInfoAuth = FirebaseAuth.getInstance();
 
             reference.setValue("");
+            shippingInfoView.onSubmitShippingInfoSuccess("Shipping Info Successfully Received");
 
-            shippingInfoAuth.createUserWithEmailAndPassword(shippingInfoModel.getEmail(),shippingInfoModel.getAddress())
+            /*shippingInfoAuth.createUserWithEmailAndPassword(shippingInfoModel.getEmail(),shippingInfoModel.getAddress())
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isComplete()) {
-                                String orderId = shippingInfoAuth.getUid();
-                                orderID = orderId;
-                                if(orderId!=null) {
-                                    foodBee.collection("shippingInfo").document(String.valueOf(orderId)).set(shippingInfoModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                String userId = shippingInfoAuth.getCurrentUser().getUid();
+
+                                if(userId!=null) {
+                                    foodBee.collection("shippingInfo").document(String.valueOf(userId)).set(shippingInfoModel).addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if(task.isComplete()) {
@@ -117,7 +118,7 @@ public class ShippingInfoController implements ShippingInfoControllerInterface{
                                 }
                             }
                         }
-                    });
+                    });*/
 
 
             }
