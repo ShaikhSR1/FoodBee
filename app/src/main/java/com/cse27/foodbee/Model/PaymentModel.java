@@ -33,6 +33,10 @@ public class PaymentModel implements PaymentModelInterface{
         this.totalCost = totalCost;
     }
 
+    /**
+     *Getter for declared private variables
+     * @return variables
+     */
 
     @Override
     public String getOrderDate() {

@@ -84,13 +84,20 @@ public class SearchResult extends AppCompatActivity {
      * The Image food card.
      */
     ImageView imageFoodCard;
+
+
     /**
      * The Text view food name card.
      */
-    TextView textViewFoodNameCard, /**
+    TextView textViewFoodNameCard,
+
+    /**
      * The Text view food rating card.
      */
-    textViewFoodRatingCard, /**
+
+    textViewFoodRatingCard,
+
+    /**
      * The Text view food price card.
      */
     textViewFoodPriceCard;
@@ -130,6 +137,13 @@ public class SearchResult extends AppCompatActivity {
      * @param queryFood the query food
      */
     public void firebaseFoodSearch(String queryFood) {
+
+        /**
+         * Updating to FireStore
+         * Collection "foods
+         * And searching according to input type
+         */
+
 
         firestoreSearch.collection("foods")
                 .whereEqualTo("type", true)

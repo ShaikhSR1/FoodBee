@@ -30,6 +30,7 @@ import com.google.android.material.navigation.NavigationView;
  * Jannatul Ferdaus Amrin <br>
  * @version 1.0
  * @since 02 january, 2021
+ * @latest update 31 january, 2021
  */
 
 
@@ -52,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
+
+        /**
+         * Home navigation selection
+         */
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

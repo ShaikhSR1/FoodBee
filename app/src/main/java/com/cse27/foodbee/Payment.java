@@ -100,6 +100,9 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
 
         btnConfirmPayment = findViewById(R.id.btnConfirmPayment);
 
+        /**
+         * Redirects to MainActivity
+         */
         tvtPaymentBanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,6 +111,9 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
             }
         });
 
+        /**
+         * Confirm button call controller class according to selected payment method
+         */
 
         btnConfirmPayment.setOnClickListener(new View.OnClickListener() {
             Long datetime = System.currentTimeMillis();
