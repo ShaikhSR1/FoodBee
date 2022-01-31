@@ -71,6 +71,7 @@ public class ViewOrderList extends AppCompatActivity implements OrderListViewInt
             }
 
         });
+
         //orderListController.onOrderListShow();
         initRecylerView();
     }
@@ -83,7 +84,7 @@ public class ViewOrderList extends AppCompatActivity implements OrderListViewInt
         startActivity(intent);
     }
 
-    private void initRecylerView() {
+    public void initRecylerView() {
         recyclerView = findViewById(R.id.orderListRecyclerView);
         linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
