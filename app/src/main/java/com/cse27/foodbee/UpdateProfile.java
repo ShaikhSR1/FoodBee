@@ -29,6 +29,10 @@ import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
+/**
+ * this Update Profile Screen will show a page with Profile Info which are editable
+ */
+
 public class UpdateProfile extends AppCompatActivity implements UpdateProfileViewInterface {
 
     EditText updateUserName, updateUserEmail, updateUserAddress, updateUserPhoneNumber, updateUserPassword;
@@ -65,6 +69,10 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
         userId = profileAuth.getCurrentUser().getUid();
         reference = rootNode.getReference("userProfile");
 
+        /**
+         * Here profile information are being fetched.
+         */
+
         DocumentReference documentReference = foodBee.collection("userProfile").document(userId);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
@@ -78,7 +86,9 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
         });
 
 
-
+        /**
+         * After clicking the button, data will be updated in the userProfile table in firebase.
+         */
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +97,11 @@ public class UpdateProfile extends AppCompatActivity implements UpdateProfileVie
         });
     }
 
+    /**
+     * After successfully updating user will navigate to profile  page
+     * and there will be a Toast message.
+     * @param message
+     */
     @Override
     public void onUpdateProfileSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_LONG).show();

@@ -35,19 +35,72 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Shows search result using recycler view
+ * This page uses FoodRecyclerAdapter class for showing results of searched food
+ */
 public class SearchResult extends AppCompatActivity {
 
+    /**
+     * The Context.
+     */
     Context context;
+    /**
+     * The Firestore search.
+     */
     FirebaseFirestore firestoreSearch = FirebaseFirestore.getInstance();
+    /**
+     * The Recycler view.
+     */
     RecyclerView recyclerView;
+    /**
+     * The Food recycler adapter.
+     */
     FoodRecyclerAdapter foodRecyclerAdapter = new FoodRecyclerAdapter();
+    /**
+     * The All foods.
+     */
     List<FoodModel> allFoods = new ArrayList<>();
+    /**
+     * The Tag.
+     */
     String TAG = "Search";
 
-    String foodImageUrl, foodName, foodRating, foodPrice;
+    /**
+     * The Food image url.
+     */
+    String foodImageUrl, /**
+     * The Food name.
+     */
+    foodName, /**
+     * The Food rating.
+     */
+    foodRating, /**
+     * The Food price.
+     */
+    foodPrice;
 
+    /**
+     * The Image food card.
+     */
     ImageView imageFoodCard;
-    TextView textViewFoodNameCard, textViewFoodRatingCard, textViewFoodPriceCard;
+
+
+    /**
+     * The Text view food name card.
+     */
+    TextView textViewFoodNameCard,
+
+    /**
+     * The Text view food rating card.
+     */
+
+    textViewFoodRatingCard,
+
+    /**
+     * The Text view food price card.
+     */
+    textViewFoodPriceCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +131,19 @@ public class SearchResult extends AppCompatActivity {
     }*/
 
 
+    /**
+     * Fetches data from firestore collection "foods" according to queryFood from SearchPage
+     *
+     * @param queryFood the query food
+     */
     public void firebaseFoodSearch(String queryFood) {
+
+        /**
+         * Updating to FireStore
+         * Collection "foods
+         * And searching according to input type
+         */
+
 
         firestoreSearch.collection("foods")
                 .whereEqualTo("type", true)

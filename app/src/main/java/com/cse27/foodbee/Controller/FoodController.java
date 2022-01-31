@@ -5,7 +5,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+/**
+ * Connection to firebase
+ */
+
 public class FoodController implements FoodControllerInterface{
+
 
     FirebaseDatabase rootNode;
     DatabaseReference reference;

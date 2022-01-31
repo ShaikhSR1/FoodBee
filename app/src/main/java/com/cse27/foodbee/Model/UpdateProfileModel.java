@@ -3,13 +3,29 @@ package com.cse27.foodbee.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+/**
+ * The type Update profile model.
+ */
 public class UpdateProfileModel implements UpdateProfileModelInterface {
 
     private String fullName,email, phoneNumber,address, passowrd;
 
+    /**
+     * Instantiates a new Update profile model.
+     */
     public UpdateProfileModel(){
 
     }
+
+    /**
+     * Instantiates a new Update profile model.
+     *
+     * @param fullName    the full name
+     * @param email       the email
+     * @param phoneNumber the phone number
+     * @param address     the address
+     * @param password    the password
+     */
     public UpdateProfileModel(String fullName, String email, String phoneNumber, String address, String password) {
         this.fullName = fullName;
         this.email = email;
@@ -43,6 +59,11 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
         return passowrd;
     }
 
+    /**
+     * this Method will check validity of given information by user
+     * @return an integer value
+     */
+
     public int isValid() {
         if (TextUtils.isEmpty(getFullName())){
             return 0;
@@ -61,7 +82,7 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
         }else if(TextUtils.isEmpty(getAddress())){
             return 7;
         }else {
-            return -1;
+            return 9;
         }
     }
 }

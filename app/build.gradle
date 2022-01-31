@@ -26,6 +26,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -50,10 +53,9 @@ dependencies {
     //Picasso library for image
 
     implementation 'com.squareup.picasso:picasso:2.5.0'
-    
 
 
-
+    testImplementation 'org.mockito:mockito-core:2.4.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
