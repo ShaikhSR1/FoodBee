@@ -28,7 +28,7 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
  */
 
 public class Profile extends AppCompatActivity implements ProfileViewInterface {
-    private Button updateProfileButton, logoutButton;
+    private Button updateProfileButton, logoutButton, shippingButton;
     TextView textViewAppName, textViewUserName, textViewUserAddress;
     private String fullName, address;
     ProfileControllerInterface profileController;
@@ -59,6 +59,8 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
             }
         });
 
+        shippingButton = findViewById(R.id.shippingButton);
+
         updateProfileButton = findViewById(R.id.updateProfileButton);
         logoutButton = findViewById(R.id.logoutButton);
         updateProfileButton.setOnClickListener(new View.OnClickListener() {
@@ -73,6 +75,14 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
             @Override
             public void onClick(View v) {
                 goToLoginPage();
+            }
+        });
+
+        shippingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Profile.this, ShippingInfo.class);
+                startActivity(intent);
             }
         });
 
