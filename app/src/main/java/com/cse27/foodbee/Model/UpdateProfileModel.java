@@ -66,7 +66,7 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
         }else if(TextUtils.isEmpty(getAddress())){
             return 7;
         }else {
-            return -1;
+            return 9;
         }
     }
 }

@@ -16,10 +16,6 @@
 
         <activity
             android:name=".ShippingInfo"
-            android:exported="false"/>
-
-        <activity
-            android:name=".Payment"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -28,6 +24,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Payment"
+            android:exported="false"/>
+
         <activity
             android:name=".SearchResult"
             android:exported="false"/>
