@@ -83,32 +83,27 @@ public class ShippingInfoController implements ShippingInfoControllerInterface{
             rootNode = FirebaseDatabase.getInstance();
             reference = rootNode.getReference("shippingInfo");
             shippingInfoAuth = FirebaseAuth.getInstance();
-
             reference.setValue("");
 
-            shippingInfoAuth.createUserWithEmailAndPassword(shippingInfoModel.getEmail(),shippingInfoModel.getAddress())
-                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            Map<String, Object> shippingMap = new HashMap<>();
+            shippingMap.put(address, shippingInfoModel.getAddress());
+            shippingMap.put(fullName, shippingInfoModel.getFullName());
+            shippingMap.put(email, shippingInfoModel.getEmail());
+            shippingMap.put(phoneNumber, shippingInfoModel.getPhoneNumber());
+            shippingMap.put(optionalNote, shippingInfoModel.getOptionalNote());
+
+            foodBee.collection("shippingInfo")
+                    .add(shippingMap)
+                    .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                         @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isComplete()) {
-                                String orderId = shippingInfoAuth.getUid();
-
-                                if(orderId!=null) {
-                                    foodBee.collection("shippingInfo").document(String.valueOf(orderId)).set(shippingInfoModel).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<Void> task) {
-                                            if(task.isComplete()) {
-                                                shippingInfoView.onSubmitShippingInfoSuccess("Shipping Info Successfully Received");
-
-                                            }
-                                            else {
-                                                shippingInfoView.onSubmitShippingInfoError("Please Try Again");
-                                            }
-
-                                        }
-                                    });
-                                }
-                            }
+                        public void onSuccess(DocumentReference documentReference) {
+                            shippingInfoView.onSubmitShippingInfoSuccess("Shipping Info Successfully Received");
+                        }
+                    })
+                    .addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            shippingInfoView.onSubmitShippingInfoError("Please Try Again");
                         }
                     });
 
