@@ -79,8 +79,8 @@ public class ShippingInfo extends AppCompatActivity implements ShippingInfoViewI
     @Override
     public void onSubmitShippingInfoSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_LONG).show();
-        //Intent intent= new Intent(this, Payment.class );
-        //startActivity(intent);
+        Intent intent= new Intent(this, Payment.class );
+        startActivity(intent);
     }
 
 
