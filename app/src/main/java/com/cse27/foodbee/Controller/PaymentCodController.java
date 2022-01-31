@@ -59,6 +59,12 @@ public class PaymentCodController implements PaymentControllerInterface{
 
         rootNode = FirebaseDatabase.getInstance();
         reference = rootNode.getReference("orderInfo");
+
+        /**
+         * Updating to FireStore
+         * Collection "orderInfo"
+         */
+
         foodBee.collection("orderInfo").document(userId).collection("listOfOrder")
                 .document(String.valueOf(orderID)).set(paymentModel).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
