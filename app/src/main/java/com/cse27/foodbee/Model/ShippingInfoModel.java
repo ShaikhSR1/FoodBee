@@ -73,7 +73,7 @@ public class ShippingInfoModel implements ShippingInfoModelInterface {
         }else if(TextUtils.isEmpty(getAddress())){
             return 5;
         }else {
-            return -1;
+            return 9;
         }
     }
 }
