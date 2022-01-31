@@ -16,13 +16,22 @@ import com.cse27.foodbee.Controller.FeedbackController;
 import com.cse27.foodbee.Controller.FeedbackControllerInterface;
 import com.cse27.foodbee.View.FeedbackViewInterface;
 
+/**
+ * The type Feed back.
+ */
 public class FeedBack extends AppCompatActivity {
     /**
      * This is an Feedback view file. Where we will implement a feedback page where customer can review about
      * their likeable or dislikeable food.
      */
     EditText edtFeed;
+    /**
+     * The Tv feedback.
+     */
     TextView tvFeedback;
+    /**
+     * The Rb stars.
+     */
     RatingBar rbStars;
     @Override
 
