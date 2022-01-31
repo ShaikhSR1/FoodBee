@@ -52,6 +52,6 @@ public class CancelOrderModel implements CancelOrderModelInterface {
         }else if(TextUtils.isEmpty(getFeedback())){
             return 1;
         }else
-            return -1;
+            return 2;
     }
 }
