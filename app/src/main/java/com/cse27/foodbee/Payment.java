@@ -3,6 +3,7 @@ package com.cse27.foodbee;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -69,7 +70,7 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
      * The Btn confirm payment.
      */
     Button btnConfirmPayment;
-    TextView tvSubTotalValue, tvShippingValue, tvDiscountValue, tvTotalValue;
+    TextView tvtPaymentBanner, tvSubTotalValue, tvShippingValue, tvDiscountValue, tvTotalValue;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -90,6 +91,7 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
         tvShippingValue = findViewById(R.id.tvShippingValue);
         tvDiscountValue = findViewById(R.id.tvDiscountValue);
         tvTotalValue = findViewById(R.id.tvTotalValue);
+        tvtPaymentBanner = findViewById(R.id.textViewPaymentBanner);
 
         tvSubTotalValue.setText(subTotoal.toString());
         tvShippingValue.setText(shipping.toString());
@@ -97,6 +99,15 @@ public class Payment extends AppCompatActivity implements PaymentViewInterface {
         tvTotalValue.setText(total.toString());
 
         btnConfirmPayment = findViewById(R.id.btnConfirmPayment);
+
+        tvtPaymentBanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Payment.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         btnConfirmPayment.setOnClickListener(new View.OnClickListener() {
             Long datetime = System.currentTimeMillis();

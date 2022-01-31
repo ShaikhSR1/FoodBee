@@ -2,8 +2,6 @@
 
     <!-- Text Values -->
     <string name="app_name">Foodbee</string>
-    <string name="to_signup">Already have an account? LOGIN</string>
-    <string name="to_login">Don\'t have an account? SIGN UP</string>
 
     <!-- Banners -->
     <string name="food_bee">Food Bee</string>

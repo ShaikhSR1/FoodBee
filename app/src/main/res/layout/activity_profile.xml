@@ -42,9 +42,11 @@
         android:text="@string/app_name"
         android:textColor="@color/app_color"
         android:textSize="35dp"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/textViewUserName"
@@ -61,7 +63,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageProfile" />
+        app:layout_constraintTop_toBottomOf="@+id/imageProfile"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewUserAddress"
@@ -70,14 +73,15 @@
         android:layout_marginStart="85dp"
         android:layout_marginEnd="85dp"
         android:fontFamily="@font/app_font"
-        android:textStyle="bold"
         android:gravity="center"
         android:text=" "
         android:textColor="@color/black"
         android:textSize="15dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewUserName" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserName"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/updateProfileButton"

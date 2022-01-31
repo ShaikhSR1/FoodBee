@@ -29,7 +29,7 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class Profile extends AppCompatActivity implements ProfileViewInterface {
     private Button updateProfileButton, logoutButton;
-    TextView textViewUserName, textViewUserAddress;
+    TextView textViewAppName, textViewUserName, textViewUserAddress;
     private String fullName, address;
     ProfileControllerInterface profileController;
 
@@ -42,6 +42,7 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
 
         textViewUserName = (TextView) findViewById(R.id.textViewUserName);
         textViewUserAddress = (TextView) findViewById(R.id.textViewUserAddress);
+        textViewAppName = (TextView) findViewById(R.id.textViewAppName);
         //textViewUserName.setText("nishat");
         //textViewUserAddress.setText("ju");
 
@@ -49,6 +50,14 @@ public class Profile extends AppCompatActivity implements ProfileViewInterface {
          * This called function will will fetch the user name and his address from userProfile (firebase).
          */
         //profileController.onProfileReload();
+
+        textViewAppName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Profile.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
         updateProfileButton = findViewById(R.id.updateProfileButton);
         logoutButton = findViewById(R.id.logoutButton);

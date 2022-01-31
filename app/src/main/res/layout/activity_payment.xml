@@ -16,8 +16,10 @@
         android:text="@string/food_bee"
         android:textColor="@color/app_color"
         android:textSize="50sp"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true" />
 
 
     <TextView
