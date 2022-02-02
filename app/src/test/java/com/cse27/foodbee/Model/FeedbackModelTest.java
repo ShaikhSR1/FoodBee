@@ -1,47 +1,48 @@
-
-  
 package com.cse27.foodbee.Model;
+ 
+ import junit.framework.TestCase;
+ 
+ import static org.junit.Assert.*;
+ 
+ 
+ import org.junit.Before;
+ import org.junit.Test;
+ import org.mockito.Mockito;
+ 
+ 
+ public class FeedbackModelTest {
+ 
+     FeedbackModel feedbackModel;
 
-import static org.junit.Assert.*;
 
-import org.junit.Before;
-import org.junit.Test;
 
-public class FeedbackModelTest {
-    FeedbackModel feedbackModel;
-
-    /**
-     * Calling constructor
-     */
-
-    @Before
-    public void setUp() throws Exception {
-        feedbackModel= new FeedbackModel("Chickencurry is so sweet","5.00");
-    }
-    /**
-     * Gets feedback
-     */
-
-    @Test
-    public void getFeedback() {
-        assertEquals("Chickencurry is so sweet",feedbackModel.getFeedback());
-    }
-
-    /**
-     * Gets rating
-     */
-
-    @Test
-    public void getFoodRating() {
-        assertEquals("lionel1020",feedbackModel.getFoodRating());
-    }
-
-    /**
-     * Checks if feedback is valid or not
-     */
-
-    @Test
-    public void isfeedbackValid() {
-        assertEquals(1,feedback.isfeedbackValid());
-    }
-}
+     String feedback = ;
+     float foodRating = getFoodRating.toString();
+ 
+     public String[][] testCase= {
+             { "Chicken Curry is too sweet", String.valueOf(5.00)},
+             {"Chicken Curry is too sweet",String.valueOf(5)},
+     };
+ 
+     public int expected[]= {1,0};
+ 
+ 
+ 
+     public void setUp(int n) throws Exception {
+         foodModel = new foodModel(testCase[n][0],float.parsefloat(testCase[n][4]));
+     }
+ 
+     @Test
+     public void testIsValidfeedback0() throws Exception {
+         int n= 0;
+         setUp(n);
+         assertEquals(expected[n],feedbackModel.isV());
+     }
+ 
+     @Test
+     public void testIsValidfeedback1() throws Exception {
+         int n= 1;
+         setUp(n);
+assertEquals(expected[n],feedbackModel.isV());
+ 
+ }
