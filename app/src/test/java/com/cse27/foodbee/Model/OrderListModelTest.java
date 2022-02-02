@@ -15,9 +15,19 @@ public class OrderListModelTest extends TestCase {
      */
     OrderListModel orderListModel;
 
+    Date date = new Date();
+
+    /**
+     * The Order date.
+     */
+    // getting the object of the Timestamp class
+    Timestamp orderDate = new Timestamp(date);
+
+
     @Before
     public void setUp() throws Exception {
-        //orderListModel = new OrderListModel("202201", "Delivered", "COD", "2022‑01‑10 17:45:30.005", 1099.00);
+        
+        orderListModel = new OrderListModel("202201", "Delivered", "COD", orderDate, 1099.00);
     }
 
     /**

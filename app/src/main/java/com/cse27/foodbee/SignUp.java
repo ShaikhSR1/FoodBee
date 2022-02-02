@@ -30,7 +30,6 @@ public class SignUp extends AppCompatActivity implements SignUPViewInterface {
      */
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
