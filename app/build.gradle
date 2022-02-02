@@ -4,6 +4,8 @@ plugins {
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    useLibrary 'android.test.base'
+    useLibrary 'android.test.mock'
     compileSdk 31
     useLibrary 'android.test.runner'
 
@@ -75,6 +77,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "androidx.cardview:cardview:1.0.0"
     implementation "androidx.recyclerview:recyclerview:1.2.1"
+    androidTestImplementation "androidx.test:core:androidXTestVersion0"
+
+// AndroidJUnitRunner and JUnit Rules
+    androidTestImplementation "androidx.test:runner:testRunnerVersion"
+    androidTestImplementation "androidx.test:rules:testRulesVersion"
+
+// Assertions
+    androidTestImplementation "androidx.test.ext:junit:testJunitVersion"
+    androidTestImplementation "androidx.test.ext:truth:truthVersion"
 
 
     //------Firebase----
