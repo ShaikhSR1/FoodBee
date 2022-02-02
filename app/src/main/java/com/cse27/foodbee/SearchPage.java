@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -20,6 +21,21 @@ import com.google.firebase.firestore.QuerySnapshot;
  * Searching food and restaurants
  */
 public class SearchPage extends AppCompatActivity {
+
+    private String searchQuery = "";
+
+    public SearchPage() {
+    }
+
+    public String getSearchQuery() {
+        return searchQuery;
+    }
+
+    public void setSearchQuery(String searchQuery) {
+        this.searchQuery = searchQuery;
+    }
+
+
 
     /**
      * The Search result.
@@ -50,6 +66,8 @@ public class SearchPage extends AppCompatActivity {
         btnSearchFood = (Button) findViewById(R.id.btnSearchFood);
         editTextSearch = (EditText) findViewById(R.id.editTextSearch);
 
+        setSearchQuery(editTextSearch.toString().trim());
+
 
         /**
          * Redirects to search resut
@@ -61,9 +79,18 @@ public class SearchPage extends AppCompatActivity {
 
         btnSearchFood.setOnClickListener(v -> {
 
-            Intent intent = new Intent(SearchPage.this, SearchResult.class);
-            startActivity(intent);
-            searchResult.firebaseFoodSearch(editTextSearch.toString());
+            if (isValidQuery(getSearchQuery())==1) {
+                Toast.makeText(this,"Please enter food name",Toast.LENGTH_SHORT).show();
+            }
+            else {
+                searchResult.firebaseFoodSearch(getSearchQuery());
+
+                Intent intent = new Intent(SearchPage.this, SearchResult.class);
+                startActivity(intent);
+            }
+
+
+
         });
 
         imageViewReturn.setOnClickListener(new View.OnClickListener() {
@@ -73,6 +100,15 @@ public class SearchPage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public int isValidQuery(String query) {
+        if(query=="") {
+            return 1;
+        }
+        else {
+            return 0;
+        }
     }
 
 

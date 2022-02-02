@@ -26,15 +26,19 @@ public class PaymentModelTest {
     String date = orderDate.toString();
 
     public String[][] testCase= {
-            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(-225.00)},
-            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(10.00)},
-            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(40.00)},
-            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(100)},
-            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Pending", String.valueOf(100)},
-            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "Bank", "Delivered", String.valueOf(100)},
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(-225.00)}, //test 0 expected 1
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(10.00)}, // test 1 expected 2
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(40.00)}, // test 2 expected 0
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "Bank", "Delivered", String.valueOf(100)}, // test 3 expected 4
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "", "Delivered", String.valueOf(100)}, // test 4 expected 4
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "", String.valueOf(100)}, // test 5 expected 3
+            {date, "", "COD", "Delivered", String.valueOf(100)}, // test 6 expected 6
+            {"", "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(100)}, // test 7 expected 5
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Pending", String.valueOf(100)}, // test 8 expected 0
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(100)}, // test 9 expected 0
     };
 
-    public int expected[]= {1,2,0,0,3,4};
+    public int expected[]= {1,2,0,4,4,3,6,5,3,0};
 
 
 
@@ -80,6 +84,34 @@ public class PaymentModelTest {
     @Test
     public void testIsValidPaymentMethod5() throws Exception {
         int n= 5;
+        setUp(n);
+        assertEquals(expected[n],paymentModel.isValidPaymentMethod());
+    }
+
+    @Test
+    public void testIsValidPaymentMethod6() throws Exception {
+        int n= 6;
+        setUp(n);
+        assertEquals(expected[n],paymentModel.isValidPaymentMethod());
+    }
+
+    @Test
+    public void testIsValidPaymentMethod7() throws Exception {
+        int n= 7;
+        setUp(n);
+        assertEquals(expected[n],paymentModel.isValidPaymentMethod());
+    }
+
+    @Test
+    public void testIsValidPaymentMethod8() throws Exception {
+        int n= 8;
+        setUp(n);
+        assertEquals(expected[n],paymentModel.isValidPaymentMethod());
+    }
+
+    @Test
+    public void testIsValidPaymentMethod9() throws Exception {
+        int n= 9;
         setUp(n);
         assertEquals(expected[n],paymentModel.isValidPaymentMethod());
     }
