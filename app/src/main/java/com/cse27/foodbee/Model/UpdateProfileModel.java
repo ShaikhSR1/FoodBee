@@ -3,6 +3,8 @@ package com.cse27.foodbee.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+import androidx.core.util.PatternsCompat;
+
 /**
  * The type Update profile model.
  */
