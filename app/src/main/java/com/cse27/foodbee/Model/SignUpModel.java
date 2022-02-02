@@ -3,6 +3,8 @@ package com.cse27.foodbee.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+import androidx.core.util.PatternsCompat;
+
 /**
  * Model Class of SignUp
  */
@@ -88,19 +90,19 @@ public class SignUpModel implements SignUpModelInterface {
 
     @Override
     public int isSignUpValid() {
-        if (TextUtils.isEmpty(getFullName())){
+        if (getFullName()==""){
             return 0;
-        } else if (TextUtils.isEmpty(getEmail())){
+        } else if (getEmail()==""){
             return 1;
-        } else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()){
+        } else if(!PatternsCompat.EMAIL_ADDRESS.matcher(getEmail()).matches()){
             return 2;
-        } else if (TextUtils.isEmpty(getPhoneNumber())){
+        } else if (getPhoneNumber()==""){
             return 3;
         }else if (getPhoneNumber().length()!=11){
             return 4;
-        }else if (TextUtils.isEmpty(getPassword())){
+        }else if (getPassword()==""){
             return 5;
-        }else if(getPassword().length()<=6){
+        }else if(getPassword().length()<6){
             return 6;
         }else if(!getPassword().equals(getConfirmPassword())){
             return 7;

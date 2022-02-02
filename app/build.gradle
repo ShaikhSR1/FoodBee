@@ -5,6 +5,10 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdk 31
+    useLibrary 'android.test.runner'
+
+    useLibrary 'android.test.base'
+    useLibrary 'android.test.mock'
 
     defaultConfig {
         applicationId "com.cse27.foodbee"
@@ -29,6 +33,9 @@ android {
     buildFeatures {
         viewBinding true
     }
+    //testOptions {
+       // unitTests.returnDefaultValues = true
+    //}
 }
 
 dependencies {
@@ -73,4 +80,16 @@ dependencies {
     //------Firebase----
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
     implementation 'com.google.firebase:firebase-analytics'
+
+    androidTestImplementation "androidx.test:core:androidXTestVersion0"
+
+    // AndroidJUnitRunner and JUnit Rules
+    androidTestImplementation "androidx.test:runner:testRunnerVersion"
+    androidTestImplementation "androidx.test:rules:testRulesVersion"
+
+    // Assertions
+    androidTestImplementation "androidx.test.ext:junit:testJunitVersion"
+    androidTestImplementation "androidx.test.ext:truth:truthVersion"
+
+
 }
