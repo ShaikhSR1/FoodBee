@@ -70,7 +70,7 @@ public class ShippingInfoModelTest extends TestCase {
      * Is shipping info valid.
      */
     @Test
-    public void isShippingInfoValid() {
+    public void testIsShippingInfoValid() {
         assertEquals(9,shippingInfoModel.isShippingInfoValid());
     }
 }

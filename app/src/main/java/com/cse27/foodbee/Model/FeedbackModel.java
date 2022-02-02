@@ -7,8 +7,8 @@ package com.cse27.foodbee.Model;
  */
 public class FeedbackModel implements FeedbackModelInterface{
 
-    private String feedback;
-    private float foodRating;
+    public String feedback;
+    public float foodRating;
 
     /**
      * Instantiates a new Feedback model.
@@ -33,7 +33,7 @@ public class FeedbackModel implements FeedbackModelInterface{
      * @return the feedback
      */
     @Override
-    public static String getFeedback() {
+    public  String getFeedback() {
         return feedback;
     }
 
@@ -42,7 +42,7 @@ public class FeedbackModel implements FeedbackModelInterface{
      *
      * @return the food rating
      */
-    public static String getFoodRating() {
+    public float getFoodRating() {
         return foodRating;
     }
 }

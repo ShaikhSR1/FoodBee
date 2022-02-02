@@ -3,6 +3,8 @@ package com.cse27.foodbee.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+import androidx.core.util.PatternsCompat;
+
 /**
  * The type Update profile model.
  */
@@ -61,28 +63,37 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
 
     /**
      * this Method will check validity of given information by user
-     * @return an integer value
+     * @return a boolean value
      */
+    public boolean validateEmail(String email){
+        if(Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }
 
     public int isValid() {
-        if (TextUtils.isEmpty(getFullName())){
+        if (getFullName() == ""){
             return 0;
-        } else if (TextUtils.isEmpty(getEmail())){
+        } else if (getEmail() == ""){
             return 1;
-        } else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()){
+        } else if(!PatternsCompat.EMAIL_ADDRESS.matcher(getEmail()).matches()){
             return 2;
-        } else if (TextUtils.isEmpty(getPhoneNumber())){
+        } else if (getPhoneNumber() == ""){
             return 3;
-        }else if (getPhoneNumber().length()!=11){
+        }else if (getPhoneNumber().length() != 11){
             return 4;
-        }else if (TextUtils.isEmpty(getPassword())){
+        }else if(getAddress() == ""){
             return 5;
-        }else if(getPassword().length()<=6){
+        }else if (getPassword() == ""){
             return 6;
-        }else if(TextUtils.isEmpty(getAddress())){
+        }else if(getPassword().length() < 6) {
             return 7;
         }else {
-            return 9;
+            return 8;
         }
     }
 }

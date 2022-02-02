@@ -15,18 +15,4 @@ public interface FeedbackControllerInterface {
      */
     void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser);
 
-    /**
-     * On feedback success.
-     *
-     * @param message the message
-     */
-    void onFeedbackSuccess(String message);
-
-    /**
-     * On feedback error.
-     *
-     * @param message the message
-     */
-    void onFeedbackError(String message);
-
 }
