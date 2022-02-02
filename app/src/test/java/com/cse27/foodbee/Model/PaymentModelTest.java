@@ -30,9 +30,11 @@ public class PaymentModelTest {
             {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(10.00)},
             {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(40.00)},
             {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Delivered", String.valueOf(100)},
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "COD", "Pending", String.valueOf(100)},
+            {date, "tWTEiXYQfqR73QP1cz847i3ptz52", "Bank", "Delivered", String.valueOf(100)},
     };
 
-    public int expected[]= {1,2,0,0};
+    public int expected[]= {1,2,0,0,3,4};
 
 
 
@@ -64,6 +66,20 @@ public class PaymentModelTest {
     @Test
     public void testIsValidPaymentMethod3() throws Exception {
         int n= 3;
+        setUp(n);
+        assertEquals(expected[n],paymentModel.isValidPaymentMethod());
+    }
+
+    @Test
+    public void testIsValidPaymentMethod4() throws Exception {
+        int n= 4;
+        setUp(n);
+        assertEquals(expected[n],paymentModel.isValidPaymentMethod());
+    }
+
+    @Test
+    public void testIsValidPaymentMethod5() throws Exception {
+        int n= 5;
         setUp(n);
         assertEquals(expected[n],paymentModel.isValidPaymentMethod());
     }
