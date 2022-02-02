@@ -64,25 +64,25 @@ public class UpdateProfileModel implements UpdateProfileModelInterface {
      * @return an integer value
      */
 
-    public int isValid() {
-        if (TextUtils.isEmpty(getFullName())){
+public int isValid() {
+        if (getFullName() == ""){
             return 0;
-        } else if (TextUtils.isEmpty(getEmail())){
+        } else if (getEmail() == ""){
             return 1;
-        } else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()){
+        } else if(!PatternsCompat.EMAIL_ADDRESS.matcher(getEmail()).matches()){
             return 2;
-        } else if (TextUtils.isEmpty(getPhoneNumber())){
+        } else if (getPhoneNumber() == ""){
             return 3;
-        }else if (getPhoneNumber().length()!=11){
+        }else if (getPhoneNumber().length() != 11){
             return 4;
-        }else if (TextUtils.isEmpty(getPassword())){
+        }else if(getAddress() == ""){
             return 5;
-        }else if(getPassword().length()<=6){
+        }else if (getPassword() == ""){
             return 6;
-        }else if(TextUtils.isEmpty(getAddress())){
+        }else if(getPassword().length() < 6) {
             return 7;
         }else {
-            return 9;
+            return 8;
         }
     }
 }
