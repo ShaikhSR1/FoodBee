@@ -37,7 +37,7 @@ public interface PaymentModelInterface {
      *
      * @return the total cost
      */
-    String getTotalCost();
+    Double getTotalCost();
 
     /**
      * Is valid payment method int.

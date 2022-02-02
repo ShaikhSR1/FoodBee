@@ -5,6 +5,9 @@ import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.sql.Timestamp;
+import java.util.Date;
+
 /**
  * The type Order list model test.
  */
@@ -15,14 +18,11 @@ public class OrderListModelTest extends TestCase {
      */
     OrderListModel orderListModel;
 
-    Date date = new Date();
-
+    Long datetime = System.currentTimeMillis();
     /**
      * The Order date.
      */
-    // getting the object of the Timestamp class
-    Timestamp orderDate = new Timestamp(date);
-
+    java.sql.Timestamp orderDate = new Timestamp(datetime);
 
     @Before
     public void setUp() throws Exception {
