@@ -3,6 +3,8 @@ package com.cse27.foodbee.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+import androidx.core.util.PatternsCompat;
+
 /**
  * The type Shipping info model.
  */
@@ -60,20 +62,20 @@ public class ShippingInfoModel implements ShippingInfoModelInterface {
 
     @Override
     public int isShippingInfoValid() {
-        if (TextUtils.isEmpty(getFullName())){
+        if (getFullName() == ""){
             return 0;
-        } else if (TextUtils.isEmpty(getEmail())){
+        } else if (getEmail()==""){
             return 1;
-        } else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()){
+        } else if(!PatternsCompat.EMAIL_ADDRESS.matcher(getEmail()).matches()){
             return 2;
-        } else if (TextUtils.isEmpty(getPhoneNumber())){
+        } else if (getPhoneNumber()==""){
             return 3;
         }else if (getPhoneNumber().length()!=11) {
             return 4;
-        }else if(TextUtils.isEmpty(getAddress())){
+        }else if(getAddress()==""){
             return 5;
         }else {
-            return 9;
+            return 6;
         }
     }
 }
