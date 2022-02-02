@@ -86,6 +86,9 @@ public class PaymentModel implements PaymentModelInterface{
         else if (getOrderDate()=="") {
             return 5;
         }
+        else if (getOrderId()=="") {
+            return 6;
+        }
         else {
             return 0;
         }

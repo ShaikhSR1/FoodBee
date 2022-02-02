@@ -81,6 +81,9 @@ public class PaymentCodController implements PaymentControllerInterface{
         else if (paymentValidation == 5) {
             paymentView.onPaymentError("Time Error");
         }
+        else if (paymentValidation == 6) {
+            paymentView.onPaymentError("Order Id is not valid");
+        }
         else {
 
             foodBee.collection("orderInfo").document(userId).collection("listOfOrder")
