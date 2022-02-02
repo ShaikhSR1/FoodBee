@@ -27,22 +27,14 @@ public class FeedbackModel implements FeedbackModelInterface{
         this.foodRating = foodRating;
     }
 
-    /**
-     * Gets feedback.
-     *
-     * @return the feedback
-     */
+
     @Override
-    public static String getFeedback() {
+    public String getFeedback() {
         return feedback;
     }
 
-    /**
-     * Gets food rating.
-     *
-     * @return the food rating
-     */
-    public static String getFoodRating() {
+    @Override
+    public float getFoodRating() {
         return foodRating;
     }
 }

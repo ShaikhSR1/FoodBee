@@ -55,7 +55,7 @@ public class PaymentCodController implements PaymentControllerInterface{
     @Override
     public void onConfirm(String userId, Double totalPayment, Timestamp orderDate, String orderID) {
 
-        PaymentModel paymentModel = new PaymentModel(orderDate.toString(), orderID, "COD", "Delivered", totalPayment.toString());
+        PaymentModel paymentModel = new PaymentModel(orderDate.toString(), orderID, "COD", "Delivered", totalPayment);
 
         rootNode = FirebaseDatabase.getInstance();
         reference = rootNode.getReference("orderInfo");
@@ -64,18 +64,27 @@ public class PaymentCodController implements PaymentControllerInterface{
          * Updating to FireStore
          * Collection "orderInfo"
          */
+        int paymentValidation = paymentModel.isValidPaymentMethod();
 
-        foodBee.collection("orderInfo").document(userId).collection("listOfOrder")
-                .document(String.valueOf(orderID)).set(paymentModel).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if(task.isComplete()) {
-                    paymentView.onPaymentSuccess("Successful");
+        if (paymentValidation == 1) {
+            paymentView.onPaymentError("Total Payment cannot be less than 40");
+        }
+        else if (paymentValidation == 2) {
+            paymentView.onPaymentError("Total Payment cannot be less than 40");
+        }
+        else {
+
+            foodBee.collection("orderInfo").document(userId).collection("listOfOrder")
+                    .document(String.valueOf(orderID)).set(paymentModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+                @Override
+                public void onComplete(@NonNull Task<Void> task) {
+                    if (task.isComplete()) {
+                        paymentView.onPaymentSuccess("Successful");
+                    } else {
+                        paymentView.onPaymentError("Try Again");
+                    }
                 }
-                else {
-                    paymentView.onPaymentError("Try Again");
-                }
-            }
-        });
+            });
+        }
     }
 }

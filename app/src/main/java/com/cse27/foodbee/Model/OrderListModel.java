@@ -51,6 +51,9 @@ public class OrderListModel implements OrderListModelInterface {
         this.total = total;
     }
 
+    public OrderListModel(String orderId, String delivered, String cod, java.sql.Timestamp orderDate, double total) {
+    }
+
     @Override
     public String getOrderId() {
         return orderId;

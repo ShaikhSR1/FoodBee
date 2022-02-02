@@ -86,7 +86,7 @@ public class FeedbackController implements FeedbackControllerInterface{
             feedAuth = FirebaseAuth.getInstance();
             reference.setValue("");
 
-            feedAuth.createUserWithEmailAndPassword(FeedbackModel.getFeedback(),FeedbackModel.getFoodRating())
+            /*feedAuth.createUserWithEmailAndPassword(FeedbackModel.getFeedback(),FeedbackModel.getFoodRating())
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         private Object FeedbackModel;
 
@@ -112,9 +112,19 @@ public class FeedbackController implements FeedbackControllerInterface{
                             }
                         }
                     });
-
+*/
 
 
         }
+    }
+
+    @Override
+    public void onFeedbackSuccess(String message) {
+
+    }
+
+    @Override
+    public void onFeedbackError(String message) {
+
     }
 }

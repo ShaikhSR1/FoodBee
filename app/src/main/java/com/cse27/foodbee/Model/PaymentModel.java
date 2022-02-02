@@ -8,7 +8,8 @@ import android.util.Patterns;
  */
 public class PaymentModel implements PaymentModelInterface{
 
-    private String orderDate, orderId, paymentMethod, status, totalCost;
+    private String orderDate, orderId, paymentMethod, status;
+    Double totalCost;
 
     /**
      * Instantiates a new Payment model.
@@ -25,13 +26,15 @@ public class PaymentModel implements PaymentModelInterface{
      * @param status        the status
      * @param totalCost     the total cost
      */
-    public PaymentModel(String orderDate, String orderId, String paymentMethod, String status, String totalCost) {
+    public PaymentModel(String orderDate, String orderId, String paymentMethod, String status, Double totalCost) {
         this.orderDate = orderDate;
         this.orderId = orderId;
         this.paymentMethod = paymentMethod;
         this.status = status;
         this.totalCost = totalCost;
     }
+
+
 
     /**
      *Getter for declared private variables
@@ -55,16 +58,27 @@ public class PaymentModel implements PaymentModelInterface{
 
     @Override
     public String getStatus() {
+
         return status;
     }
 
     @Override
-    public String getTotalCost() {
+    public Double getTotalCost() {
+
         return totalCost;
     }
 
     @Override
     public int isValidPaymentMethod() {
-        return 0;
+
+        if(totalCost<0) {
+            return 1;
+        }
+        else if(totalCost<40.0) {
+            return 2;
+        }
+        else {
+            return 0;
+        }
     }
 }
