@@ -77,6 +77,15 @@ public class PaymentModel implements PaymentModelInterface{
         else if(totalCost<40.0) {
             return 2;
         }
+        else if(getStatus()!="Delivered") {
+            return 3;
+        }
+        else if(getPaymentMethod()!="COD") {
+            return 4;
+        }
+        else if (getOrderDate()=="") {
+            return 5;
+        }
         else {
             return 0;
         }

@@ -72,6 +72,15 @@ public class PaymentCodController implements PaymentControllerInterface{
         else if (paymentValidation == 2) {
             paymentView.onPaymentError("Total Payment cannot be less than 40");
         }
+        else if (paymentValidation == 3) {
+            paymentView.onPaymentError("Status is not delivered");
+        }
+        else if (paymentValidation == 4) {
+            paymentView.onPaymentError("Payment Method not COD");
+        }
+        else if (paymentValidation == 5) {
+            paymentView.onPaymentError("Time Error");
+        }
         else {
 
             foodBee.collection("orderInfo").document(userId).collection("listOfOrder")
